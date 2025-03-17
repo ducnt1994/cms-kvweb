@@ -320,7 +320,11 @@ export default function Create() {
 
     if (index !== -1) {
       // @ts-ignore
-      entries[index] = [patternName, defaultData[patternName]]; // thay bằng pattern mới và data mới
+      entries[index] = [patternName, getDataTextDefault({
+        patternName: patternName,
+        // @ts-ignore
+        defaultDataWithoutText: defaultData[patternName]
+      })]; // thay bằng pattern mới và data mới
     }
     const newObj = Object.fromEntries(entries);
     setValue(`page.${pageName}`, newObj);
