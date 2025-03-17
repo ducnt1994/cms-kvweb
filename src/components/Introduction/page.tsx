@@ -43,7 +43,7 @@ export default function Introduction({pageName} : {pageName: string}) {
             )}
           />
           <Controller
-            name={`page.${pageName}.${patternName}.pattern.image.src`}
+            name={`page.${pageName}.${patternName}.image.src`}
             control={control}
             render={({ field }) => (
               <TextField {...field} label="Link ảnh" variant="outlined" size="small" fullWidth />

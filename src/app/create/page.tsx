@@ -2,7 +2,7 @@
 import {
   Box,
   Button,
-  Container, Divider, MenuItem, Select, Snackbar,
+  Container, Divider, MenuItem, Select, Snackbar, TextField,
   Typography
 } from "@mui/material";
 import Common from "@/components/Common/page";
@@ -31,7 +31,10 @@ interface IFormInput {
   page: any
   font_family: any
   child_category: string
-  rank: any
+  rank: any,
+  page_information : {
+    [key: string]: string
+  }
 }
 
 export default function Create() {
@@ -64,6 +67,9 @@ export default function Create() {
     page: {
       homepage: {}
     },
+    page_information: {
+      // about_1_page: "đức béo"
+    },
     font_family: "Inter-Inter"
   }
 
@@ -80,9 +86,29 @@ export default function Create() {
       title: fontFamilyExplode[0],
       description: fontFamilyExplode[1]
     }
-    console.log("data", data)
     data.page.homepage.header.text_style = JSON.stringify(data.page.homepage.header.text_style)
     data.page.homepage.footer.text_style = JSON.stringify(data.page.homepage.footer.text_style)
+
+    // add header-footer vào rank của các page custom
+    const newRank = {...data.rank}
+    for (const pageItem in data.page) {
+      if(pageItem === 'homepage') continue
+      newRank[pageItem] = ['header', ...newRank[pageItem], 'footer']
+    }
+    data.rank = newRank
+
+    // add header-footer vào page của các page custom
+    const newPage = {...data.page}
+    for (const pageItem in data.page) {
+      if(pageItem === 'homepage') continue
+      newPage[pageItem].header = data.page.homepage.header
+      newPage[pageItem].footer = data.page.homepage.footer
+    }
+    data.page = newPage
+
+
+
+
     const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/themes', data)
     console.log("res", res)
   };
@@ -97,6 +123,23 @@ export default function Create() {
     newDefault.platform = platform
     reset(newDefault)
   }, [platform])
+
+  const deletePageCustom = (pageName: string) => {
+    // xoá ở rank
+    const rank = {...getValues('rank')}
+    delete rank[pageName]
+    setValue('rank', rank)
+
+    // xoá ở page_information
+    const pageInformation = {...getValues('page_information')}
+    delete pageInformation[pageName]
+    setValue('page_information', pageInformation)
+
+    // xoá ở page
+    const page = {...getValues('page')}
+    delete page[pageName]
+    setValue('page', page)
+  }
 
   const addPatternToPage = (page: string) => {
     // @ts-ignore
@@ -326,8 +369,9 @@ export default function Create() {
         defaultDataWithoutText: defaultData[patternName]
       })]; // thay bằng pattern mới và data mới
     }
+
     const newObj = Object.fromEntries(entries);
-    setValue(`page.${pageName}`, newObj);
+    setValue(`page.${pageName}`, {...newObj});
     return;
   }
 
@@ -367,26 +411,36 @@ export default function Create() {
       setSnackbar({
         open: true,
         type: 'danger',
-        message: "Chọn page đi đã -_-"
+        message: "Nhập tên page đi đã -_-"
       })
+      return;
     }
+    // get all value page_information
+    const allPageNameInPageInformation = Object.values(getValues('page_information'))
 
-    const page = getValues('page')
-    // get all key in object page
-    const allPage = Object.keys(page)
-    if (allPage.some(page => page.includes(newPage))) {
+    if(allPageNameInPageInformation.includes(newPage)) {
       setSnackbar({
         open: true,
         type: 'danger',
-        message: "Trang này đã có rồi"
+        message: "Trùng tên rồi"
       })
-      return
+      return;
     }
-    page[newPage + '_1_page'] = {}
-    setValue('page', page)
 
+    const page = getValues('page')
+
+    //get all key in object page_information
+    const allPageInformation = Object.keys(getValues('page_information'))
+    const newCustomPage = `about_${allPageInformation.length}_page`
+    setValue(`page_information`, {
+      ...getValues('page_information'),
+      ...{[newCustomPage] : newPage}
+    })
+    page[newCustomPage] = {}
+    setValue('page', page)
     // add to rank
-    setValue(`rank.${newPage + '_1_page'}`, [])
+    setValue(`rank.${newCustomPage}`, [])
+
   }
 
   return (
@@ -486,20 +540,16 @@ export default function Create() {
                 gap: 2
               }}>
                 <Button onClick={handleAddNewPage} variant={'contained'} size={'small'}>Thêm trang mới</Button>
-                <Select
-                  sx={{width: '200px'}}
+                <TextField
+                  sx={{ width: '200px' }}
                   size={'small'}
-                  labelId="demo-simple-select-label"
-                  id="demo-simple-select"
                   value={newPage}
                   onChange={(e) => {
-                    e.stopPropagation()
-                    setNewPage(e.target.value)
+                    e.stopPropagation();
+                    setNewPage(e.target.value);
                   }}
-                >
-                  <MenuItem value={'about'}>Về chúng tôi</MenuItem>
-                  <MenuItem value={'image_gallery'}>Thư viện ảnh</MenuItem>
-                </Select>
+                  placeholder="Enter page name"
+                />
               </Box>
 
               <Box>
@@ -525,6 +575,9 @@ export default function Create() {
                           <Button
                             onClick={() => addPatternToPage(pageName)}
                             variant={'contained'} size={'small'}>Thêm section {pageName}</Button>
+                          <Button
+                            onClick={() => deletePageCustom(pageName)}
+                            variant={'contained'} color={'error'} size={'small'}>Xoá {pageName}</Button>
                         </Box>
                         {
                           Object.keys(getValues(`page.${pageName}`)).map((patternName, index) => (
