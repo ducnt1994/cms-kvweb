@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/create/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/themes/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Banner/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BannerExtra/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BannerTop/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/BlogPost/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Brand/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Catalog/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Common/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/GroupService/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderBreadcumb/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ImageGallery/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Introduction/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemPattern/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Menu/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/OutstandingService/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductList/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Review/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Service/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Video/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/pageBuilder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2uD8mX1QQl5bVU7HlfxlkmPU6CL" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/anhnb/Desktop/code/outsource/cms/src/app/themes",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "/Users/anhnb/Desktop/code/outsource/cms/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/themes" />
+      <recent name="$PROJECT_DIR$/src/utils" />
+      <recent name="$PROJECT_DIR$/src/components" />
+      <recent name="$PROJECT_DIR$/src/components/BannerTop" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-WS-243.26053.12" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="" />
+      <created>1741771943543</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1741771943543</updated>
+      <workItem from="1741771945003" duration="415000" />
+      <workItem from="1741772372532" duration="12837000" />
+      <workItem from="1741795271544" duration="42815000" />
+      <workItem from="1742013789979" duration="4660000" />
+      <workItem from="1742043800620" duration="46300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

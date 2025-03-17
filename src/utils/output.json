@@ -1,0 +1,1913 @@
+{
+  "retail": {
+    "Thời trang": {
+      "Gia đình": {
+        "banner_top": {
+          "content": "Miễn phí vận chuyển và hoàn tiền trong 30 ngày"
+        },
+        "introduction": {
+          "title": "Điểm Đến Thời Trang Mới Lạ",
+          "description": "Chúng tôi không chỉ chú trọng vào việc mang đến cho bạn những sản phẩm thời trang chất lượng và đẳng cấp, mà còn luôn quan tâm đến sự thoải mái và phong cách cá nhân của mỗi khách hàng. Với sự đa dạng về kiểu dáng, màu sắc và chất liệu, chúng tôi tin rằng bạn sẽ tìm thấy những mẫu quần áo phản ánh phong cách và cá tính riêng của mình tại cửa hàng của chúng tôi."
+        },
+        "image_gallery": {
+          "title": "Xu hướng thời trang thịnh hành",
+          "description": "Hãy để thời trang trở thành công cụ để bạn tỏa sáng và thể hiện bản thân một cách rõ nét và ấn tượng nhất."
+        },
+        "review": {
+          "title": "CẢM NHẬN CỦA KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Anh Xuân Hòa",
+              "feedback": "Trải nghiệm mua sắm tại cửa hàng này thực sự tuyệt vời. Không chỉ đa dạng về kiểu dáng và màu sắc, mà còn có không gian rộng rãi và thoải mái để tôi có thể thử nghiệm từng sản phẩm."
+            },
+            {
+              "author": "Chị Hồng Hạnh",
+              "feedback": "Tôi rất hài lòng với trải nghiệm mua sắm trực tuyến tại cửa hàng này. Giao diện trang web dễ sử dụng và thông tin về sản phẩm rất chi tiết. Việc có các hình ảnh đa dạng cùng với mô tả rõ ràng giúp tôi có cái nhìn chính xác về sản phẩm trước khi quyết định mua."
+            },
+            {
+              "author": "Anh Duy Anh",
+              "feedback": "Dịch vụ chăm sóc khách hàng tốt, nhân viên am hiểu về sản phẩm và luôn sẵn lòng giúp đỡ, tư vấn. Sản phẩm đúng như mô tả và giao hàng nhanh, đúng hẹn"
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ hỗ trợ khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Khám phá thế giới thời trang: Từ sàn diễn đến đời thường – xu hướng mới mỗi mùa"
+              },
+              {
+                  "category_name" : "Mua sắm thông minh",
+                  "title": "Mẹo và kỹ thuật bảo quản quần áo để chúng luôn mới và bền lâu"
+              },
+              {
+                  "category_name" : "Mua sắm thông minh",
+                  "title": "Hướng dẫn cách mua sắm online an toàn, hiệu quả và những điều cần lưu ý để tránh bị lừa đảo hay mua phải hàng kém chất lượng"
+              },
+              {
+                  "category_name" : "Mua sắm thông minh",
+                  "title": "Bí quyết chọn trang phục theo dáng người, giúp khách hàng tự tin hơn khi mua sắm"
+              },
+              {
+                  "category_name" : "Mua sắm thông minh",
+                  "title": "Phong cách thời trang hiện đại và bí quyết mặc đẹp mỗi ngày"
+              }
+            ]
+          }
+        }
+      },
+      "Trendy": {
+        "banner_top": {
+          "content": "Kiến tạo phong cách, khám phá chính mình"
+        },
+        "introduction": {
+          "title": "THAY ĐỔI TẠO NÊN KHÁC BIỆT",
+          "description": "Chúng tôi là điểm đến lý tưởng cho những người yêu thích phong cách cá nhân và sáng tạo. Tại đây, chúng tôi tự hào giới thiệu những bộ sưu tập độc đáo, từ những trang phục hàng ngày đến những phụ kiện thời trang phóng khoáng và đầy màu sắc. Với sự tập trung vào xu hướng thời trang đường phố và phong cách đương đại, chúng tôi cam kết mang lại sự tự tin và phong cách riêng biệt cho khách hàng."
+        },
+        "image_gallery": {
+          "title": "Phong cách sống",
+          "description": "Sự đa dạng trong phong cách thời trang tạo nên dấu ấn riêng của bạn  "
+        },
+        "review": {
+          "title": "CẢM NHẬN CỦA KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Anh Xuân Hòa",
+              "feedback": "Trải nghiệm mua sắm tại cửa hàng này thực sự tuyệt vời. Không chỉ đa dạng về kiểu dáng và màu sắc, mà còn có không gian rộng rãi và thoải mái để tôi có thể thử nghiệm từng sản phẩm."
+            },
+            {
+              "author": "Chị Hồng Hạnh",
+              "feedback": "Tôi rất hài lòng với trải nghiệm mua sắm trực tuyến tại cửa hàng này. Giao diện trang web dễ sử dụng và thông tin về sản phẩm rất chi tiết. Việc có các hình ảnh đa dạng cùng với mô tả rõ ràng giúp tôi có cái nhìn chính xác về sản phẩm trước khi quyết định mua."
+            },
+            {
+              "author": "Anh Duy Anh",
+              "feedback": "Dịch vụ chăm sóc khách hàng tốt, nhân viên am hiểu về sản phẩm và luôn sẵn lòng giúp đỡ, tư vấn. Sản phẩm đúng như mô tả và giao hàng nhanh, đúng hẹn"
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ hỗ trợ khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Thời trang và phong cách sống: Những bí quyết tạo dựng gu thẩm mỹ cá nhân"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Khám phá thế giới thời trang: Từ sàn diễn đến đời thường – xu hướng mới mỗi mùa"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Phong cách thời trang hiện đại và bí quyết mặc đẹp mỗi ngày"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Bí quyết mặc đẹp từ các chuyên gia thời trang hàng đầu và cách áp dụng vào cuộc sống hàng ngày"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Bí quyết chọn trang phục theo dáng người, giúp khách hàng tự tin hơn khi mua sắm"
+              }
+            ]
+          }
+        }
+      },
+      "Bikini nữ": {
+        "banner_top": {
+          "content": "Giá cực rẻ chỉ có trên website, mua là có quà!"
+        },
+        "introduction": {
+          "title": "Biển Xanh Và Bikini Lấp Lánh",
+          "description": "Khám phá bộ sưu tập bikini độc đáo và phong phú của chúng tôi, từ những thiết kế thể thao năng động đến những bộ bikini sang trọng và thanh lịch, giúp bạn tự tin tận hưởng mỗi khoảnh khắc trên bãi biển. Tại cửa hàng bikini của chúng tôi, sự thoải mái không bao giờ đánh đổi với phong cách. Với sự kết hợp hoàn hảo giữa chất lượng cao và thiết kế tinh tế, chúng tôi mang đến những chiếc bikini đa dạng để bạn có thể thể hiện phong cách riêng của mình mỗi khi ra biển."
+        },
+        "image_gallery": {
+          "title": "Sexy Lady Album",
+          "description": "Mềm mại, thoải mái, tự tin khoe dáng xinh. Bộ sưu tập bikini với những thiết kế đầy phong cách và quyến rũ "
+        },
+        "review": {
+          "title": "CÁC QUÝ CÔ NÓI GÌ?",
+          "list": [
+            {
+              "author": "Chị Vân Anh",
+              "feedback": "Tôi rất thích sản phẩm tại cửa hàng, nó mềm mại và nhiều mẫu mã để tôi lựa chọn. "
+            },
+            {
+              "author": "Chị Trang Hoàng",
+              "feedback": "Tư vấn nhiệt tình, đa dạng mẫu mã sản phẩm"
+            },
+            {
+              "author": "Chị Hồng Hạnh",
+              "feedback": "Trải nghiệm mua sắm online dễ dàng, nhân viên tư vấn nhiệt tình, giao hàng nhanh"
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ hỗ trợ khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Cách chọn bikini nữ phù hợp với từng dáng người để luôn tự tin và thoải mái"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Xu hướng bikini nữ hot nhất mùa hè này và cách phối đồ để nổi bật trên bãi biển"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Bí quyết bảo quản và giữ cho bikini nữ luôn bền đẹp sau nhiều lần sử dụng"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Những kiểu bikini nữ đẹp và phong cách mà bạn không thể bỏ lỡ trong mùa hè này"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Hướng dẫn chọn bikini nữ vừa vặn và thoải mái để bạn tự tin mọi lúc mọi nơi"
+              }
+            ]
+          }
+        }
+      },
+      "Trẻ em": {
+        "banner_top": {
+          "content": "Bán hàng online! Giá tốt nhất VIỆT NAM"
+        },
+        "introduction": {
+          "title": "Thế Giới Thời Trang Độc Đáo Cho Bé Yêu",
+          "description": "Cùng chúng tôi thổi bùng lên niềm đam mê thời trang cho các bé yêu của bạn! Tại Cửa Hàng Chú Bé Thời Trang, chúng tôi mang đến những bộ sưu tập thời trang sôi động và đầy màu sắc, từ những chiếc áo thun đơn giản đến những bộ váy lộng lẫy. Khám phá ngay hôm nay và tạo nên những khoảnh khắc đáng nhớ cho tuổi thơ của các thiên thần nhỏ!"
+        },
+        "image_gallery": {
+          "title": "Bộ sưu tập ảnh của bé",
+          "description": "Nơi bạn tìm thấy những hình ảnh tuyệt vời về các sản phẩm thời trang cho trẻ em"
+        },
+        "review": {
+          "title": "CẢM NHẬN CỦA KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Chị Hồng Hạnh",
+              "feedback": "Tôi rất hài lòng với trải nghiệm mua sắm trực tuyến tại cửa hàng này. Giao diện trang web dễ sử dụng và thông tin về sản phẩm rất chi tiết. Việc có các hình ảnh đa dạng cùng với mô tả rõ ràng giúp tôi có cái nhìn chính xác về sản phẩm trước khi quyết định mua."
+            },
+            {
+              "author": "Anh Duy Anh",
+              "feedback": "Dịch vụ chăm sóc khách hàng tốt, nhân viên am hiểu về sản phẩm và luôn sẵn lòng giúp đỡ, tư vấn. Sản phẩm đúng như mô tả và giao hàng nhanh, đúng hẹn"
+            },
+            {
+              "author": "Anh Xuân Hòa",
+              "feedback": "Trải nghiệm mua sắm tại cửa hàng này thực sự tuyệt vời. Không chỉ đa dạng về kiểu dáng và màu sắc, mà còn có không gian rộng rãi và thoải mái để tôi có thể thử nghiệm từng sản phẩm."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ hỗ trợ khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Thời trang bé yêu",
+                "title": "Phong cách thời trang cho bé yêu: Bí quyết chọn trang phục phù hợp với từng mùa và từng dịp"
+              },
+              {
+                "category_name" : "Thời trang bé yêu",
+                "title": "Mẹo phối đồ thời trang cho trẻ em giúp bé luôn nổi bật và thoải mái trong mọi hoạt động"
+              },
+              {
+                "category_name" : "Thời trang bé yêu",
+                "title": "Xu hướng thời trang trẻ em mới nhất năm nay và cách áp dụng vào tủ đồ của bé"
+              },
+              {
+                "category_name" : "Thời trang bé yêu",
+                "title": "Làm thế nào để chọn quần áo trẻ em vừa thời trang vừa an toàn cho làn da nhạy cảm"
+              },
+              {
+                "category_name" : "Thời trang bé yêu",
+                "title": "Những mẫu trang phục trẻ em dễ thương và phong cách mà các bé sẽ yêu thích"
+              }
+            ]
+          }
+        }
+      },
+      "Thể thao": {
+        "banner_top": {
+          "content": "Kiến tạo phong cách, khám phá chính mình"
+        },
+        "introduction": {
+          "title": "Kết nối giữa niềm đam mê thể thao và phong cách thời trang",
+          "description": "Chúng tôi tin rằng, thể thao không chỉ là hoạt động vận động mà còn là một phần không thể thiếu trong cuộc sống. Mỗi sản phẩm tại đây không chỉ được thiết kế để mang lại sự thoải mái và linh hoạt trong mỗi buổi tập luyện, mà còn là biểu tượng của phong cách và cá nhân hóa. Hãy đồng hành cùng chúng tôi trên con đường khám phá và chinh phục mục tiêu thể thao của bạn từng bước một."
+        },
+        "image_gallery": {
+          "title": "Bộ sưu tập theo mùa",
+          "description": "Nổi bật với thiết kế phong cách thể thao, khỏe khoắn, năng động và hiện đại mang đến cho bạn những lựa chọn hoàn hảo cho cuộc sống năng động hàng ngày."
+        },
+        "review": {
+          "title": "CẢM NHẬN CỦA KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Chị Hồng Hạnh",
+              "feedback": "Tôi rất hài lòng với trải nghiệm mua sắm trực tuyến tại cửa hàng này. Giao diện trang web dễ sử dụng và thông tin về sản phẩm rất chi tiết. Việc có các hình ảnh đa dạng cùng với mô tả rõ ràng giúp tôi có cái nhìn chính xác về sản phẩm trước khi quyết định mua."
+            },
+            {
+              "author": "Anh Duy Anh",
+              "feedback": "Dịch vụ chăm sóc khách hàng tốt, nhân viên am hiểu về sản phẩm và luôn sẵn lòng giúp đỡ, tư vấn. Sản phẩm đúng như mô tả và giao hàng nhanh, đúng hẹn."
+            },
+            {
+              "author": "Anh Xuân Hòa",
+              "feedback": "Trải nghiệm mua sắm tại cửa hàng này thực sự tuyệt vời. Không chỉ đa dạng về kiểu dáng và màu sắc, mà còn có không gian rộng rãi và thoải mái để tôi có thể thử nghiệm từng sản phẩm."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ hỗ trợ khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Khám phá những mẫu bikini nữ đẹp và quyến rũ nhất cho mùa hè rực rỡ"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Bí quyết chọn bikini nữ hoàn hảo giúp tôn lên vẻ đẹp tự nhiên của bạn"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Những xu hướng bikini nữ mới nhất giúp bạn tỏa sáng trên mọi bãi biển"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Làm sao để chọn bikini nữ hoàn hảo phù hợp với từng loại hình cơ thể"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Những kiểu bikini nữ đẹp và phong cách mà bạn không thể bỏ lỡ trong mùa hè này"
+              }
+            ]
+          }
+        }
+      },
+      "Bikini nam": {
+        "banner_top": {
+          "content": "Chào mừng bạn đến với Men's Under Wear, điểm đến lý tưởng cho phái mạnh!"
+        },
+        "introduction": {
+          "title": "Mềm mại và thoải mái từ bên trong!",
+          "description": "Chúng tôi tự hào mang đến những mẫu thiết kế tinh tế, hiện đại và chất lượng vượt trội, nhằm đáp ứng nhu cầu đa dạng và phong phú của khách hàng. Đặc biệt chú trọng đến chất liệu và sự thoải mái, mỗi sản phẩm của chúng tôi được chọn lọc kỹ lưỡng từ những chất liệu cao cấp, thân thiện với làn da và bền bỉ với thời gian. \n\nVới cam kết mang lại cảm giác thoải mái tuyệt đối, chúng tôi không ngừng nghiên cứu và áp dụng những công nghệ tiên tiến nhất trong sản xuất. Hãy đến với chúng tôi để trải nghiệm sự khác biệt trong từng chi tiết và khám phá phong cách thời trang nội y nam đầy cuốn hút."
+        },
+        "image_gallery": {
+          "title": "BỘ SƯU TẬP MỚI NHẤT NĂM NAY",
+          "description": "Mang đến sự quyến rũ, khỏe khoắn cho phái mạnh. Sự kết hợp hoàn hảo giữa phong cách mạnh mẽ và tinh tế"
+        },
+        "review": {
+          "title": "CÁC QUÝ ÔNG NÓI GÌ?",
+          "list": [
+            {
+              "author": "Anh Trung Đức",
+              "feedback": "Mình rất thích cách cửa hàng đóng gói sản phẩm cẩn thận và giao hàng nhanh chóng. Bikini vừa vặn, thoải mái và thiết kế rất thời trang. Đây sẽ là địa chỉ tin cậy mỗi khi mình cần mua bikini."
+            },
+            {
+              "author": "Anh Xuân Hòa",
+              "feedback": "Bikini ở đây thực sự chất lượng. Chất liệu mềm mại, co giãn tốt và rất thoải mái khi mặc. Mình đã thử nhiều nơi, nhưng chưa thấy nơi nào tốt như ở đây. Mình sẽ giới thiệu cho nhiều người khác."
+            },
+            {
+              "author": "Anh Phú Tiến",
+              "feedback": "Cửa hàng có rất nhiều lựa chọn về kiểu dáng và màu sắc. Mình dễ dàng tìm được mẫu bikini ưng ý. Chất liệu rất tốt và không bị phai màu sau nhiều lần giặt. Rất đáng tiền!"
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "MỀM MẠI HƠN COTTON",
+              "subTitle": "Đây sẽ là chiếc quần lót mềm mại nhất mà bạn từng mặc!"
+            },
+            {
+              "title": "THÂN THIỆN MÔI TRƯỜNG",
+              "subTitle": "Thời trang bền vững, sợi vải được chứng nhận làm từ MicroModal"
+            },
+            {
+              "title": "ĐA DẠNG LỰA CHỌN",
+              "subTitle": "Phong cách, kiểu dáng đa dạng đáp ứng mọi nhu cầu của bạn"
+            },
+            {
+              "title": "THOẢI MÁI DỄ CHỊU",
+              "subTitle": "Hứa hẹn sự dễ chịu, thoải mái, mặc như không mặc"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Cách chọn quần lót nam phù hợp với từng dáng người để luôn tự tin và thoải mái trong mọi hoạt động"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Tổng hợp xu hướng quần lót nam mới nhất: Đem đến sự phong cách và tiện ích cho quý ông"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Khám phá thế giới của quần lót nam: Tìm hiểu về các loại chất liệu và kiểu dáng phổ biến"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Những điều cần biết trước khi mua quần lót nam: Hướng dẫn từ A đến Z cho người mua mới"
+              },
+              {
+                "category_name" : "Xu hướng thời trang",
+                "title": "Bí quyết bảo quản và giữ cho quần lót nam luôn bền đẹp sau nhiều lần giặt"
+              }
+            ]
+          }
+        }
+      },
+      "Trang sức": {
+        "banner_top": {
+          "content": "GIAO HÀNG MIỄN PHÍ toàn quốc cho đơn hàng từ 500.000đ. Có giao hàng trong ngày!"
+        },
+        "introduction": {
+          "title": "Nét đẹp quý phái, sang trọng!",
+          "description": "Đến với KVJ, trang sức không chỉ là một phụ kiện – đó là hiện thân của niềm đam mê, tình yêu của chúng tôi, và cuối cùng, là món quà của LiLi dành cho bạn"
+        },
+        "image_gallery": {
+          "title": "Premium Jewelry - Trang Sức Cao Cấp",
+          "description": "Trang sức không chỉ là một phụ kiện – đó là hiện thân của niềm đam mê và tình yêu"
+        },
+        "review": {
+          "title": "PHẢN HỒI CỦA KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Chị Đỗ Quế",
+              "feedback": "Tôi đã đến cửa hàng trang sức này để tìm một món quà đặc biệt cho ngày kỷ niệm của mình và hoàn toàn hài lòng với trải nghiệm tại đây."
+            },
+            {
+              "author": "Chị Thu Trang",
+              "feedback": "Đội ngũ nhân viên vô cùng thân thiện và chuyên nghiệp, họ đã giúp tôi chọn một chiếc vòng cổ tuyệt đẹp, vừa ý và phù hợp với ngân sách của tôi. Chất lượng sản phẩm tuyệt vời, thiết kế tinh xảo và sang trọng."
+            },
+            {
+              "author": "Chị Cao Phương",
+              "feedback": "Sản phẩm tại đây thật sự chất lượng, giá cả hợp lý và có nhiều mẫu mã để lựa chọn. Chắc chắn tôi sẽ quay lại và giới thiệu cửa hàng cho bạn bè và người thân!"
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "ƯU ĐÃI THÀNH VIÊN",
+              "subTitle": "Nhiều ưu đãi cho khách hàng thân thiết"
+            },
+            {
+              "title": "ĐỔI TRẢ DỄ DÀNG",
+              "subTitle": "Đổi trả sản phẩm trong vòng 10 ngày. Hoàn tiền nếu không hài lòng"
+            },
+            {
+              "title": "KHÁCH HÀNG HÀI LÒNG",
+              "subTitle": "Đặt sự hài lòng của khách hàng là ưu tiên số 1 trong mọi suy nghĩ hành động"
+            },
+            {
+              "title": "CHẤT LƯỢNG CAO CẤP",
+              "subTitle": "Mọi sản phẩm đều được thiết kế và chế tác bởi các nghệ nhân hàng đầu"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Top 5 nhẫn cưới được yêu thích nhất mùa chung đôi 2024 - lựa chọn hoàn hảo cho ngày trọng đại của bạn!"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Bật mí cách phối trang sức với outfit không thể bỏ qua giúp bạn tỏa sáng và ấn tượng hơn mỗi ngày"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Tìm kiếm vẻ đẹp phù hợp: Gợi ý chọn trang sức, đá màu theo cung hoàng đạo"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Nguyên tắc lựa chọn vàng cho ngày ước chung đôi."
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Gợi ý quà tặng rung rinh dành cho các nàng cung Bạch Dương"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Nhà thuốc" : {
+      "Nhà thuốc" : {
+        "banner_top": {
+          "content": "Nhà thuốc cho bạn - Uy tín, an tâm"
+        },
+        "introduction": {
+          "title": "Dược sĩ tận tâm, tư vấn chuyên nghiệp",
+          "description": "Đội ngũ Dược sĩ được đào tạo bài bản, có chuyên môn cao và giàu kinh nghiệm. Luôn đặt lợi ích khách hàng lên hàng đầu, sẵn sàng tư vấn, giải đáp thắc mắc và hướng dẫn sử dụng sản phẩm hiệu quả, an toàn."
+        },
+        "image_gallery": {
+          "title": "Vì sức khỏe của bạn",
+          "description": "Chúng tôi cam kết cung cấp sản phẩm chính hãng, đa dạng từ thuốc cho các nhóm bệnh, thực phẩm chức năng, sản phẩm chăm sóc sức khỏe, sắc đẹp, thiết bị y tế thuộc các thương hiệu hàng đầu thế giới"
+        },
+        "review": {
+          "title": "PHẢN HỒI CỦA KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Trung Đức - Thanh Xuân",
+              "feedback": "Mình đã mua hàng tại đây. Shop cung cấp hàng chính hãng, chất lượng giá cả lại hợp lý"
+            },
+            {
+              "author": "Duy Anh - Hoàn Kiếm",
+              "feedback": "Đã sử dụng sản phẩm mua tại đây, hiệu quả rất tốt. Sẽ ủng hộ lâu dài"
+            },
+            {
+              "author": "Xuân Hòa - Đồng Nai",
+              "feedback": "Shop giao hàng nhanh, đóng gói kĩ. Nhân viên tư vấn rất tận tình chi tiết về sản phẩm"
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+           {
+              "title": "CAM KẾT 100%",
+              "subTitle": "Thuốc chính hãng, đa dạng và chuyên sâu"
+            },
+            {
+              "title": "GIAO HÀNG NHANH CHÓNG",
+              "subTitle": "Giao hàng tận nhà hoặc nhận tại cửa hàng"
+            },
+            {
+              "title": "ĐỔI TRẢ TRONG 30 NGÀY",
+              "subTitle": "Kể từ ngày mua hàng"
+            },
+            {
+              "title": "ĐA DẠNG SẢN PHẨM",
+              "subTitle": "Đa dạng các loại thuốc, thực phẩm chức năng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Cẩm nang dược phẩm",
+                "title": "Công dụng và tác dụng phụ của thuốc: Tư vấn từ chuyên gia y tế để sử dụng an toàn và hiệu quả"
+              },
+              {
+                "category_name" : "Cẩm nang dược phẩm",
+                "title": "Tác dụng và cách sử dụng đúng cách của các loại thuốc phổ biến: Kiến thức cần thiết cho mọi người"
+              },
+              {
+                "category_name" : "Cẩm nang dược phẩm",
+                "title": "Những điều cần biết khi dùng thuốc trong thai kỳ và cho con bú: Chăm sóc sức khỏe mẹ và bé"
+              },
+              {
+                "category_name" : "Cẩm nang dược phẩm",
+                "title": "Phòng tránh và xử lý tác dụng phụ của thuốc: Bảo vệ sức khỏe cho bạn và gia đình"
+              },
+              {
+                "category_name" : "Cẩm nang dược phẩm",
+                "title": "Thủ tục mua thuốc online: Tiện lợi và an toàn cho mọi gia đình"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Tạp hoá": {
+      "Đồ tiện lợi" : {
+        "banner_top": {
+          "content": "Bán lẻ rẻ như bán buôn"
+        },
+        "introduction": {
+          "title": "Tạo Nên Cuộc Sống Thuận Tiện và Đa Dạng",
+          "description": "Chúng tôi mang đến một không gian đa dạng và tiện lợi để bạn có thể tìm thấy mọi thứ từ các loại thực phẩm hàng ngày đến các sản phẩm gia dụng và văn phòng phẩm. Với sứ mệnh phục vụ cộng đồng và đáp ứng mọi nhu cầu của khách hàng, chúng tôi cam kết cung cấp những sản phẩm chất lượng với dịch vụ tận tình và thân thiện. Dù bạn đến để mua sắm hàng ngày, tìm kiếm các sản phẩm đặc biệt, hay đơn giản chỉ là muốn tìm hiểu và khám phá, cửa hàng tạp hóa của chúng tôi sẽ luôn sẵn sàng đón tiếp và hỗ trợ bạn. Hãy đến và trải nghiệm không gian mua sắm thú vị và đa dạng tại cửa hàng tạp hóa của chúng tôi ngay hôm nay!"
+        },
+        "image_gallery": {
+          "title": "Mặt hàng phong phù đa dạng",
+          "description": "Mang đến nhiều sự lựa chọn, đáp ứng nhu cầu của khách hàng"
+        },
+        "review": {
+          "title": "Những Phản Hồi Tuyệt Vời từ Khách Hàng",
+          "list": [
+            {
+              "author": "Chị Đỗ Quế",
+              "feedback": "Cửa hàng này có mọi thứ tôi cần. Dịch vụ nhanh chóng và sản phẩm chất lượng, ship hàng siêu nhanh!"
+            },
+            {
+              "author": "Chị Thu Trang",
+              "feedback": "Đến đây mua sắm là lựa chọn hàng đầu của tôi. Sản phẩm luôn mới và tươi, cùng với giá cả hợp lý."
+            },
+            {
+              "author": "Chị Cao Phương",
+              "feedback": "Đặc biệt thích cách cửa hàng này sắp xếp sản phẩm, giúp tôi dễ dàng tìm kiếm và lựa chọn. Nhân viên thân thiện, nhiệt tình."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ chăm sóc"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Cẩm nang mua sắm đồ tạp hóa: những bí quyết giúp bạn trở thành nhà tiết kiệm"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Tận dụng ưu đãi: cách tiết kiệm tiền khi mua sắm đồ tạp hóa"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Sản phẩm thiết yếu mà mọi gia đình cần từ cửa hàng tạp hóa của chúng tôi"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Món đồ tạo nên góc bếp hoàn hảo: Sự kết hợp giữa thẩm mỹ và tiện ích"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Làm chủ ngân sách: cách mua sắm hiệu quả và không mất thời gian khi đi siêu thị"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Mỹ phẩm": {
+      "Chăm sóc da": {
+        "banner_top": {
+          "content": "Đảm bảo 100% mỹ phẩm chính hãng - Sự tin cậy tuyệt đối!"
+        },
+        "introduction": {
+          "title": "Đẹp Mỗi Ngày, Tự Tin Mỗi Khoảnh Khắc",
+          "description": "Chào mừng bạn đến với cửa hàng mỹ phẩm của chúng tôi - điểm đến lý tưởng cho những người yêu thích làm đẹp và chăm sóc bản thân. Bên cạnh việc cung cấp các sản phẩm chất lượng, chúng tôi cũng mang đến không gian mua sắm thú vị và trải nghiệm mỹ phẩm độc đáo. Đội ngũ nhân viên chuyên nghiệp và thân thiện của chúng tôi luôn sẵn sàng tư vấn và hỗ trợ bạn trong việc chọn lựa sản phẩm phù hợp nhất với làn da và phong cách của bạn."
+        },
+        "image_gallery": {
+          "title": "Thăng hoa vẻ đẹp tự nhiên",
+          "description": "Giải pháp hoàn hảo để nuôi dưỡng và bảo vệ làn da của bạn"
+        },
+        "review": {
+          "title": "Góc Nhìn Khách Hàng",
+          "list": [
+            {
+              "author": "Chị Đỗ Quế",
+              "feedback": "Dịch vụ khách hàng ở đây đáng khen ngợi. Nhân viên thân thiện và am hiểu về sản phẩm, luôn sẵn lòng hỗ trợ và tư vấn cho khách hàng."
+            },
+            {
+              "author": "Chị Thu Trang",
+              "feedback": "Sản phẩm ở đây thực sự đáng để thử. Tôi đã thấy kết quả tích cực sau khi sử dụng và sẽ tiếp tục ủng hộ cửa hàng này."
+            },
+            {
+              "author": "Chị Cao Phương",
+              "feedback": "Cửa hàng này mang đến cho tôi cảm giác tin cậy và an tâm khi mua sắm mỹ phẩm. Giao hàng nhanh chóng và sản phẩm được đóng gói cẩn thận."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ chăm sóc"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Mẹo làm đẹp",
+                "title": "Khám phá top 10 sản phẩm làm đẹp không thể thiếu cho mùa hè: từ kem chống nắng đến son môi rực rỡ."
+              },
+              {
+                "category_name" : "Mẹo làm đẹp",
+                "title": "Bí quyết chăm sóc da tự nhiên tại nhà với các sản phẩm chiết xuất từ thiên nhiên hiệu quả nhất."
+              },
+              {
+                "category_name" : "Mẹo làm đẹp",
+                "title": "5 xu hướng trang điểm nổi bật năm 2024: Làm thế nào để bắt kịp và tỏa sáng với phong cách hiện đại."
+              },
+              {
+                "category_name" : "Mẹo làm đẹp",
+                "title": "Cách chọn mỹ phẩm phù hợp với từng loại da: Lời khuyên từ chuyên gia để đạt hiệu quả tốt nhất."
+              },
+              {
+                "category_name" : "Mẹo làm đẹp",
+                "title": "Làm thế nào để chọn mỹ phẩm an toàn và hiệu quả cho làn da nhạy cảm."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Điện tử": {
+      "Phone lab" :  {
+        "banner_top": {
+          "content": "Sản phẩm chính hãng - Xuất VAT đầy đủ!"
+        },
+        "introduction": {
+          "title": "Khám Phá Cửa Hàng Công Nghệ Đa Dạng và Chất Lượng",
+          "description": "Chúng tôi tự hào là địa điểm mua sắm đáng tin cậy cho mọi nhu cầu về điện tử và điện gia dụng, từ các sản phẩm gia dụng cơ bản cho đến những thiết bị công nghệ cao cấp. Với một bộ sưu tập đa dạng gồm các sản phẩm từ các thương hiệu hàng đầu trên thị trường, chúng tôi cam kết mang đến cho bạn sự lựa chọn đa dạng và chất lượng. Từ tivi, tủ lạnh, máy giặt, và các thiết bị điện tử cá nhân khác, chúng tôi có đủ mọi thứ để nâng cao chất lượng cuộc sống của bạn."
+        },
+        "image_gallery": {
+          "title": "Uy Tín - Chất Lượng - Đa Dạng Mẫu Mã",
+          "description": "Mang đến nhiều sự lựa chọn, đáp ứng nhu cầu của khách hàng"
+        },
+        "review": {
+          "title": "CẢM NHẬN CỦA KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Chị Hồng Hạnh",
+              "feedback": "Tôi rất hài lòng với trải nghiệm mua sắm trực tuyến tại cửa hàng này. Giao diện trang web dễ sử dụng và thông tin về sản phẩm rất chi tiết. Việc có các hình ảnh đa dạng cùng với mô tả rõ ràng giúp tôi có cái nhìn chính xác về sản phẩm trước khi quyết định mua."
+            },
+            {
+              "author": "Anh Duy Anh",
+              "feedback": "Dịch vụ chăm sóc khách hàng tốt, nhân viên am hiểu về sản phẩm và luôn sẵn lòng giúp đỡ, tư vấn. Sản phẩm đúng như mô tả và giao hàng nhanh, đúng hẹn."
+            },
+            {
+              "author": "Anh Xuân Hòa",
+              "feedback": "Trải nghiệm mua sắm tại cửa hàng này thực sự tuyệt vời. Không chỉ đa dạng về kiểu dáng và màu sắc, mà còn có không gian rộng rãi và thoải mái để tôi có thể thử nghiệm từng sản phẩm."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ chăm sóc"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Sức hút điện thoại mới: Những dòng iPhone hot nhất trên thị trường"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Thiết kế đỉnh cao: Những laptop làm nên sự khác biệt trong thế giới công nghệ"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Dẫn đầu xu hướng: Các mẫu điện thoại và laptop chất lượng tại cửa hàng chúng tôi"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Lựa chọn thông minh: Bí quyết chọn mua điện thoại và laptop phù hợp với nhu cầu của bạn"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Tinh tế và hiện đại: Sự kết hợp hoàn hảo giữa thời trang và công nghệ"
+              }
+            ]
+          }
+        }
+      },
+      "Máy móc" : {
+        "banner_top": {
+          "content": "Đổi trả dễ dàng, bảo hành 1 năm"
+        },
+        "introduction": {
+          "title": "Nơi cung cấp các sản phẩm máy móc và thiết bị điện tử chất lượng cao",
+          "description": "Chúng tôi tự hào mang đến đa dạng sản phẩm từ các thương hiệu uy tín, bao gồm máy móc công nghiệp, thiết bị gia dụng và các giải pháp công nghệ tiên tiến. Tại đây, chúng tôi luôn chú trọng đến chất lượng và sự hài lòng của khách hàng. Đội ngũ chuyên gia của chúng tôi sẵn sàng tư vấn, hỗ trợ kỹ thuật và đảm bảo bạn chọn được sản phẩm phù hợp nhất. Chúng tôi cam kết mang đến trải nghiệm mua sắm tiện lợi với dịch vụ giao hàng nhanh chóng và chính sách bảo hành chu đáo."
+        },
+        "image_gallery": {
+          "title": "Uy Tín - Chất Lượng - Đa Dạng Mẫu Mã",
+          "description": "Mang đến nhiều sự lựa chọn, đáp ứng nhu cầu của khách hàng"
+        },
+        "review": {
+          "title": "CẢM NHẬN CỦA KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Chị Hồng Hạnh",
+              "feedback": "Tôi rất hài lòng với trải nghiệm mua sắm trực tuyến tại cửa hàng này. Giao diện trang web dễ sử dụng và thông tin về sản phẩm rất chi tiết. Việc có các hình ảnh đa dạng cùng với mô tả rõ ràng giúp tôi có cái nhìn chính xác về sản phẩm trước khi quyết định mua."
+            },
+            {
+              "author": "Anh Duy Anh",
+              "feedback": "Dịch vụ chăm sóc khách hàng tốt, nhân viên am hiểu về sản phẩm và luôn sẵn lòng giúp đỡ, tư vấn. Sản phẩm đúng như mô tả và giao hàng nhanh, đúng hẹn."
+            },
+            {
+              "author": "Anh Xuân Hòa",
+              "feedback": "Trải nghiệm mua sắm tại cửa hàng này thực sự tuyệt vời. Không chỉ đa dạng về kiểu dáng và màu sắc, mà còn có không gian rộng rãi và thoải mái để tôi có thể thử nghiệm từng sản phẩm."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "KHÁCH HÀNG VIP",
+              "subTitle": "Nhận ưu đãi đặc biệt, dịch vụ chăm sóc tận tâm"
+            },
+            {
+              "title": "MIỄN PHÍ GIAO HÀNG",
+              "subTitle": "Tiết kiệm chi phí mua hàng và giao hàng"
+            },
+            {
+              "title": "THANH TOÁN COD",
+              "subTitle": "Tiện lợi, an toàn, trả tiền khi nhận hàng"
+            },
+            {
+              "title": "HỖ TRỢ BẢO HÀNH",
+              "subTitle": "An tâm mua sắm với dịch vụ chăm sóc"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+             {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Số hóa ngôi nhà: Làm thế nào để máy móc có thể tạo ra sự khác biệt trong cuộc sống của bạn"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Thế giới công nghệ hiện đại - 10 thiết bị máy móc đang làm mưa làm gió trên thị trường"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Chọn lựa máy móc thông minh: hướng dẫn tìm kiếm và sử dụng các thiết bị đúng cách"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Nâng cao hiệu suất với công nghệ mới: sự tiện lợi của máy móc trong cuộc sống hằng ngày"
+              },
+              {
+                "category_name" : "Mua sắm thông minh",
+                "title": "Tận dụng công nghệ tiên tiến - 5 máy móc cần thiết cho gia đình và doanh nghiệp"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "fnb" : {
+    "Nhà hàng" : {
+      "Nhà hàng" : {
+        "banner" : {
+          "title" : "Khám Phá Hương Vị Tuyệt Vời",
+          "description" : "Tận hưởng trải nghiệm ẩm thực độc đáo với các món ăn đặc sắc và không gian ấm cúng. Từ pizza nóng hổi, mỳ Ý thơm ngon đến những món ăn nhanh yêu thích – chúng tôi mang đến sự hài lòng trong từng miếng ăn. Ghé thăm chúng tôi hôm nay và cảm nhận sự khác biệt!"
+        },
+        "introduction" : {
+          "title" : "KHÁM PHÁ NƠI ẨM THỰC, GẶP GỠ KHÔNG GIAN",
+          "description": "Chào mừng bạn đến với chúng tôi, nơi mỗi bữa ăn là một hành trình thú vị. Chúng tôi tự hào mang đến cho bạn một không gian thân thiện và sang trọng, nơi bạn có thể thưởng thức những món ăn được chế biến từ nguyên liệu tươi mới. Với đội ngũ nhân viên chuyên nghiệp và đam mê, chúng tôi là điểm đến lý tưởng để thưởng thức ẩm thực đa dạng và tạo nên những kỷ niệm đáng nhớ. Hãy cùng chúng tôi trải nghiệm sự kết hợp hoàn hảo giữa hương vị và phong cách!"
+        },
+        "image_gallery" : {
+            "title" : "Khám Phá Không Gian và Món Ăn",
+            "description" : "Khám phá những hình ảnh tuyệt vời về không gian và món ăn của chúng tôi. Hãy xem những khoảnh khắc đặc biệt và trải nghiệm ẩm thực qua từng bức ảnh."
+        },
+        "service" : {
+            "blocks" : [
+                {
+                  "title": "ẨM THỰC ĐẶC SẮC",
+                  "subTitle": "Món ăn tinh tế và đa dạng."
+                },
+                {
+                  "title": "DỊCH VỤ ĐẶT BÀN",
+                  "subTitle": "Đặt bàn nhanh chóng và thuận tiện."
+                },
+                {
+                  "title": "KHÔNG GIAN MỚI",
+                  "subTitle": "Không gian ăn uống đẳng cấp, thoải mái."
+                },
+                {
+                  "title": "TỔ CHỨC SỰ KIỆN",
+                  "subTitle": "Dịch vụ tổ chức sự kiện chuyên nghiệp."
+                }
+            ]
+        },
+        "menu" : {
+          "title" : "Thực đơn của quán",
+          "subTitle" : "Chúng tôi tự hào mang đến một thực đơn phong phú, kết hợp giữa các món ăn truyền thống và sáng tạo. Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon nhất, hứa hẹn sẽ mang đến cho bạn trải nghiệm ẩm thực tuyệt vời."
+        },
+        "video" : {
+          "title" : "Đánh Giá Khách Hàng",
+          "description" : "Nghe những đánh giá chân thật từ khách hàng về trải nghiệm ăn uống tại nhà hàng. Tìm hiểu lý do tại sao khách hàng yêu thích món ăn của chúng tôi và cảm nhận thực tế từ chính những người đã thưởng thức."
+        }
+      }
+    },
+    "Cafe" : {
+      "Cafe" : {
+        "banner" : {
+          "title" : "Thưởng Thức Cà Phê Tuyệt Hảo",
+          "description" : "Trải nghiệm hương vị cà phê đẳng cấp và không gian thư giãn tại quán của chúng tôi. Từ những ly espresso đậm đà, latte mịn màng đến các đồ uống sáng tạo – chúng tôi mang đến cho bạn những phút giây thư thái và thưởng thức tuyệt vời. Đến ngay hôm nay và cảm nhận sự khác biệt!"
+        },
+        "introduction" : {
+          "title" : "Khám Phá Không Gian Cà Phê Thoải Mái và Đậm Đà",
+          "description": "Tại đây, chúng tôi không chỉ phục vụ cà phê – chúng tôi mang đến cho bạn một trải nghiệm. Được thiết kế với phong cách hiện đại kết hợp với sự ấm cúng, quán cà phê của chúng tôi là nơi lý tưởng để thư giãn, làm việc hoặc tận hưởng thời gian bên bạn bè và gia đình. Với đội ngũ nhân viên thân thiện và đam mê, chúng tôi cam kết cung cấp dịch vụ tốt nhất để mỗi lần bạn ghé thăm đều là một trải nghiệm đáng nhớ."
+        },
+        "image_gallery" : {
+          "title" : "Khám Phá Không Gian Của Chúng Tôi ",
+          "description" : "Dạo quanh bộ sưu tập ảnh của quán để cảm nhận không khí thân thiện và thiết kế đẹp mắt. Từ những góc thư giãn cho đến các ly cà phê bắt mắt, mỗi bức ảnh đều mang đến một cái nhìn rõ nét về những trải nghiệm đang chờ đón bạn tại đây."
+        },
+        "service" : {
+          "blocks" : [
+            {
+              "title": "DỊCH VỤ",
+              "subTitle": "Đem tới dịch vụ, nhân viên hướng đến sự ân cần"
+            },
+            {
+              "title": "CHẤT LƯỢNG",
+              "subTitle": "Đem tới những hương vị cà phê có chất lượng tốt nhất"
+            },
+            {
+              "title": "NHÂN SỰ",
+              "subTitle": "Đội ngũ chú trọng hơn vào các giải pháp mang đến giá trị tốt"
+            },
+            {
+              "title": "SẢN PHẨM",
+              "subTitle": "Những bộ bàn ghế, ly, cốc đều được thiết kế riêng"
+            }
+          ]
+        },
+        "menu" : {
+          "title" : "Menu",
+          "subTitle" : "Chúng tôi tự hào mang đến một thực đơn phong phú với các lựa chọn cà phê, trà, đồ uống đặc biệt và món ăn nhẹ. Dưới đây là mô tả chi tiết về từng món cùng với mức giá để bạn dễ dàng lựa chọn."
+        },
+        "video" : {
+          "title" : "Hướng Dẫn Pha Chế",
+          "description" : "Học cách pha chế đồ uống yêu thích của chúng tôi từ video hướng dẫn chi tiết. Từ các công thức pha chế đơn giản đến các bí quyết đặc biệt, bạn có thể tạo ra những đồ uống tuyệt vời ngay tại nhà."
+        }
+      }
+    },
+    "Bánh ngọt" : {
+      "Bánh ngọt" : {
+        "banner" : {
+          "title" : "Khám Phá Thế Giới Bánh Ngọt Tuyệt Vời",
+          "description" : "Chào mừng bạn đến với không gian ngọt ngào của chúng tôi! Hãy cùng thưởng thức những món bánh được làm từ nguyên liệu tươi ngon và yêu thích, từ những chiếc bánh ngọt mềm mại đến bánh mì thơm lừng. Bắt đầu hành trình khám phá hương vị độc đáo và sự sáng tạo trong từng miếng bánh tại quán chúng tôi."
+        },
+        "introduction" : {
+          "title" : "Chào Mừng Đến Với Thiên Đường Bánh Ngọtà",
+          "description": "Chúng tôi là một quán bánh nhỏ xinh xắn, chuyên cung cấp những món bánh ngon tuyệt, được làm từ những nguyên liệu tươi ngon nhất. Đến với chúng tôi, bạn sẽ không chỉ được thưởng thức bánh ngọt mà còn cảm nhận được tình yêu và đam mê của chúng tôi dành cho nghề làm bánh."
+        },
+        "image_gallery" : {
+          "title" : "Hình Ảnh Ngọt Ngào",
+          "description" : "Mỗi chiếc bánh đều là một tác phẩm nghệ thuật, được trang trí tỉ mỉ và đầy sáng tạo. Thư viện ảnh của chúng tôi sẽ khiến bạn phải trầm trồ."
+        },
+        "service" : {
+          "blocks" : [
+           {
+              "title": "BÁNH THEO YÊU CẦU",
+              "subTitle": "Tạo ra chiếc bánh mơ ước của bạn."
+            },
+            {
+              "title": "GIAO HÀNG TẬN NƠI",
+              "subTitle": "Bánh tươi ngon đến tận cửa nhà bạn."
+            },
+            {
+              "title": "BÁNH SỰ KIỆN",
+              "subTitle": "Đặt hàng loại bánh đặc biệt cho mọi dịp lễ."
+            },
+            {
+              "title": "LỚP HỌC LÀM BÁNH",
+              "subTitle": "Trải nghiệm làm bánh thú vị cùng chuyên gia."
+            }
+          ]
+        },
+        "menu" : {
+          "title" : "Thực đơn món bánh",
+          "subTitle" : "Chúng tôi tự hào mang đến một thực đơn phong phú với các lựa chọn cà phê, trà, đồ uống đặc biệt và món ăn nhẹ. Dưới đây là mô tả chi tiết về từng món cùng với mức giá để bạn dễ dàng lựa chọn."
+        },
+        "video" : {
+          "title" : "Video Đặc Sắc",
+          "description" : "Khám phá thế giới bánh ngọt của chúng tôi qua các video hấp dẫn! Từ quy trình làm bánh thú vị đến các mẹo và kỹ thuật, những video này sẽ mang đến cho bạn cái nhìn chân thực và sinh động về công việc của chúng tôi."
+        }
+      }
+    },
+    "Quán ăn" : {
+      "Quán ăn" : {
+        "banner" : {
+          "title" : "Khám Phá Hương Vị Tuyệt Vời",
+          "description" : "Tận hưởng trải nghiệm ẩm thực độc đáo với các món ăn đặc sắc và không gian ấm cúng. Từ pizza nóng hổi, mỳ Ý thơm ngon đến những món ăn nhanh yêu thích – chúng tôi mang đến sự hài lòng trong từng miếng ăn. Ghé thăm chúng tôi hôm nay và cảm nhận sự khác biệt!"
+        },
+        "introduction" : {
+          "title" : "Nơi đem đến những bữa ăn ấm cúng và ngon miệng",
+          "description": "Chào mừng bạn đến với quán ăn của chúng tôi! Đây là nơi bạn có thể thưởng thức những món ăn ngon miệng trong không gian thoải mái và thân thiện. Chúng tôi luôn chú trọng đến chất lượng nguyên liệu và sự hài lòng của khách hàng. Hãy đến và cùng trải nghiệm những món ăn đơn giản nhưng đầy hương vị mà chúng tôi tự hào phục vụ. Chúng tôi mong muốn mang đến cho bạn những bữa ăn ấm cúng và đáng nhớ."
+        },
+        "image_gallery" : {
+          "title" : "Khám Phá Không Gian và Món Ăn",
+          "description" : "Khám phá những khoảnh khắc tuyệt vời tại quán ăn của chúng tôi qua bộ sưu tập ảnh đặc sắc. Tại đây, bạn sẽ thấy không gian ấm cúng và những món ăn hấp dẫn mà chúng tôi tự hào phục vụ. Hãy cùng nhìn lại những trải nghiệm ẩm thực thú vị và các sự kiện đặc biệt mà chúng tôi tổ chức."
+        },
+        "service" : {
+          "blocks" : [
+            {
+              "title": "ẨM THỰC ĐẶC SẮC",
+              "subTitle": "Món ăn đa dạng từ thực đơn phong phú."
+            },
+            {
+              "title": "GIAO HÀNG TẬN NƠI",
+              "subTitle": "Dịch vụ giao hàng tận nơi và mang đi tiện lợi."
+            },
+            {
+              "title": "KHÔNG GIAN ĂN UỐNG",
+              "subTitle": "Không gian thoải mái và ấm cúng cho mọi bữa ăn."
+            },
+            {
+              "title": "TỔ CHỨC SỰ KIỆN",
+              "subTitle": "Dịch vụ đặt bàn và tổ chức sự kiện cá nhân & doanh nghiệp."
+            }
+          ]
+        },
+        "menu" : {
+          "title" : "Thực đơn của quán",
+          "subTitle" : "Chúng tôi tự hào mang đến một thực đơn phong phú, kết hợp giữa các món ăn truyền thống và sáng tạo. Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon nhất, hứa hẹn sẽ mang đến cho bạn trải nghiệm ẩm thực tuyệt vời."
+        },
+        "video" : {
+          "title" : "Quá Trình Chế Biến",
+          "description" : "Theo dõi quy trình chế biến tại bếp của chúng tôi. Xem những đầu bếp của chúng tôi làm việc, từ việc chọn nguyên liệu tươi ngon cho đến việc hoàn thiện món ăn, đảm bảo mỗi món đều đạt tiêu chuẩn chất lượng cao nhất."
+        }
+      }
+    }
+  },
+  "booking" : {
+    "Spa" : {
+      "Spa" : {
+        "group_service": {
+          "title" : "NHÓM DỊCH VỤ",
+          "description" : "Đa dạng nhóm dịch vụ với các lựa chọn phù hợp cho mọi nhu cầu, từ làm đẹp đến chăm sóc sức khỏe",
+          "list" : [
+            {
+              "name": "Chăm sóc da"
+            },
+            {
+              "name": "Massage cơ thể"
+            },
+            {
+              "name": "Chăm sóc móng"
+            }
+          ]
+        },
+        "outstanding_service" : {
+          "title" : "DỊCH VỤ CỦA CHÚNG TÔI",
+          "list" : [
+            {
+              "name" : "Gội đầu dưỡng sinh 2 tiếng",
+              "price" : "200.000 đ"
+            },
+            {
+              "name" : "Massage lưng bằng tinh dầu thơm",
+              "price" : "250.000 đ"
+            },
+            {
+              "name" : "Trị liệu đau mỏi cổ, vai, gáy",
+              "price" : "300.000 đ"
+            },
+            {
+              "name" : "Tẩy tế bào chết và làm sáng da toàn thân",
+              "price" : "800.000 đ"
+            }
+          ]
+        },
+        "introduction": {
+          "title": "LÀM MỚI TỪ BÊN TRONG",
+          "description": "Chúng tôi tự hào là địa điểm hàng đầu cho chăm sóc sức khỏe và làm đẹp, nơi bạn sẽ trải nghiệm không gian thư giãn tuyệt vời cùng các liệu pháp chăm sóc cá nhân chất lượng. \n\nCam kết của chúng tôi là mang đến cho khách hàng những trải nghiệm spa tốt nhất để đảm bảo rằng bạn “đến với mong đợi, ra về với sự hài lòng”."
+        },
+        "image_gallery": {
+          "title": "BỘ SƯU TẬP ẢNH SPA",
+          "description": "Trải nghiệm không gian thư giãn và dịch vụ tuyệt vời của cửa hàng qua thư viện hình ảnh"
+        },
+        "review": {
+          "title": "CÁC QUÝ CÔ NÓI GÌ? ",
+          "list": [
+            {
+              "author": "Chị Vân Anh - Hoàn Kiếm",
+              "feedback": "Mỗi lần đến Spa, tôi luôn được đón tiếp nhiệt tình và có trải nghiệm chăm sóc toàn diện. Nhân viên ở đây không chỉ chuyên nghiệp mà còn phục vụ tận tâm, giúp tôi cảm thấy thoải mái ngay từ lúc bước vào. Các liệu pháp chăm sóc đa dạng và hiệu quả. Một trải nghiệm đáng giá."
+            },
+            {
+              "author": "Chị Hồng Hạnh - Thanh Xuân",
+              "feedback": "Lướt chục cái video rì viu thì quyết định chọn Spa này. Massage tận 1 tiếng rưỡi đồng hồ rồi gội đầu được massage thêm nữa. Phê lắm nha. Nói chung là thích, mọi người nên trải nghiệm. Ra về còn được tặng quà nha, quà gì mn tới rồi biết 😉"
+            },
+            {
+              "author": "Chị Hoàng Trang - Đống Đa",
+              "feedback": "TRẢI NGHIỆM SPA TRỊ LIỆU TẠI HÀ NỘI CHILL NHƯ RESORT CHO CHỊ EM VĂN PHÒNG 🍃Sau một thời gian tìm kiếm thì cuối cùng mình cũng đã tìm được chiếc Spa chân ái cuộc đời mn ạ. Đi trải nghiệm thử về thấy quá okela nên mình phải review ngay.Một chiếc spa rất hợp gu và đúng với tiêu chí của mình: ĐẸP, XỊN nhưng phải HEALING, phải CHILL. Hôm đó về mình ngủ rất ngon và sâu giấc hơn, chân và vai mình nhẹ nhàng hẳn, cải thiện đau nhức rõ rệt."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "ĐỘI NGŨ CHUYÊN NGHIỆP",
+              "subTitle": "Kỹ thuật viên tận tâm, chuyên môn cao, nhiều năm kinh nghiệm"
+            },
+            {
+              "title": "THIẾT BỊ HIỆN ĐẠI",
+              "subTitle": "Công nghệ kỹ thuật, thiết bị máy móc hiện đại luôn được cập nhật"
+            },
+            {
+              "title": "KHÔNG GIAN THƯ GIÃN",
+              "subTitle": "Tạo cảm giác thoải mái, riêng tư và hòa mình vào thiên nhiên"
+            },
+            {
+              "title": "DỊCH VỤ ĐA DẠNG",
+              "subTitle": "Đáp ứng mọi nhu cầu làm đẹp của quý khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Chăm sóc sức khỏe",
+                "title": "Trải nghiệm liệu pháp Massage thư giãn và những lợi ích tuyệt vời cho sức khỏe và tinh thần."
+              },
+              {
+                "category_name" : "Chăm sóc sức khỏe",
+                "title": "Top 5 dịch vụ Spa không thể bỏ qua từ chăm sóc da mặt đến trị liệu toàn thân."
+              },
+              {
+                "category_name" : "Chăm sóc sức khỏe",
+                "title": "Bí quyết chăm sóc da hiệu quả tại Spa với những phương pháp tốt nhất để có làn da khỏe mạnh."
+              },
+              {
+                "category_name" : "Chăm sóc sức khỏe",
+                "title": "Liệu pháp Massage thảo dược là sự kết hợp hoàn hảo giữa tự nhiên và khoa học."
+              },
+              {
+                "category_name" : "Chăm sóc sức khỏe",
+                "title": "Tận hưởng một ngày tại Spa với hành trình chăm sóc toàn diện cho cơ thể & tâm hồn."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Hair" : {
+      "Nam" : {
+        "group_service": {
+          "title" : "DỊCH VỤ ĐA DẠNG",
+          "description" : "Phù hợp với nhu cầu từng khách hàng",
+          "list" : [
+            {
+              "name": "Cắt và tạo kiểu tóc"
+            },
+            {
+              "name": "Nhuộm và tạo màu tóc"
+            },
+            {
+              "name": "Uốn và duỗi tóc"
+            }
+          ]
+        },
+        "outstanding_service" : {
+          "title" : "DỊCH VỤ CỦA CHÚNG TÔI",
+          "list" : [
+            {
+              "name" : "Cắt tóc theo kiểu tùy chọn",
+              "price" : "100.000 đ"
+            },
+            {
+              "name" : "Uốn tóc",
+              "price" : "400.000 đ"
+            },
+            {
+              "name" : "Nhuộm tóc",
+              "price" : "350.000 đ"
+            },
+            {
+              "name" : "Điều trị gia đầu",
+              "price" : "500.000 đ"
+            }
+          ]
+        },
+        "introduction": {
+          "title": "SALON TÓC CỦA XU THẾ HIỆN ĐẠI",
+          "description": "Chúng tôi tự hào là điểm đến lý tưởng cho những ai đang tìm kiếm một trải nghiệm làm đẹp toàn diện cùng với dịch vụ làm tóc chất lượng. Với đội ngũ nhân viên tận tâm và chuyên nghiệp, chúng tôi cam kết mang đến sự tự tin và hạnh phúc từ bên trong qua mỗi kiểu tóc đẹp mắt. \n\nKhám phá không gian sang trọng và thư giãn của chúng tôi và trải nghiệm dịch vụ tuyệt vời từ các chuyên gia tóc hàng đầu. Hãy để chúng tôi nâng tầm vẻ đẹp của bạn!"
+        },
+        "image_gallery": {
+          "title": "KIỂU TÓC CHUYÊN NGHIỆP TỪ THỢ CỬA HÀNG",
+          "description": "Trải nghiệm tay nghề chuyên nghiệp và dịch vụ tuyệt vời của cửa hàng qua thư viện hình ảnh"
+        },
+        "review": {
+          "title": "CÁC QUÝ ÔNG NÓI GÌ?",
+          "list": [
+           {
+              "author": "MAI XUÂN HÒA",
+              "feedback": "Tay nghề rất tốt, form đầu mình khá khó cắt, nhưng các bạn đã cho mình kiểu tóc rất ưng ý. Đồ uống ngon & không gian thoải mái. Chắc ở luôn barber này quá :)))"
+            },
+            {
+              "author": "NGUYỄN PHÚ TIẾN",
+              "feedback": "Mỗi tháng cắt tóc một chỗ nhưng kiểu tóc cắt bởi thợ tại đây luôn luôn là kiểu tóc mình ưng ý nhất. Chuyên nghiệp nhưng không hề “công nghiệp. Không có gì để nói ngoài hai chữ “Tuyệt vời"
+            },
+            {
+              "author": "LÊ ANH QUÂN",
+              "feedback": "Nhân viên nhiệt tình thật sự! Chỗ để xe rộng rãi thoải mái. Đi cắt tóc được miễn phí coffee và câu chuyện."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "ĐỘI NGŨ ĐỦ TÂM VÀ TẦM",
+              "subTitle": "Kỹ thuật viên tận tâm, chuyên môn cao, nhiều năm kinh nghiệm"
+            },
+            {
+              "title": "KHÔNG GIAN THOẢI MÁI",
+              "subTitle": "Không gian rộng rãi và thoáng đãng, thoải mái như tại nhà"
+            },
+            {
+              "title": "DỤNG CỤ HIỆN ĐẠI",
+              "subTitle": "Sử dụng phụ kiện chất lượng & tốt nhất trên thị trường hiện nay"
+            },
+            {
+              "title": "ĐẶT LỊCH ONLINE",
+              "subTitle": "Linh hoạt về thời gian hẹn, tiết kiệm thời gian cho khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Top 10 kiểu tóc nam được yêu thích nhất mùa hè 2024 và cách phối đồ phù hợp."
+              },
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Cách chăm sóc tóc nam để luôn giữ được kiểu dáng hoàn hảo và sạch sẽ."
+              },
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Gợi ý kiểu tóc nam phù hợp cho khuôn mặt tròn giúp tôn lên đường nét."
+              },
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Những kiểu tóc undercut nam đang thịnh hành và cách chăm sóc hiệu quả."
+              },
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Bí quyết chăm sóc tóc nam sau khi nhuộm để giữ màu lâu và bóng mượt."
+              }
+            ]
+          }
+        }
+      },
+      "Nữ" : {
+        "group_service": {
+          "title" : "DỊCH VỤ ĐA DẠNG",
+          "description" : "Phù hợp với nhu cầu từng khách hàng",
+          "list" : [
+            {
+              "name": "Cắt và tạo kiểu tóc"
+            },
+            {
+              "name": "Nhuộm và tạo màu tóc"
+            },
+            {
+              "name": "Uốn và duỗi tóc"
+            }
+          ]
+        },
+        "outstanding_service" : {
+          "title" : "DỊCH VỤ CỦA CHÚNG TÔI",
+          "list" : [
+            {
+              "name" : "Cắt tóc theo kiểu tùy chọn",
+              "price" : "100.000 đ"
+            },
+            {
+              "name" : "Uốn tóc",
+              "price" : "400.000 đ"
+            },
+            {
+              "name" : "Nhuộm tóc",
+              "price" : "350.000 đ"
+            },
+            {
+              "name" : "Điều trị gia đầu",
+              "price" : "500.000 đ"
+            }
+          ]
+        },
+        "introduction": {
+          "title": "SALON TÓC CỦA XU THẾ HIỆN ĐẠI",
+          "description": "Chúng tôi tự hào là điểm đến lý tưởng cho những ai đang tìm kiếm một trải nghiệm làm đẹp toàn diện cùng với dịch vụ làm tóc chất lượng. Với đội ngũ nhân viên tận tâm và chuyên nghiệp, chúng tôi cam kết mang đến sự tự tin và hạnh phúc từ bên trong qua mỗi kiểu tóc đẹp mắt. \n\nKhám phá không gian sang trọng và thư giãn của chúng tôi và trải nghiệm dịch vụ tuyệt vời từ các chuyên gia tóc hàng đầu. Hãy để chúng tôi nâng tầm vẻ đẹp của bạn!"
+        },
+        "image_gallery": {
+          "title": "KIỂU TÓC CHUYÊN NGHIỆP TỪ THỢ CỬA HÀNG",
+          "description": "Trải nghiệm tay nghề chuyên nghiệp và dịch vụ tuyệt vời của cửa hàng qua thư viện hình ảnh"
+        },
+        "review": {
+          "title": "CÁC QUÝ CÔ NÓI GÌ?",
+          "list": [
+            {
+              "author": "Chị Hồng Hạnh - Thanh Xuân",
+              "feedback": "Thợ cắt tóc có tay nghề cao và tư vấn rất tận tình. Họ giúp tôi chọn được kiểu tóc phù hợp nhất. Tôi chắc chắn sẽ quay lại."
+            },
+            {
+              "author": "Chị Vân Anh - Hoàn Kiếm",
+              "feedback": "Nhân viên ở đây rất thân thiện và chuyên nghiệp. Họ lắng nghe ý kiến của tôi và tư vấn kiểu tóc phù hợp. Tôi rất hài lòng với mái tóc mới của mình."
+            },
+            {
+              "author": "Chị Hoàng Trang - Đống Đa",
+              "feedback": "Đội ngũ chuyên nghiệp và luôn cập nhật xu hướng mới nhất. Kiểu tóc mới của tôi rất ưng ý và thời trang."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "ĐỘI NGŨ ĐỦ TÂM VÀ TẦM",
+              "subTitle": "Kỹ thuật viên tận tâm, chuyên môn cao, nhiều năm kinh nghiệm"
+            },
+            {
+              "title": "KHÔNG GIAN THOẢI MÁI",
+              "subTitle": "Không gian rộng rãi và thoáng đãng, thoải mái như tại nhà"
+            },
+            {
+              "title": "DỤNG CỤ HIỆN ĐẠI",
+              "subTitle": "Sử dụng phụ kiện chất lượng & tốt nhất trên thị trường hiện nay"
+            },
+            {
+              "title": "ĐẶT LỊCH ONLINE",
+              "subTitle": "Linh hoạt về thời gian hẹn, tiết kiệm thời gian cho khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Top 10 kiểu tóc nữ đẹp cho mùa thu 2024 phù hợp với mọi phong cách."
+              },
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Gợi ý kiểu tóc nữ phù hợp với khuôn mặt trái xoan giúp tôn lên vẻ đẹp."
+              },
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Cách chăm sóc tóc nữ để luôn bóng mượt và khỏe mạnh bằng sản phẩm tự nhiên."
+              },
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Những kiểu tóc nữ ngắn đang thịnh hành và cách tạo kiểu tại nhà."
+              },
+              {
+                "category_name" : "Phong cách & Xu hướng",
+                "title": "Bí quyết giữ lọn tóc uốn nữ luôn đẹp bóng mượt và không bị khô xơ."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "Nail" : {
+      "Nail" : {
+        "group_service": {
+          "title" : "NHÓM DỊCH VỤ",
+          "description" : "Cung cấp đa dạng dịch vụ làm đẹp với giá rẻ, đáp ứng mọi nhu cầu làm đẹp",
+          "list" : [
+            {
+              "name": "Sơn gel"
+            },
+            {
+              "name": "Trang trí móng"
+            },
+            {
+              "name": "Chăm sóc móng"
+            }
+          ]
+        },
+        "outstanding_service" : {
+          "title" : "DỊCH VỤ CỦA CHÚNG TÔI",
+          "list" : [
+            {
+              "name" : "Nhặt da, sơn gel",
+              "price" : "180.000 đ"
+            },
+            {
+              "name" : "Nhặt da, sơn nhũ hoặc sơn mắt mèo",
+              "price" : "300.000 đ"
+            },
+            {
+              "name" : "Móng giả",
+              "price" : "100.000 đ"
+            },
+            {
+              "name" : "Chà gót chân",
+              "price" : "100.000 đ"
+            }
+          ]
+        },
+        "introduction": {
+          "title": "THẾ GIỚI LÀM ĐẸP TINH TẾ CHỜ ĐÓN BẠN",
+          "description": "Sở hữu các dịch vụ từ làm nail, spa, waxing, phun thêu lông mày, nối mi,… và một không gian cửa hàng yên tĩnh, long lanh dành riêng cho phái đẹp khiến Nail Room trở thành điểm đến yêu thích của hơn 50.000 khách hàng.\nVới đội ngũ chuyên viên tài năng, dễ thương cùng hệ thống máy móc, dụng cụ nhập từ Hàn Quốc và các sản phẩm organic của Hàn – Anh – Pháp – Mỹ, chúng mình chắc chắn sẽ đem lại những xu hướng làm đẹp mới nhất đến khách hàng. Hãy ghé chơi với chúng mình để cảm nhận niềm vui từ việc yêu chiều bản thân nhé!"
+        },
+        "image_gallery": {
+          "title": "XU HƯỚNG NAIL MỚI NHẤT",
+          "description": ""
+        },
+        "review": {
+          "title": "CÁC QUÝ CÔ NÓI GÌ?",
+          "list": [
+           {
+              "author": "Chị Hồng Hạnh - Thanh Xuân",
+              "feedback": "Làm nail tại đây max xinh mà còn bền kinh khủng. Mình làm một bộ móng mà chơi dài mấy tháng liền, nhân viên lại dễ thương, cute nữa, mãi yêu !!!"
+            },
+            {
+              "author": "Chị Đỗ Quế - Thái Thịnh",
+              "feedback": "Trung thành duy nhất 1 brand làm nail thui nhé! Chưa thấy ở đâu ổn hơn luôn. Chính xác là giá cả và chất lượng đi đôi với nhau. Nhân viên còn đáng yêu, tận tâm hết sức."
+            },
+            {
+              "author": "Chị Hàng Trang - Đống Đa",
+              "feedback": "Mình làm móng 3 lần ở đây, đều làm với chị Trúc và đều làm đúng một bộ ombre + marble. Tiệm đẹp, nhân viên nhẹ nhàng, giá cả hợp lý."
+            }
+          ]
+        },
+        "service": {
+          "blocks" : [
+            {
+              "title": "ĐỘI NGŨ ĐỦ TÂM VÀ TẦM",
+              "subTitle": "Kỹ thuật viên tận tâm, chuyên môn cao, nhiều năm kinh nghiệm"
+            },
+            {
+              "title": "KHÔNG GIAN THOẢI MÁI",
+              "subTitle": "Không gian rộng rãi và thoáng đãng, thoải mái như tại nhà"
+            },
+            {
+              "title": "DỤNG CỤ HIỆN ĐẠI",
+              "subTitle": "Sử dụng phụ kiện chất lượng & tốt nhất trên thị trường hiện nay"
+            },
+            {
+              "title": "ĐẶT LỊCH ONLINE",
+              "subTitle": "Linh hoạt về thời gian hẹn, tiết kiệm thời gian cho khách hàng"
+            }
+          ]
+        },
+        "blog_post": {
+          "title": "Bài viết",
+          "blog_posts": {
+            "blogPosts" : [
+             {
+                "category_name" : "Tay xinh",
+                "title": "Những mẫu nail art độc đáo và tinh tế dành cho mùa xuân 2024 làm nổi bật vẻ đẹp của bạn"
+              },
+              {
+                "category_name" : "Tay xinh",
+                "title": "Bí quyết chăm sóc móng tại nhà cách dưỡng da móng và sơn nail đúng cách"
+              },
+              {
+                "category_name" : "Tay xinh",
+                "title": "Top 10 màu sơn nail hot nhất cho mùa hè năm nay tạo nên phong cách riêng cho bạn"
+              },
+              {
+                "category_name" : "Tay xinh",
+                "title": "Cách phối màu sơn nail hợp tông cho bộ trang phục làm đẹp từ đầu đến chân"
+              },
+              {
+                "category_name" : "Tay xinh",
+                "title": "Gợi ý thiết kế nail đẹp cho các dịp đặc biệt tôn vinh vẻ đẹp cá nhân của bạn"
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "hotel" : {
+    "Hotel" : {
+      "Khách sạn hạng sang" : {
+        "group_service" : {
+          "title" : "NHÓM DỊCH VỤ",
+          "description" : "Đa dạng nhóm dịch vụ với các lựa chọn phù hợp cho mọi nhu cầu, từ nghỉ dưỡng đến công tác",
+          "list" : [
+            {
+              "name": "Dịch vụ lưu trú"
+            },
+            {
+              "name": "Dịch vụ ẩm thực"
+            },
+            {
+              "name": "Dịch vụ sự kiện"
+            }
+          ]
+        },
+        "outstanding_service" : {
+          "title" : "HẠNG PHÒNG CỦA CHÚNG TÔI",
+          "description" : "Chúng tôi cung cấp nhiều loại phòng với chất lượng tỉ mỉ, mang đến sự đa dạng phù hợp với mọi nhu cầu của quý khách.",
+          "list" : [
+            {
+              "name" : "Phòng Deluxe",
+              "price" : "1.700.000 đ"
+            },
+            {
+              "name" : "Phòng Premier",
+              "price" : "2.250.000 đ"
+            },
+            {
+              "name" : "Phòng Royal Suite",
+              "price" : "3.000.000 đ"
+            },
+            {
+              "name" : "Phòng Presidential Suite",
+              "price" : "8.000.000 đ"
+            }
+          ]
+        },
+        "introduction" : {
+          "title": "NƠI TẬN HƯỞNG CUỘC SỐNG",
+          "description": "Nơi đây là điểm dừng chân lý tưởng của bạn tại trung tâm thành phố. Với tiêu chuẩn 4 sao đẳng cấp, chúng tôi tự hào mang đến cho quý khách những trải nghiệm nghỉ dưỡng tuyệt vời với dịch vụ chuyên nghiệp và tiện nghi hiện đại.\n\nTận hưởng không gian phòng nghỉ sang trọng, ẩm thực đa dạng tại nhà hàng cao cấp, và thư giãn tại spa hay hồ bơi ngoài trời. Hãy đến và cảm nhận sự khác biệt!"
+        },
+        "image_gallery" : {
+          "title": "VẺ ĐẸP TỪNG GÓC NHÌN",
+          "description": "Khám phá từng không gian sang trọng, từ phòng nghỉ đẳng cấp đến các tiện ích hiện đại và dịch vụ chuyên nghiệp."
+        },
+        "review" : {
+          "title": "TRẢI NGHIỆM KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "Anh Nguyễn Phú Tiến",
+              "feedback": "Tôi đã có một kỳ nghỉ tuyệt vời tại khách sạn này. Phòng nghỉ sang tr��ng, dịch vụ chuyên nghiệp và nhân viên thân thiện đã làm cho chuyến đi của tôi trở nên đáng nhớ. Đặc biệt, nhà hàng phục vụ các món ăn rất ngon và đa dạng. Chắc chắn tôi sẽ quay lại!"
+            },
+            {
+              "author": "Anh Hoàng Xuân Quỳnh",
+              "feedback": "Khách sạn thật tuyệt vời! Phòng ốc sạch sẽ, tiện nghi đầy đủ và thiết kế rất tinh tế. Dịch vụ spa và hồ bơi ngoài trời rất đáng trải nghiệm. Nhân viên luôn sẵn sàng giúp đỡ và rất chu đáo. Rất đáng giá tiền!"
+            },
+            {
+              "author": "Anh Nguyễn Anh Quân",
+              "feedback": "Tôi rất ấn tượng với dịch vụ tại khách sạn này. Từ lúc nhận phòng đến khi trả phòng, mọi thứ đều diễn ra suôn sẻ và thoải mái. Phòng nghỉ rộng rãi, thoáng mát và có view đẹp. Đặc biệt, bữa sáng buffet rất phong phú và ngon miệng. Sẽ giới thiệu cho bạn bè và gia đình!"
+            }
+          ]
+        },
+        "service" :  {
+          "blocks" : [
+            {
+              "title": "TIỆN NGHI SANG TRỌNG",
+              "subTitle": "Đầy đủ tiện ích với nội thất hiện đại, tiện nghi cao cấp như spa, hồ bơi và phòng gym."
+            },
+            {
+              "title": "DỊCH VỤ CHU ĐÁO",
+              "subTitle": "Đội ngũ nhân viên tận tâm, sẵn sàng hỗ trợ và phục vụ khách hàng 24/7"
+            },
+            {
+              "title": "VỊ TRÍ ĐẮC ĐỊA",
+              "subTitle": "Tọa lạc tại trung tâm, thuận tiện cho di chuyển và khám phá các địa điểm du lịch nổi tiếng"
+            },
+            {
+              "title": "ẨM THỰC ĐẲNG CẤP",
+              "subTitle": "Trải nghiệm ẩm thực phong phú, từ các món ăn địa phương đặc sắc đến ẩm thực quốc tế"
+            }
+          ]
+        },
+        "blog_post" : {
+          "title": "CẨM NANG DU LỊCH & NGHỈ DƯỠNG",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "Bí quyết lựa chọn phòng nghỉ phù hợp với nhu cầu của bạn"
+              },
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "7 tip hiệu quả để cải thiện giấc ngủ trong kỳ nghỉ"
+              },
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "Kỳ nghỉ cùng trẻ em: Những hoạt động gia đình thú vị"
+              },
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "Top 10 địa điểm thú vị phải ghé thăm khi đến Hà Nội"
+              },
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "Những tiện ích nổi bật nhất định phải thử tại khách sạn của chúng tôi"
+              }
+            ]
+          }
+        },
+        "video" : {
+          "title": "VIDEO GIỚI THIỆU KHÁCH SẠN",
+          "description": "Xem ngay để cảm nhận sự sang trọng và đẳng cấp từ mọi góc nhìn, hứa hẹn mang đến cho bạn những khoảnh khắc ấn tượng và khó quên."
+        }
+      },
+      "Khách sạn \" tình yêu \"" : {
+        "group_service" : {
+          "title" : "CONCEPT ĐỘC LẠ",
+          "description" : "Hẹn hò dưới ánh sao",
+          "list" : [
+            {
+              "name": "Phòng lưu trú độc đáo và lãng mạn"
+            },
+            {
+              "name": "Dịch vụ Spa & Massage tận nơi"
+            },
+            {
+              "name": "Dịch vụ trang trí và tạo không gian"
+            }
+          ]
+        },
+        "outstanding_service" : {
+          "title" : "ĐA DẠNG LOẠI PHÒNG",
+          "description" : "Chúng tôi cung cấp nhiều loại phòng với chất lượng tỉ mỉ, mang đến sự đa dạng phù hợp với mọi nhu cầu của quý khách.",
+          "list" : [
+            {
+              "name" : "Kingbed Size Love",
+              "price" : "450.000đ"
+            },
+            {
+              "name" : "Playboy room",
+              "price" : "300.000đ"
+            },
+            {
+              "name" : "50 Shades",
+              "price" : "280.000đ"
+            },
+            {
+              "name" : "Room memori lover",
+              "price" : "500.000đ"
+            }
+          ]
+        },
+        "introduction" : {
+          "title": "NƠI LƯU TRÚ TẬN HƯỞNG ĐAM MÊ!",
+          "description": "\"Khách Sạn \"\"Tình Yêu\"\" không chỉ là nơi dừng chân tạm thời, mà còn là một bản nhạc đầy lãng mạn dành riêng cho bạn và người thương. Với các phòng lưu trú được thiết kế tinh tế và độc đáo, bạn sẽ được trải nghiệm những không gian đẹp như trong truyện cổ tích.\n\nChúng tôi mang đến một concept độc lạ và những dụng cụ hỗ trợ đặc biệt, cam kết tạo ra những khoảnh khắc không thể quên cho tất cả khách hàng của mình.\n\""
+        },
+        "image_gallery" : {
+          "title": "VẺ ĐẸP TỪNG GÓC NHÌN",
+          "description": "Khám phá không gian"
+        },
+        "review" : {
+          "title": "TRẢI NGHIỆM KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "NGUYỄN DUY ANH",
+              "feedback": "Khách sạn 'Tình Yêu' là nơi lý tưởng cho các cặp đôi tìm kiếm sự lãng mạn. Phòng nghỉ đẹp mê hồn, dịch vụ hoàn hảo, và bữa tối riêng tư đáng nhớ. Mọi chi tiết đều hoàn hảo, từ sô cô la đến rượu vang. Chắc chắn sẽ trở lại!"
+            },
+            {
+              "author": "NGUYỄN PHÚ TIẾN",
+              "feedback": "Khách sạn 'Tình Yêu' thật sự là thiên đường cho các cặp đôi! Phòng nghỉ tuyệt đẹp và dịch vụ hoàn hảo. Chúng tôi đã có những khoảnh khắc lãng mạn dưới ánh sáng sao LED và bữa tối riêng tư khó quên. Chắc chắn sẽ quay lại!"
+            },
+            {
+              "author": "NGUYỄN TRUNG ĐỨC",
+              "feedback": "Tôi và bạn đời đã có một trải nghiệm tuyệt vời tại khách sạn 'Tình Yêu'. Phòng nghỉ trang trí đẹp mắt, dịch vụ massage tại phòng thư giãn tối đa. Nhân viên cực kỳ chu đáo. Đây là nơi lý tưởng để hâm nóng tình yêu!"
+            }
+          ]
+        },
+        "service" :  {
+          "blocks" : [
+            {
+              "title": "PHÒNG NGHỈ LÃNG MẠN",
+              "subTitle": "Không gian tinh tế, tạo nên không gian lãng mạn và riêng tư"
+            },
+            {
+              "title": "MASSAGE TẬN PHÒNG",
+              "subTitle": "Thư giãn và tận hưởng những giây phút yên bình bên nhau"
+            },
+            {
+              "title": "BỮA TỐI DƯỚI NẾN",
+              "subTitle": "Không gian ấm cúng và các món ăn phong phú, tinh tế"
+            },
+            {
+              "title": "TRANG TRÍ SỰ KIỆN",
+              "subTitle": "Thiết kế độc đáo, tạo ra không gian lãng mạn và ấn tượng"
+            }
+          ]
+        },
+        "blog_post" : {
+          "title": "BÍ QUYẾT YÊU",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Bí quyết yêu",
+                "title": "Khám phá các loại phòng độc đáo tại khách sạn tình yêu"
+              },
+              {
+                "category_name" : "Bí quyết yêu",
+                "title": "Cách tạo bất ngờ cho người yêu tại khách sạn tình yêu"
+              },
+              {
+                "category_name" : "Bí quyết yêu",
+                "title": "Lợi ích của việc spa & massage cặp đôi trong kỳ nghỉ"
+              },
+              {
+                "category_name" : "Bí quyết yêu",
+                "title": "Bí quyết tận hưởng bữa tối lãng mạn dưới ánh nến"
+              },
+              {
+                "category_name" : "Bí quyết yêu",
+                "title": "Kỷ niệm đáng nhớ: tổ chức lễ kỉ niệm từ A-Z cho người thương"
+              }
+            ]
+          }
+        },
+        "video" : {
+          "title": "“ẢNH ĐỘNG”",
+          "description": "Dừng lại và thưởng thức dấu ấn lãng mạn và độc đáo của khách sạn được hiện thị một cách sống động qua bộ sưu tập video đầy sắc màu"
+        }
+      },
+      "Homestay" : {
+        "group_service" : {
+          "title" : "DỊCH VỤ TỐT NHẤT",
+          "description" : "Đem đến dịch vụ tốt nhất cho bạn",
+          "list" : [
+            {
+              "name": "Tiệc BBQ ngoài trời"
+            },
+            {
+              "name": "Ẩm thực địa phương"
+            },
+            {
+              "name": "Hoạt động giải trí"
+            }
+          ]
+        },
+        "outstanding_service" : {
+          "title" : "HẠNG PHÒNG",
+          "description" : "Lựa chọn không gian hoàn hảo cho kỳ nghỉ của bạn",
+          "list" : [
+            {
+              "name" : "Phòng đôi tiện nghi",
+              "price" : "450.000đ"
+            },
+            {
+              "name" : "Phòng gia đình",
+              "price" : "300.000đ"
+            },
+            {
+              "name" : "Phòng Dorm tập thể",
+              "price" : "280.000đ"
+            },
+            {
+              "name" : "Phòng Deluxe",
+              "price" : "500.000đ"
+            }
+          ]
+        },
+        "introduction" : {
+          "title": "Chào Mừng Đến Với Homestay Của Chúng Tôi",
+          "description": "Xin chào! Homestay của chúng tôi không chỉ là nơi nghỉ dưỡng, mà còn là ngôi nhà thứ hai của bạn. Tọa lạc giữa không gian xanh mát và yên bình, chúng tôi luôn sẵn sàng chào đón bạn bằng sự thân thiện và ấm áp. Hãy đến và tận hưởng kỳ nghỉ đầy thư giãn, cùng nhau tạo nên những kỷ niệm đẹp tại nơi đây!"
+        },
+        "image_gallery" : {
+          "title": "Khoảnh Khắc Tại Homestay",
+          "description": "Xem những hình ảnh đẹp nhất về homestay của chúng tôi và các hoạt động mà khách hàng yêu thích."
+        },
+        "review" : {
+          "title": "CẢM NHẬN TỪ KHÁCH HÀNG",
+          "list": [
+            {
+              "author": "THÙY LINH",
+              "feedback": "Homestay thật sự ấm cúng và yên bình. Phòng ốc sạch sẽ, tiện nghi và nhân viên rất thân thiện. Tôi đặc biệt thích không gian thiên nhiên xung quanh và dịch vụ BBQ ngoài trời. Chắc chắn sẽ quay lại"
+            },
+            {
+              "author": "DUY ANH",
+              "feedback": "Phòng dorm ở đây rất sạch sẽ và thiết kế hiện đại. Không gian chung ấm cúng, dễ kết bạn với những người khác. Tour tham quan địa phương do homestay tổ chức cũng rất thú vị và bổ ích. Rất đáng trải nghiệm!"
+            },
+            {
+              "author": "ĐỖ QUẾ",
+              "feedback": "Gia đình tôi đã có một kỳ nghỉ tuyệt vời tại đây. Phòng gia đình rộng rãi, thoải mái, view đẹp nhìn ra núi. Đội ngũ nhân viên rất chu đáo, luôn sẵn sàng giúp đỡ. Chúng tôi cảm thấy rất được chào đón!"
+            }
+          ]
+        },
+        "service" :  {
+          "blocks" : [
+            {
+              "title": "DỊCH VỤ ĐƯA ĐÓN",
+              "subTitle": "Dịch vụ đưa đón chuyên nghiệp, giúp bạn di chuyển tiện lợi và an toàn"
+            },
+            {
+              "title": "MASSAGE TẬN PHÒNG",
+              "subTitle": "Thư giãn và tận hưởng những giây phút yên bình bên nhau"
+            },
+            {
+              "title": "THUÊ XE ĐẠP KHÁM PHÁ",
+              "subTitle": "Thư giãn và khám phá khu vực xung quanh"
+            },
+            {
+              "title": "TRANG TRÍ SỰ KIỆN",
+              "subTitle": "Thiết kế độc đáo, tạo ra không gian hoành tráng và ấn tượng"
+            }
+          ]
+        },
+        "blog_post" : {
+          "title": "CẨM NANG DU LỊCH & NGHỈ DƯỠNG",
+          "blog_posts": {
+            "blogPosts" : [
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "Bí quyết lựa chọn phòng nghỉ phù hợp với nhu cầu của bạn"
+              },
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "7 tip hiệu quả để cải thiện giấc ngủ trong kỳ nghỉ"
+              },
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "Kỳ nghỉ cùng trẻ em: Những hoạt động gia đình thú vị"
+              },
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "Top 10 địa điểm thú vị phải ghé thăm khi đến Hà Nội"
+              },
+              {
+                "category_name" : "Thư giãn và sức khỏe",
+                "title": "Những tiện ích nổi bật nhất định phải thử tại homestay của chúng tôi"
+              }
+            ]
+          }
+        },
+        "video" : {
+          "title": "KHÁM PHÁ HOMESTAY - NƠI BÌNH YÊN GỌI TÊN BẠN",
+          "description": "Hãy cùng chúng tôi bước vào hành trình khám phá homestay - nơi bạn sẽ tìm thấy không gian và trải nghiệm văn hóa địa phương đích thực."
+        }
+      }
+    }
+  }
+}
