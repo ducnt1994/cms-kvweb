@@ -17,7 +17,10 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             alt: "",
             src: ""
           },
-          contact: ''
+          contact: '',
+          is_active_categories: true,
+          is_active_navigation_menu: true,
+          menu_navigation_list: []
         }
       };
     case "banner":
