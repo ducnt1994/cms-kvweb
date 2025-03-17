@@ -17,8 +17,9 @@ export default function Common() {
 
   useEffect(() => {
     if(platform && categoryName) {
+      const time = new Date().getTime()
       // @ts-ignore
-      setValue('code', NGANH_HANG[platform].find(item => item.name === watch('category_name'))?.code)
+      setValue('code', NGANH_HANG[platform].find(item => item.name === watch('category_name'))?.code + `_${time}`)
     }
   },[categoryName, platform])
 
@@ -41,6 +42,78 @@ export default function Common() {
           gap: 2,
           gridTemplateColumns: 'repeat(2, 1fr)'
         }}>
+          <Box>
+            <Typography sx={{ mb: 1 }}>Nền tảng</Typography>
+            <FormControl fullWidth variant="outlined">
+              <Controller
+                name={`platform`}
+                control={control}
+                render={({field}) => (
+                  // select
+                  <Select
+                    {...field}
+                    size={'small'}
+                    displayEmpty
+                  >
+                    {
+                      LIST_PLATFORM.map((item, index) => (
+                        <MenuItem key={index} value={item}>{item.toUpperCase()}</MenuItem>
+                      ))
+                    }
+                  </Select>
+                )}
+              />
+            </FormControl>
+          </Box>
+          <Box>
+            <Typography sx={{ mb: 1 }}>Ngành hàng</Typography>
+            <FormControl fullWidth variant="outlined">
+              <Controller
+                name={`category_name`}
+                control={control}
+                render={({field}) => (
+                  // select
+                  <Select
+                    {...field}
+                    size={'small'}
+                    displayEmpty
+                  >
+                    {
+                      // @ts-ignore
+                      watch('platform') && NGANH_HANG[watch('platform')].map((item, index) => (
+                        <MenuItem key={index} value={item.name}>{item.name}</MenuItem>
+                      ))
+                    }
+                  </Select>
+                )}
+              />
+            </FormControl>
+          </Box>
+
+          <Box>
+            <Typography sx={{ mb: 1 }}>Ngách ngành</Typography>
+            <FormControl fullWidth variant="outlined">
+              <Controller
+                name={`child_category`}
+                control={control}
+                render={({field}) => (
+                  // select
+                  <Select
+                    {...field}
+                    size={'small'}
+                    displayEmpty
+                  >
+                    {
+                      // @ts-ignore
+                      watch('platform') && watch('category_name') && getChildCategory()?.map((item, index) => (
+                        <MenuItem key={index} value={item}>{item}</MenuItem>
+                      ))
+                    }
+                  </Select>
+                )}
+              />
+            </FormControl>
+          </Box>
           <Box >
             <Typography sx={{ mb: 1 }}>Tên theme</Typography>
             <Controller
@@ -52,6 +125,23 @@ export default function Common() {
                   size={'small'}
                   fullWidth
                   placeholder="Tên theme"
+                  variant="outlined"
+                />
+              )}
+            />
+
+          </Box>
+          <Box >
+            <Typography sx={{ mb: 1 }}>Tên theme</Typography>
+            <Controller
+              name={`code`}
+              control={control}
+              render={({field}) => (
+                <TextField
+                  {...field}
+                  size={'small'}
+                  fullWidth
+                  placeholder="Code theme"
                   variant="outlined"
                 />
               )}
@@ -95,30 +185,6 @@ export default function Common() {
           </Box>
 
           <Box>
-            <Typography sx={{ mb: 1 }}>Nền tảng</Typography>
-            <FormControl fullWidth variant="outlined">
-              <Controller
-                name={`platform`}
-                control={control}
-                render={({field}) => (
-                  // select
-                  <Select
-                    {...field}
-                    size={'small'}
-                    displayEmpty
-                  >
-                    {
-                      LIST_PLATFORM.map((item, index) => (
-                        <MenuItem key={index} value={item}>{item.toUpperCase()}</MenuItem>
-                      ))
-                    }
-                  </Select>
-                )}
-              />
-            </FormControl>
-          </Box>
-
-          <Box>
             <Typography sx={{ mb: 1 }}>Font</Typography>
             <FormControl fullWidth variant="outlined">
               <Controller
@@ -134,56 +200,6 @@ export default function Common() {
                     {
                       availableCoupleFont.map((item, index) => (
                         <MenuItem key={index} value={item[0] + '-' + item[1]}>{item[0] + ' - ' + item[1]}</MenuItem>
-                      ))
-                    }
-                  </Select>
-                )}
-              />
-            </FormControl>
-          </Box>
-
-          <Box>
-            <Typography sx={{ mb: 1 }}>Ngành hàng</Typography>
-            <FormControl fullWidth variant="outlined">
-              <Controller
-                name={`category_name`}
-                control={control}
-                render={({field}) => (
-                  // select
-                  <Select
-                    {...field}
-                    size={'small'}
-                    displayEmpty
-                  >
-                    {
-                      // @ts-ignore
-                      watch('platform') && NGANH_HANG[watch('platform')].map((item, index) => (
-                        <MenuItem key={index} value={item.name}>{item.name}</MenuItem>
-                      ))
-                    }
-                  </Select>
-                )}
-              />
-            </FormControl>
-          </Box>
-
-          <Box>
-            <Typography sx={{ mb: 1 }}>Ngách ngành</Typography>
-            <FormControl fullWidth variant="outlined">
-              <Controller
-                name={`child_category`}
-                control={control}
-                render={({field}) => (
-                  // select
-                  <Select
-                    {...field}
-                    size={'small'}
-                    displayEmpty
-                  >
-                    {
-                      // @ts-ignore
-                      watch('platform') && watch('category_name') && getChildCategory()?.map((item, index) => (
-                        <MenuItem key={index} value={item}>{item}</MenuItem>
                       ))
                     }
                   </Select>
