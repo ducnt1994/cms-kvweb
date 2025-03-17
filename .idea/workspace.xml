@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/app/create/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/themes/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Banner/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BannerExtra/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BannerTop/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/BlogPost/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Brand/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Catalog/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Common/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/GroupService/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderBreadcumb/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ImageGallery/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Introduction/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemPattern/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Menu/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/OutstandingService/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ProductList/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Review/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Service/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Video/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/constants/pageBuilder.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/output.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +67,7 @@
       <workItem from="1741772372532" duration="12837000" />
       <workItem from="1741795271544" duration="42815000" />
       <workItem from="1742013789979" duration="4660000" />
-      <workItem from="1742043800620" duration="46300000" />
+      <workItem from="1742043800620" duration="47095000" />
     </task>
     <servers />
   </component>

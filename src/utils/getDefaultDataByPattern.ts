@@ -17,6 +17,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             alt: "",
             src: ""
           },
+          contact: ''
         }
       };
     case "banner":
@@ -417,6 +418,9 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             address: ""
           },
           is_active_navigation_menu: true,
+          copyright: "",
+          navigation_title: "",
+          is_active_categories: true,
           logo_type_active: "text",
           logo_text: "",
           logo: {
