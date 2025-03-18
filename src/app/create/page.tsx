@@ -184,7 +184,6 @@ export default function Create() {
   }
 
   const getDataTextDefault = ({patternName, defaultDataWithoutText}: {patternName: string, defaultDataWithoutText: any}) => {
-    console.log("platform", platform)
     console.log("field_category_name", field_category_name)
     console.log("field_child_category", field_child_category)
     // @ts-ignore
