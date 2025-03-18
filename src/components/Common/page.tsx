@@ -2,9 +2,12 @@ import {Box, Button, FormControl, MenuItem, Paper, Select, TextField, Typography
 import {useEffect, useState} from "react";
 import {Controller, useFormContext, useWatch} from "react-hook-form";
 import {availableCoupleFont, LIST_COLOR_BY_PLATFORM, LIST_PLATFORM, NGANH_HANG} from "@/constants/pageBuilder";
+import {useParams} from "next/navigation";
 
 
 export default function Common() {
+  const params = useParams()
+  const themeId = params.theme_id
   const {control, setValue, watch} = useFormContext();
   const platform = useWatch({name: 'platform'});
   const categoryName = useWatch({name: 'category_name'});
@@ -51,6 +54,7 @@ export default function Common() {
                 render={({field}) => (
                   // select
                   <Select
+                    readOnly={!!themeId}
                     {...field}
                     size={'small'}
                     displayEmpty
@@ -139,6 +143,11 @@ export default function Common() {
               render={({field}) => (
                 <TextField
                   {...field}
+                  slotProps={{
+                    input: {
+                      readOnly: true,
+                    },
+                  }}
                   size={'small'}
                   fullWidth
                   placeholder="Code theme"

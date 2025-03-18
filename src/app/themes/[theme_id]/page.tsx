@@ -14,6 +14,7 @@ import dataText from "@/utils/output.json"
 import axios from "axios";
 import FeaturedProduct from "@/components/FeaturedProduct/page";
 import Breadcumb from "@/components/Breadcumb/page";
+import {useParams, useSearchParams} from "next/navigation";
 
 interface IFormInput {
   username: string;
@@ -39,13 +40,16 @@ interface IFormInput {
   }
 }
 
-export default function Create() {
+export default function Edit() {
+  const searchParams = useParams()
+  const themeId = searchParams.theme_id
   const [snackbar, setSnackbar] = useState({
     open: false,
     type: 'success',
     message: ""
   })
   const [newPage, setNewPage] = useState('')
+  const [firstLoad, setFirstLoad] = useState(true)
   const [loadingCreate, setLoadingCreate] = useState<boolean>(false);
 
   const defaultData = {
@@ -83,7 +87,7 @@ export default function Create() {
   });
   const {control, setValue, getValues, reset, watch} = methods;
   const onSubmit = async () => {
-    setLoadingCreate(true);
+    // setLoadingCreate(true);
     const data = getValues();
     const fontFamilyExplode = data.font_family.split('-')
     data.font_family = {
@@ -111,15 +115,15 @@ export default function Create() {
     data.page = newPage
 
 
-    const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
-    if(res){
-      setLoadingCreate(false);
-      setSnackbar({
-        open: true,
-        type: 'success',
-        message: "Create theme success"
-      })
-    }
+    // const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
+    // if(res){
+    //   setLoadingCreate(false);
+    //   setSnackbar({
+    //     open: true,
+    //     type: 'success',
+    //     message: "Create theme success"
+    //   })
+    // }
   };
 
   const platform = useWatch({name: 'platform', control});
@@ -127,11 +131,11 @@ export default function Create() {
   const field_category_name = useWatch({name: 'category_name', control});
   const field_child_category = useWatch({name: 'child_category', control});
 
-  useEffect(() => {
-    const newDefault = {...defaultData}
-    newDefault.platform = platform
-    reset(newDefault)
-  }, [platform])
+  // useEffect(() => {
+  //   const newDefault = {...defaultData}
+  //   newDefault.platform = platform
+  //   reset(newDefault)
+  // }, [platform])
 
   const deletePageCustom = (pageName: string) => {
     // xoá ở rank
@@ -458,6 +462,44 @@ export default function Create() {
 
   }
 
+  const loadThemeDetails = async () => {
+    const res = await axios.get(`https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes/${themeId}`)
+    const data = res.data
+    setValue('platform', data.platform)
+    setValue('category_name', data.category_name)
+    setValue('child_category', data.child_category)
+    setValue('code', data.code)
+    setValue('name', data.name)
+    setValue('color', data.color)
+    setValue('thumbnail', data.thumbnail)
+    setValue('font_family', `${data.font_family.title}-${data.font_family.description}`)
+    setValue('description', data.description)
+    setValue('page_information', data.page_information)
+
+    // rank
+    let newRank = {}
+    Object.keys(data.rank).map((item, index) => {
+      if(item === 'homepage') {
+        newRank[item] = data.rank[item]
+      } else {
+        // delete header and footer in array
+        newRank[item] = data.rank[item].filter(item => !['header', 'footer'].includes(item))
+      }
+    })
+    setValue('rank', newRank)
+
+    // page
+    let newPage = data.page;
+    newPage.homepage.header.text_style = JSON.parse(newPage.homepage.header.text_style)
+    newPage.homepage.footer.text_style = JSON.parse(newPage.homepage.footer.text_style)
+    setValue('page', newPage)
+
+  }
+
+  useEffect(() => {
+    loadThemeDetails()
+  }, [])
+
   return (
       <>
         <Breadcumb/>
@@ -598,7 +640,7 @@ export default function Create() {
                             variant={'contained'} color={'error'} size={'small'}>Xoá {getValues(`page_information[${pageName}]`)}</Button>
                         </Box>
                         {
-                          Object.keys(getValues(`page.${pageName}`)).map((patternName, index) => (
+                          getValues(`rank.${pageName}`).filter(item => !['header', 'footer'].includes(item)).map((patternName : string, index : number) => (
                             <ItemPattern
                               // @ts-ignore
                               listPattern={LIST_PATTERN_BY_PLATFORM[platform].filter(pattern => !['header', 'footer'].includes(pattern.key))}

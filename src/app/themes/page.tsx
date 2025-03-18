@@ -15,18 +15,16 @@ import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import BorderColorIcon from '@mui/icons-material/BorderColor';
 import Breadcumb from "@/components/Breadcumb/page";
+import axios from "axios";
 
 export default function Themes() {
   const params = useParams()
+  const router = useRouter()
 
   const ruleId = params.rule_id as string;
-  const [listLogs, setListLogs] = useState<any[]>([{
-    name: "Theme 1",
-    platform: "Retail",
-    category_name: "Thời trang"
-  }]);
+  const [listLogs, setListLogs] = useState<any[]>([]);
   const [totalLogs, setTotalLogs] = useState<number>(0);
-  const [pageSize, setPageSize] = useState(10);
+  const [pageSize, setPageSize] = useState(20);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(0);
   const [isLoading, setIsLoading] = useState(false);
@@ -46,29 +44,27 @@ export default function Themes() {
 
 
   const goToDetail = (logId: any) => {
-    // router.push(`/automation/${ruleId}/logs/${logId}`);
+    router.push(`/themes/${logId}`);
+  }
+
+  const loadThemes = async () => {
+    setIsLoading(true);
+    const res = await axios.get('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', {
+      params: {
+        page: currentPage,
+        limit: pageSize,
+      }
+    })
+    console.log("res", res)
+    setIsLoading(false);
+    setListLogs(res.data.data)
+    setTotalPages(res.data.total_page)
   }
 
   useEffect(() => {
-    // setIsLoading(true);
-    // AutomationsService.automationsControllerGetAutomationRuleLogs({
-    //   id: ruleId,
-    //   limit: pageSize,
-    //   skip: (currentPage - 1) * pageSize,
-    // }).then((res) => {
-    //   setIsLoading(false);
-    //   setListLogs(res.result)
-    //   setTotalLogs(res.count)
-    //   setTotalPages(Math.ceil(res.count / pageSize));
-    //   updateUrlParams()
-    // })
+    loadThemes()
   }, [pageSize, currentPage]);
 
-  // format 2025-03-12T05:23:41.265Z to 12/03/2025 05:23
-  const formatDate = (date: string) => {
-    const d = new Date(date);
-    return `${d.getDate()}/${d.getMonth() + 1}/${d.getFullYear()} ${d.getHours()}:${d.getMinutes()}`
-  }
 
 
   return (
@@ -93,35 +89,43 @@ export default function Themes() {
           gap: 1,
         }}
       >
-        <TableContainer component={Paper}>
-          <Table sx={{ minWidth: 650 }} aria-label="simple table">
-            <TableHead>
-              <TableRow>
-                <TableCell>Tên</TableCell>
-                <TableCell >Platform</TableCell>
-                <TableCell >Ngành hàng</TableCell>
-                <TableCell align="right">Hành động</TableCell>
-              </TableRow>
-            </TableHead>
-            <TableBody>
-              {listLogs.map((row) => (
-                <TableRow
-                  key={row.name}
-                  sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-                >
-                  <TableCell component="th" scope="row">
-                    {row.name}
-                  </TableCell>
-                  <TableCell >{row.platform}</TableCell>
-                  <TableCell >{row.category_name}</TableCell>
-                  <TableCell align="right">
-                    <IconButton onClick={() => goToDetail(row.id)}><BorderColorIcon /></IconButton>
-                  </TableCell>
-                </TableRow>
-              ))}
-            </TableBody>
-          </Table>
-        </TableContainer>
+        {
+          isLoading ? (
+            <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'}}>
+              <CircularProgress />
+            </Box>
+          ) : (
+            <TableContainer component={Paper}>
+              <Table sx={{ minWidth: 650 }} aria-label="simple table">
+                <TableHead>
+                  <TableRow>
+                    <TableCell>Tên</TableCell>
+                    <TableCell >Platform</TableCell>
+                    <TableCell >Ngành hàng</TableCell>
+                    <TableCell align="right">Hành động</TableCell>
+                  </TableRow>
+                </TableHead>
+                <TableBody>
+                  {listLogs.map((row) => (
+                    <TableRow
+                      key={row.name}
+                      sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
+                    >
+                      <TableCell component="th" scope="row">
+                        {row.name}
+                      </TableCell>
+                      <TableCell >{row.platform}</TableCell>
+                      <TableCell >{row.category_name}</TableCell>
+                      <TableCell align="right">
+                        <IconButton onClick={() => goToDetail(row._id)}><BorderColorIcon /></IconButton>
+                      </TableCell>
+                    </TableRow>
+                  ))}
+                </TableBody>
+              </Table>
+            </TableContainer>
+          )
+        }
 
         {/* Pagination controls */}
         <Box
