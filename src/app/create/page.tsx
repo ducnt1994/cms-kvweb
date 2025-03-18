@@ -110,7 +110,7 @@ export default function Create() {
     data.page = newPage
 
 
-    const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/themes', data)
+    const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
     if(res){
       setLoadingCreate(false);
       setSnackbar({
