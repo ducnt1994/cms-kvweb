@@ -87,7 +87,7 @@ export default function Edit() {
   });
   const {control, setValue, getValues, reset, watch} = methods;
   const onSubmit = async () => {
-    // setLoadingCreate(true);
+    setLoadingCreate(true);
     const data = getValues();
     const fontFamilyExplode = data.font_family.split('-')
     data.font_family = {
@@ -115,15 +115,15 @@ export default function Edit() {
     data.page = newPage
 
 
-    // const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
-    // if(res){
-    //   setLoadingCreate(false);
-    //   setSnackbar({
-    //     open: true,
-    //     type: 'success',
-    //     message: "Create theme success"
-    //   })
-    // }
+    const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
+    if(res){
+      setLoadingCreate(false);
+      setSnackbar({
+        open: true,
+        type: 'success',
+        message: "Create theme success"
+      })
+    }
   };
 
   const platform = useWatch({name: 'platform', control});
@@ -480,9 +480,11 @@ export default function Edit() {
     let newRank = {}
     Object.keys(data.rank).map((item, index) => {
       if(item === 'homepage') {
+        // @ts-ignore
         newRank[item] = data.rank[item]
       } else {
         // delete header and footer in array
+        // @ts-ignore
         newRank[item] = data.rank[item].filter(item => !['header', 'footer'].includes(item))
       }
     })
@@ -630,16 +632,20 @@ export default function Edit() {
                           gap: 2
                         }}>
                           <Typography variant="h5" component="h2">
+                            {/*// @ts-ignore*/}
                             {getValues(`page_information[${pageName}]`)}
                           </Typography>
                           <Button
                             onClick={() => addPatternToPage(pageName)}
+                            // @ts-ignore
                             variant={'contained'} size={'small'}>Thêm section {getValues(`page_information[${pageName}]`)}</Button>
                           <Button
                             onClick={() => deletePageCustom(pageName)}
+                            // @ts-ignore
                             variant={'contained'} color={'error'} size={'small'}>Xoá {getValues(`page_information[${pageName}]`)}</Button>
                         </Box>
                         {
+                          // @ts-ignore
                           getValues(`rank.${pageName}`).filter(item => !['header', 'footer'].includes(item)).map((patternName : string, index : number) => (
                             <ItemPattern
                               // @ts-ignore

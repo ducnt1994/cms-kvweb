@@ -588,13 +588,16 @@ export default function Create() {
                           gap: 2
                         }}>
                           <Typography variant="h5" component="h2">
+                            {/* @ts-ignore */}
                             {getValues(`page_information[${pageName}]`)}
                           </Typography>
                           <Button
                             onClick={() => addPatternToPage(pageName)}
+                            // @ts-ignore
                             variant={'contained'} size={'small'}>Thêm section {getValues(`page_information[${pageName}]`)}</Button>
                           <Button
                             onClick={() => deletePageCustom(pageName)}
+                            // @ts-ignore
                             variant={'contained'} color={'error'} size={'small'}>Xoá {getValues(`page_information[${pageName}]`)}</Button>
                         </Box>
                         {

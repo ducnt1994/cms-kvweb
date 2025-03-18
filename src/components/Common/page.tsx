@@ -19,7 +19,7 @@ export default function Common() {
   }
 
   useEffect(() => {
-    if(platform && categoryName) {
+    if(platform && categoryName && !themeId) {
       const time = new Date().getTime()
       // @ts-ignore
       setValue('code', NGANH_HANG[platform].find(item => item.name === watch('category_name'))?.code + `_${time}`)
