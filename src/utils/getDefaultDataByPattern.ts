@@ -632,9 +632,25 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           content: ""
         }
       }
-    case "feature_product":
+    case "featured_product":
       return {
-        feature_product: {}
+        featured_product: {
+          pattern: "",
+          pattern_name: "",
+          is_active: true,
+          featuredProduct: [
+            {
+              background: {
+                type: "color",
+                image: {src: "", alt: "Feature product 1 background"},
+                color: ""
+              },
+              name: "",
+              poster: "",
+            }
+          ],
+          products: []
+        }
       }
     default:
       return {};

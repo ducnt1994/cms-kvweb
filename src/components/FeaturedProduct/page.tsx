@@ -15,9 +15,9 @@ import {useEffect, useRef} from "react";
 import {LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
 import * as XLSX from "xlsx";
 
-export default function ProductList({pageName} : {pageName: string}) {
+export default function FeaturedProduct({pageName} : {pageName: string}) {
   const {control, setValue} = useFormContext();
-  const patternName = 'product_list';
+  const patternName = 'featured_product';
 
   const fileInputRef = useRef(null);
 
@@ -65,7 +65,7 @@ export default function ProductList({pageName} : {pageName: string}) {
 
   useEffect(() => {
     // @ts-ignore
-    setValue(`page.${pageName}.${patternName}.pattern_name`, LIST_TYPE_OF_PATTERN.product_list[platform].find((item : any) => item.key === patternChange)?.name)
+    setValue(`page.${pageName}.${patternName}.pattern_name`, LIST_TYPE_OF_PATTERN.featured_product[platform].find((item : any) => item.key === patternChange)?.name)
   }, [patternChange])
 
   return (
@@ -79,7 +79,7 @@ export default function ProductList({pageName} : {pageName: string}) {
             <Select {...field} sx={{ width: '200px' }} size="small">
               {
                 // @ts-ignore
-                LIST_TYPE_OF_PATTERN.product_list[platform]?.map((item : any, index : number) => (
+                LIST_TYPE_OF_PATTERN.featured_product[platform]?.map((item : any, index : number) => (
                   <MenuItem key={index} value={item.key}>{item.name}</MenuItem>
                 ))
               }
@@ -94,10 +94,17 @@ export default function ProductList({pageName} : {pageName: string}) {
         gridTemplateColumns: 'repeat(2, 1fr)'
       }}>
         <Controller
-          name={`page.${pageName}.${patternName}.category_name`}
+          name={`page.${pageName}.${patternName}.featuredProduct[0].name`}
           control={control}
           render={({ field }) => (
             <TextField {...field} label="Tên danh mục" variant="outlined" size="small" fullWidth />
+          )}
+        />
+        <Controller
+          name={`page.${pageName}.${patternName}.featuredProduct[0].background.color`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Màu nền" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
           )}
         />
 

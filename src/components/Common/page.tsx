@@ -132,7 +132,7 @@ export default function Common() {
 
           </Box>
           <Box >
-            <Typography sx={{ mb: 1 }}>Tên theme</Typography>
+            <Typography sx={{ mb: 1 }}>Code theme</Typography>
             <Controller
               name={`code`}
               control={control}

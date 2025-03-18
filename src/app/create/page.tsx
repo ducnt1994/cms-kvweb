@@ -12,6 +12,7 @@ import {LIST_PATTERN_BY_PLATFORM} from "@/constants/pageBuilder";
 import {JSX, lazy, useEffect, useState} from "react";
 import dataText from "@/utils/output.json"
 import axios from "axios";
+import FeaturedProduct from "@/components/FeaturedProduct/page";
 
 interface IFormInput {
   username: string;
@@ -44,6 +45,7 @@ export default function Create() {
     message: ""
   })
   const [newPage, setNewPage] = useState('')
+  const [loadingCreate, setLoadingCreate] = useState<boolean>(false);
 
   const defaultData = {
     username: 'kvweb',
@@ -80,6 +82,7 @@ export default function Create() {
   });
   const {control, setValue, getValues, reset, watch} = methods;
   const onSubmit = async () => {
+    setLoadingCreate(true);
     const data = getValues();
     const fontFamilyExplode = data.font_family.split('-')
     data.font_family = {
@@ -107,10 +110,15 @@ export default function Create() {
     data.page = newPage
 
 
-
-
     const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/themes', data)
-    console.log("res", res)
+    if(res){
+      setLoadingCreate(false);
+      setSnackbar({
+        open: true,
+        type: 'success',
+        message: "Create theme success"
+      })
+    }
   };
 
   const platform = useWatch({name: 'platform', control});
@@ -175,8 +183,12 @@ export default function Create() {
   }
 
   const getDataTextDefault = ({patternName, defaultDataWithoutText}: {patternName: string, defaultDataWithoutText: any}) => {
+    console.log("platform", platform)
+    console.log("field_category_name", field_category_name)
+    console.log("field_child_category", field_child_category)
     // @ts-ignore
     const dataTextByPattern = dataText[platform][field_category_name][field_child_category][patternName]
+    console.log("defaultDataWithoutText", defaultDataWithoutText)
     if(!dataTextByPattern) {
       return defaultDataWithoutText
     }
@@ -324,6 +336,8 @@ export default function Create() {
         return <Menu pageName={pageName}/>
       case "product_list":
         return <ProductList pageName={pageName}/>
+      case "featured_product":
+        return <FeaturedProduct pageName={pageName}/>
       default:
     }
   }
@@ -467,6 +481,8 @@ export default function Create() {
                   color="primary"
                   onClick={onSubmit}
                   sx={{ px: 3 }}
+                  disabled={loadingCreate}
+                  loading={loadingCreate}
                 >
                   Publish
                 </Button>

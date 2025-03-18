@@ -479,7 +479,36 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Catalog2", name: "Bố cục loại 2" }
     ]
   },
-  featured_product: "featured_product",
+  featured_product: {
+    retail: [
+      { key: "FeaturedProduct1", name: "Danh mục loại 1" },
+      { key: "FeaturedProduct2", name: "Danh mục loại 2" },
+      { key: "FeaturedProduct3", name: "Danh mục loại 3" },
+      { key: "FeaturedProduct4", name: "Danh mục loại 4" },
+      { key: "FeaturedProduct5", name: "Danh mục loại 5" }
+    ],
+    fnb: [
+      { key: "FeaturedProduct1", name: "Danh mục loại 1" },
+      { key: "FeaturedProduct2", name: "Danh mục loại 2" },
+      { key: "FeaturedProduct3", name: "Danh mục loại 3" },
+      { key: "FeaturedProduct4", name: "Danh mục loại 4" },
+      { key: "FeaturedProduct5", name: "Danh mục loại 5" }
+    ],
+    booking: [
+      { key: "FeaturedProduct1", name: "Danh mục loại 1" },
+      { key: "FeaturedProduct2", name: "Danh mục loại 2" },
+      { key: "FeaturedProduct3", name: "Danh mục loại 3" },
+      { key: "FeaturedProduct4", name: "Danh mục loại 4" },
+      { key: "FeaturedProduct5", name: "Danh mục loại 5" }
+    ],
+    hotel: [
+      { key: "FeaturedProduct1", name: "Danh mục loại 1" },
+      { key: "FeaturedProduct2", name: "Danh mục loại 2" },
+      { key: "FeaturedProduct3", name: "Danh mục loại 3" },
+      { key: "FeaturedProduct4", name: "Danh mục loại 4" },
+      { key: "FeaturedProduct5", name: "Danh mục loại 5" }
+    ]
+  },
   menu: {
     retail: [
       { key: "Menu1", name: "Menu 1" },
