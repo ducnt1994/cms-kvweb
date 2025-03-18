@@ -56,7 +56,7 @@ export default function FeaturedProduct({pageName} : {pageName: string}) {
         })
         data.push(obj)
       })
-      setValue(`page.${pageName}.${patternName}.products`, data)
+      setValue(`page.${pageName}.${patternName}.categories`, data)
     };
 
     reader.readAsBinaryString(file);

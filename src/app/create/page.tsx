@@ -13,6 +13,7 @@ import {JSX, lazy, useEffect, useState} from "react";
 import dataText from "@/utils/output.json"
 import axios from "axios";
 import FeaturedProduct from "@/components/FeaturedProduct/page";
+import Breadcumb from "@/components/Breadcumb/page";
 
 interface IFormInput {
   username: string;
@@ -459,6 +460,7 @@ export default function Create() {
 
   return (
       <>
+        <Breadcumb/>
         <FormProvider {...methods}>
           <Box>
             <Box sx={{

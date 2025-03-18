@@ -649,7 +649,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
               poster: "",
             }
           ],
-          products: []
+          categories: []
         }
       }
     default:
