@@ -411,6 +411,7 @@ export default function Edit() {
       return
     }
 
+
     // thay đổi trong rank
     const rank = [...getValues(`rank.${pageName}`)]
     const currentIndexByPatternRank = rank.findIndex(item => item === patternName)
