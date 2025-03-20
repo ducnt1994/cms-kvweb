@@ -108,6 +108,15 @@ export default function Footer({pageName} : {pageName: string}) {
         />
 
       </Box>
+        <Box display="flex" gap={2} my={2}>
+            <Controller
+                name={`page.${pageName}.${patternName}.logo.src`}
+                control={control}
+                render={({ field }) => (
+                    <TextField {...field} label="Link ảnh logo" variant="outlined" size="small" fullWidth />
+                )}
+            />
+        </Box>
 
       <Box mt={2}>
         {/*button add*/}

@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="commit">
-      <change beforePath="$PROJECT_DIR$/src/app/create/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,13 +31,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/anhnb/Desktop/code/outsource/cms/src/app/themes/[theme_id]",
+    "last_opened_file_path": "/Users/duc.nt4/Desktop/code/kvweb/cms-kvweb",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
-    "ts.external.directory.path": "/Users/anhnb/Desktop/code/outsource/cms/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/duc.nt4/Desktop/code/kvweb/cms-kvweb/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -69,6 +71,7 @@
       <workItem from="1742013789979" duration="4660000" />
       <workItem from="1742043800620" duration="58069000" />
       <workItem from="1742266285946" duration="12382000" />
+      <workItem from="1742458091902" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />

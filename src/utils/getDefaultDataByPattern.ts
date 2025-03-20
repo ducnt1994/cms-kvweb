@@ -415,9 +415,9 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           is_active: true,
           branches: [],
           contact: {
-            phone: "",
-            facebook_url: "",
-            zalo_url: "",
+            phone: "0980123456",
+            facebook_url: "www.facebook.com/chokiot",
+            zalo_url: "0980123456",
             address: ""
           },
           is_active_navigation_menu: true,
