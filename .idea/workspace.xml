@@ -7,8 +7,8 @@
     <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/create/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/BannerExtra/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BannerExtra/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742528557018</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="commit">
+      <option name="closed" value="true" />
+      <created>1742558049000</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1742558049000</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

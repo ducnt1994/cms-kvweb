@@ -1,4 +1,4 @@
-import {Box, Button, MenuItem, Select, TextField, Typography} from "@mui/material";
+import {Box, Button, Checkbox, FormControlLabel, MenuItem, Select, TextField, Typography} from "@mui/material";
 import {Controller, useFieldArray, useFormContext} from "react-hook-form";
 import {useEffect} from "react";
 import {LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
@@ -54,6 +54,17 @@ export default function BannerExtra({pageName} : {pageName: string}) {
             <TextField {...field} label="Mô tả" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
           )}
         />
+
+     <Controller
+       name={`page.${pageName}.${patternName}.opacity`}
+       control={control}
+       render={({ field }) => (
+         <FormControlLabel
+           control={<Checkbox {...field} checked={field.value} />}
+           label="Lớp phủ"
+         />
+       )}
+     />
       </Box>
 
       <Typography mb={1}>Banner 4/4</Typography>
