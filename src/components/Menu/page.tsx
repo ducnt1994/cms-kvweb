@@ -121,7 +121,7 @@ export default function Menu({pageName} : {pageName: string}) {
         <Typography fontSize={14} fontWeight={600}>Danh sách ảnh</Typography>
         <Button
           onClick={appendPicture}
-          variant={'text'}>Thêm ảnh</Button>
+          variant={'text'}>Thêm ảnh / món ăn</Button>
       </Box>
       <Box mb={2} sx={{
         display: 'grid',
@@ -129,12 +129,30 @@ export default function Menu({pageName} : {pageName: string}) {
         gap: 2
       }}>
         {blockArr.fields.map((item, index) => {
-          return <Box key={index} display="flex" flexDirection={'column'} gap={2} >
+          return <Box key={index} display="flex" flexDirection={'column'} gap={2} sx={{
+            border: '1px solid #ccc',
+            padding: '8px',
+            borderRadius: '4px'
+          }}>
             <Controller
               name={`page.${pageName}.${patternName}.list.${index}.src`}
               control={control}
               render={({ field }) => (
                 <TextField {...field} label={`Link ảnh ${index + 1}`} variant="outlined" size="small" fullWidth />
+              )}
+            />
+            <Controller
+              name={`page.${pageName}.${patternName}.list.${index}.name`}
+              control={control}
+              render={({ field }) => (
+                <TextField {...field} label={`Tên món ${index + 1}`} variant="outlined" size="small" fullWidth />
+              )}
+            />
+            <Controller
+              name={`page.${pageName}.${patternName}.list.${index}.price`}
+              control={control}
+              render={({ field }) => (
+                <TextField {...field} label={`Giá món ${index + 1}`} variant="outlined" size="small" fullWidth />
               )}
             />
           </Box>

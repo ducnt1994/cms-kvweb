@@ -184,11 +184,8 @@ export default function Create() {
   }
 
   const getDataTextDefault = ({patternName, defaultDataWithoutText}: {patternName: string, defaultDataWithoutText: any}) => {
-    console.log("field_category_name", field_category_name)
-    console.log("field_child_category", field_child_category)
     // @ts-ignore
     const dataTextByPattern = dataText[platform][field_category_name][field_child_category][patternName]
-    console.log("defaultDataWithoutText", defaultDataWithoutText)
     if(!dataTextByPattern) {
       return defaultDataWithoutText
     }
@@ -261,7 +258,7 @@ export default function Create() {
         return {
           ...defaultDataWithoutText,
           title: dataTextByPattern.title,
-          subTitle: dataTextByPattern.title,
+          subTitle: dataTextByPattern.subTitle,
         }
       case "group_service":
         return {

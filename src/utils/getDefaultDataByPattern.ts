@@ -591,6 +591,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             {
               src: "",
               alt: "Menu 1",
+              name: "",
+              price: ""
             }
           ],
           button_navigation: {
