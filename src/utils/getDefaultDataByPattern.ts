@@ -608,7 +608,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           pattern: "",
           pattern_name: "",
           is_active: true,
-          products: [],
+          excel_products: [],
           category_name: "",
           list: []
         }
