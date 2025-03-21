@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/pageBuilder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/pageBuilder.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "stylesheet.code.style.group",
     "ts.external.directory.path": "/Users/duc.nt4/Desktop/code/kvweb/cms-kvweb/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -71,7 +71,9 @@
       <workItem from="1742013789979" duration="4660000" />
       <workItem from="1742043800620" duration="58069000" />
       <workItem from="1742266285946" duration="12382000" />
-      <workItem from="1742458091902" duration="496000" />
+      <workItem from="1742458091902" duration="533000" />
+      <workItem from="1742459521977" duration="172000" />
+      <workItem from="1742527941549" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -169,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742281712181</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="commit">
+      <option name="closed" value="true" />
+      <created>1742458619147</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1742458619147</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

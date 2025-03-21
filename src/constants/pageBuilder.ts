@@ -138,58 +138,222 @@ export const LIST_COLOR_BY_PLATFORM = {
     {
       name: "goldenamber",
       value: "rgb(240, 172, 0)"
-    }
-  ],
-  [PLATFORM_FNB]: [
-    {
-      name: "siennared",
-      value: "#D13226"
-    },
-    {
-      name: "midnightsapphire",
-      value: "#4542A3"
-    },
-    {
-      name: "goldenamber",
-      value: "#F0AC00"
-    },
-    {
-      name: "goldenspice",
-      value: "#894A00"
-    },
-    {
-      name: "coralpink",
-      value: "#F15C85"
-    },
-    {
-      name: "skyblue",
-      value: "#009AA9"
-    },
-    {
-      name: "dynamicorange",
-      value: "#F15B39"
-    }
-  ],
-  [PLATFORM_BOOKING]: [
-    {
-      name: "coralpink",
-      value: "#F15C85"
-    },
-    {
-      name: "chocolatebrown",
-      value: "#9E7D62"
     },
     {
       name: "flameorange",
       value: "#CA741D"
     },
     {
-      name: "forestgreen",
-      value: "#03604B"
+      name: "bronzeyellow",
+      value: "#A7852E"
+    },
+    {
+      name: "deepforestgreen",
+      value: "#234A35"
+    },
+    {
+      name: "deepmagenta",
+      value: "#9D404F"
     },
     {
       name: "rustybrown",
       value: "#891E00"
+    },
+    {
+      name: "forestgreen",
+      value: "#03604B"
+    },
+    {
+      name: "chocolatebrown",
+      value: "#9E7D62"
+    },
+    {
+      name: "limegreen",
+      value: "#537A00"
+    },
+    {
+      name: "turquoise",
+      value: "#01989A"
+    },
+    {
+      name: "deepyellow",
+      value: "#CF9804"
+    }
+  ],
+  [PLATFORM_FNB]: [
+    {
+      name: "russet",
+      value: "rgb(137, 30, 0)"
+    },
+    {
+      name: "coralpink",
+      value: "rgb(241, 92, 133)"
+    },
+    {
+      name: "skyblue",
+      value: "rgb(0, 154, 169)"
+    },
+    {
+      name: "kellygreen",
+      value: "rgb(10, 170, 64)"
+    },
+    {
+      name: "siennared",
+      value: "rgb(209, 50, 38)"
+    },
+    {
+      name: "dynamicorange",
+      value: "rgb(241, 91, 57)"
+    },
+    {
+      name: "electricblue",
+      value: "rgb(0, 86, 218)"
+    },
+    {
+      name: "goldenspice",
+      value: "rgb(137, 74, 0)"
+    },
+    {
+      name: "azuresky",
+      value: "rgb(2, 132, 199)"
+    },
+    {
+      name: "rosewood",
+      value: "rgb(172, 89, 117)"
+    },
+    {
+      name: "midnightblack",
+      value: "rgb(15, 14, 14)"
+    },
+    {
+      name: "midnightsapphire",
+      value: "rgb(69, 66, 163)"
+    },
+    {
+      name: "goldenamber",
+      value: "rgb(240, 172, 0)"
+    },
+    {
+      name: "flameorange",
+      value: "#CA741D"
+    },
+    {
+      name: "bronzeyellow",
+      value: "#A7852E"
+    },
+    {
+      name: "deepforestgreen",
+      value: "#234A35"
+    },
+    {
+      name: "deepmagenta",
+      value: "#9D404F"
+    },
+    {
+      name: "rustybrown",
+      value: "#891E00"
+    },
+    {
+      name: "forestgreen",
+      value: "#03604B"
+    },
+    {
+      name: "chocolatebrown",
+      value: "#9E7D62"
+    },
+    {
+      name: "limegreen",
+      value: "#537A00"
+    },
+    {
+      name: "turquoise",
+      value: "#01989A"
+    },
+    {
+      name: "deepyellow",
+      value: "#CF9804"
+    }
+  ],
+  [PLATFORM_BOOKING]: [
+    {
+      name: "russet",
+      value: "rgb(137, 30, 0)"
+    },
+    {
+      name: "coralpink",
+      value: "rgb(241, 92, 133)"
+    },
+    {
+      name: "skyblue",
+      value: "rgb(0, 154, 169)"
+    },
+    {
+      name: "kellygreen",
+      value: "rgb(10, 170, 64)"
+    },
+    {
+      name: "siennared",
+      value: "rgb(209, 50, 38)"
+    },
+    {
+      name: "dynamicorange",
+      value: "rgb(241, 91, 57)"
+    },
+    {
+      name: "electricblue",
+      value: "rgb(0, 86, 218)"
+    },
+    {
+      name: "goldenspice",
+      value: "rgb(137, 74, 0)"
+    },
+    {
+      name: "azuresky",
+      value: "rgb(2, 132, 199)"
+    },
+    {
+      name: "rosewood",
+      value: "rgb(172, 89, 117)"
+    },
+    {
+      name: "midnightblack",
+      value: "rgb(15, 14, 14)"
+    },
+    {
+      name: "midnightsapphire",
+      value: "rgb(69, 66, 163)"
+    },
+    {
+      name: "goldenamber",
+      value: "rgb(240, 172, 0)"
+    },
+    {
+      name: "flameorange",
+      value: "#CA741D"
+    },
+    {
+      name: "bronzeyellow",
+      value: "#A7852E"
+    },
+    {
+      name: "deepforestgreen",
+      value: "#234A35"
+    },
+    {
+      name: "deepmagenta",
+      value: "#9D404F"
+    },
+    {
+      name: "rustybrown",
+      value: "#891E00"
+    },
+    {
+      name: "forestgreen",
+      value: "#03604B"
+    },
+    {
+      name: "chocolatebrown",
+      value: "#9E7D62"
     },
     {
       name: "limegreen",
@@ -206,12 +370,60 @@ export const LIST_COLOR_BY_PLATFORM = {
   ],
   [PLATFORM_HOTEL]: [
     {
-      name: "flameorange",
-      value: "#CA741D"
+      name: "russet",
+      value: "rgb(137, 30, 0)"
     },
     {
       name: "coralpink",
-      value: "#F15C85"
+      value: "rgb(241, 92, 133)"
+    },
+    {
+      name: "skyblue",
+      value: "rgb(0, 154, 169)"
+    },
+    {
+      name: "kellygreen",
+      value: "rgb(10, 170, 64)"
+    },
+    {
+      name: "siennared",
+      value: "rgb(209, 50, 38)"
+    },
+    {
+      name: "dynamicorange",
+      value: "rgb(241, 91, 57)"
+    },
+    {
+      name: "electricblue",
+      value: "rgb(0, 86, 218)"
+    },
+    {
+      name: "goldenspice",
+      value: "rgb(137, 74, 0)"
+    },
+    {
+      name: "azuresky",
+      value: "rgb(2, 132, 199)"
+    },
+    {
+      name: "rosewood",
+      value: "rgb(172, 89, 117)"
+    },
+    {
+      name: "midnightblack",
+      value: "rgb(15, 14, 14)"
+    },
+    {
+      name: "midnightsapphire",
+      value: "rgb(69, 66, 163)"
+    },
+    {
+      name: "goldenamber",
+      value: "rgb(240, 172, 0)"
+    },
+    {
+      name: "flameorange",
+      value: "#CA741D"
     },
     {
       name: "bronzeyellow",
@@ -224,6 +436,30 @@ export const LIST_COLOR_BY_PLATFORM = {
     {
       name: "deepmagenta",
       value: "#9D404F"
+    },
+    {
+      name: "rustybrown",
+      value: "#891E00"
+    },
+    {
+      name: "forestgreen",
+      value: "#03604B"
+    },
+    {
+      name: "chocolatebrown",
+      value: "#9E7D62"
+    },
+    {
+      name: "limegreen",
+      value: "#537A00"
+    },
+    {
+      name: "turquoise",
+      value: "#01989A"
+    },
+    {
+      name: "deepyellow",
+      value: "#CF9804"
     }
   ]
 }
