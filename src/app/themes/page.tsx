@@ -69,18 +69,11 @@ export default function Themes() {
 
   return (
     <>
-      <Breadcumb/>
+      {/* <Breadcumb/> */}
       <Box
         component="main"
         className="MainContent"
         sx={{
-          px: {xs: 2, md: 6},
-          pt: {
-            xs: "calc(12px + var(--Header-height))",
-            sm: "calc(12px + var(--Header-height))",
-            md: 3,
-          },
-          pb: {xs: 2, sm: 2, md: 3},
           flex: 1,
           display: "flex",
           flexDirection: "column",
@@ -89,6 +82,9 @@ export default function Themes() {
           gap: 1,
         }}
       >
+        <Typography variant="h4" component="h1">
+          Danh sách theme
+        </Typography>
         {
           isLoading ? (
             <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'}}>
@@ -108,7 +104,7 @@ export default function Themes() {
                 <TableBody>
                   {listLogs.map((row) => (
                     <TableRow
-                      key={row.name}
+                      key={row._id}
                       sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
                     >
                       <TableCell component="th" scope="row">
