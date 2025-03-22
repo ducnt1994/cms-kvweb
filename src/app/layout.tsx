@@ -34,7 +34,15 @@ export default function RootLayout({
             sx={{
               flexGrow: 1,
               p: 3,
+              width: { sm: 'calc(100% - 240px)' },
+              ml: { sm: '240px' },
+              transition: 'margin-left 0.2s ease-in-out, width 0.2s ease-in-out',
+              '&.collapsed': {
+                width: { sm: 'calc(100% - 65px)' },
+                ml: { sm: '65px' },
+              },
             }}
+            className="collapsed"
           >
             {children}
           </Box>
