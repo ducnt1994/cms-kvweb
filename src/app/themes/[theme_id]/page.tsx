@@ -277,6 +277,7 @@ export default function Edit() {
           ...defaultDataWithoutText,
           title: dataTextByPattern.title,
           subTitle: dataTextByPattern.title,
+          description: dataTextByPattern.description || "",
         }
       case "group_service":
         return {

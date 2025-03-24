@@ -589,6 +589,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           },
           title: "",
           subTitle: "",
+          description: "",
           list: [
             {
               src: "",

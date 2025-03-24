@@ -259,6 +259,7 @@ export default function Create() {
           ...defaultDataWithoutText,
           title: dataTextByPattern.title,
           subTitle: dataTextByPattern.subTitle,
+          description: dataTextByPattern.description || "",
         }
       case "group_service":
         return {
