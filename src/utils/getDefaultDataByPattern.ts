@@ -471,44 +471,46 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             image: {src: "", alt: "Brands background"},
             color: ""
           },
-          picture: [
-            {
-              alt: "Brand 1",
-              src: "",
-              embbed_link: "",
-              number: 1
-            },
-            {
-              alt: "Brand 2",
-              src: "",
-              embbed_link: "",
-              number: 2
-            },
-            {
-              alt: "Brand 3",
-              src: "",
-              embbed_link: "",
-              number: 3
-            },
-            {
-              alt: "Brand 4",
-              src: "",
-              embbed_link: "",
-              number: 4
-            },
-            {
-              alt: "Brand 5",
-              src: "",
-              embbed_link: "",
-              number: 5
-            },
-            {
-              alt: "Brand 6",
-              src: "",
-              embbed_link: "",
-              number: 6
-            }
-          ]
+          picture: {
+            images: [
+              {
+                alt: "Brand 1",
+                src: "",
+                embbed_link: "",
+                number: 1
+              },
+              {
+                alt: "Brand 2",
+                src: "",
+                embbed_link: "",
+                number: 2
+              },
+              {
+                alt: "Brand 3",
+                src: "",
+                embbed_link: "",
+                number: 3
+              },
+              {
+                alt: "Brand 4",
+                src: "",
+                embbed_link: "",
+                number: 4
+              },
+              {
+                alt: "Brand 5",
+                src: "",
+                embbed_link: "",
+                number: 5
+              },
+              {
+                alt: "Brand 6",
+                src: "",
+                embbed_link: "",
+                number: 6
+              }
+            ]
+          }
         }
       }
     case "catalog":
