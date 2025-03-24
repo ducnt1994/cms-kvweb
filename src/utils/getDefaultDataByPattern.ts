@@ -6,8 +6,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           pattern: "",
           pattern_name: "",
           text_style: {
-            font_size: 16,
-            font_family: "Inter",
+            'font-size': 16,
+            'font-family': "Inter",
             color: "#FFFFFF",
           },
           is_active: true,
@@ -440,8 +440,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             images: []
           },
           text_style: {
-            font_size: 16,
-            font_family: "Inter",
+            'font-size': 16,
+            'font-family': "Inter",
             color: "#FFFFFF"
           }
         }

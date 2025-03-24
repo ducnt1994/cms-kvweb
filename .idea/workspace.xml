@@ -76,6 +76,7 @@
       <workItem from="1742801141063" duration="745000" />
       <workItem from="1742802139884" duration="2426000" />
       <workItem from="1742807103440" duration="125000" />
+      <workItem from="1742807440736" duration="598000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -261,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742807213685</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="delete theme">
+      <option name="closed" value="true" />
+      <created>1742807478222</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1742807478222</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
