@@ -415,13 +415,13 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           is_active: true,
           branches: [],
           contact: {
-            phone: "0980123456",
+            phone: "0980xxxxxx",
             facebook_url: "www.facebook.com/chokiot",
-            zalo_url: "0980123456",
-            address: ""
+            zalo_url: "0980xxxxxx",
+            address: "1A Yết Kiêu, Phường Trần Hưng Đạo, Hà Nội - Quận Hoàn Kiếm"
           },
           is_active_navigation_menu: true,
-          copyright: "",
+          copyright: "Sản phẩm phát triển bởi KiotVietWeb",
           navigation_title: "",
           is_active_categories: true,
           logo_type_active: "text",
