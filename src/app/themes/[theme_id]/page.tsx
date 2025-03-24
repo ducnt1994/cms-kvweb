@@ -523,7 +523,6 @@ export default function Edit() {
 
   return (
       <>
-        <Breadcumb/>
         <FormProvider {...methods}>
           <Box>
             <Box sx={{

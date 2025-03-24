@@ -11,7 +11,7 @@ export default function Brands({pageName} : {pageName: string}) {
   const platform = useWatch({name: 'platform'});
   const patternChange = useWatch({name: `page.${pageName}.${patternName}.pattern`});
 
-  const pictureArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.picture` });
+  const pictureArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.picture.images` });
 
   useEffect(() => {
     // @ts-ignore
