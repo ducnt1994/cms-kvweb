@@ -505,6 +505,13 @@ export default function Edit() {
     let newPage = data.page;
     newPage.homepage.header.text_style = JSON.parse(newPage.homepage.header.text_style)
     newPage.homepage.footer.text_style = JSON.parse(newPage.homepage.footer.text_style)
+
+    if(newPage.homepage.product_list){
+      newPage.homepage.product_list.excel_products = []
+    }
+    if(newPage.homepage.featured_product){
+      newPage.homepage.featured_product.products = []
+    }
     setValue('page', newPage)
 
   }
