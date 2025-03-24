@@ -56,7 +56,7 @@ export default function ProductList({pageName} : {pageName: string}) {
         })
         data.push(obj)
       })
-      setValue(`page.${pageName}.${patternName}.products`, data)
+      setValue(`page.${pageName}.${patternName}.excel_products`, data)
     };
 
     reader.readAsBinaryString(file);
