@@ -413,7 +413,11 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           pattern: "",
           pattern_name: "",
           is_active: true,
-          branches: [],
+          branches: [
+            {
+              address: "1A Yết Kiêu, Phường Trần Hưng Đạo, Hà Nội - Quận Hoàn Kiếm"
+            }
+          ],
           contact: {
             phone: "0980xxxxxx",
             facebook_url: "www.facebook.com/chokiot",
