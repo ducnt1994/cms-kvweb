@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="commit" />
+    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/themes/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/themes/page.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,7 +37,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "yarn",
     "settings.editor.selected.configurable": "stylesheet.code.style.group",
-    "ts.external.directory.path": "/Users/anhnb/Desktop/code/outsource/cms/node_modules/typescript/lib",
+    "ts.external.directory.path": "/Users/duc.nt4/Desktop/code/kvweb/cms-kvweb/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>

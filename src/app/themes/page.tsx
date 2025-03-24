@@ -14,7 +14,7 @@ import {
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 import BorderColorIcon from '@mui/icons-material/BorderColor';
-import Breadcumb from "@/components/Breadcumb/page";
+import DeleteIcon from '@mui/icons-material/Delete';
 import axios from "axios";
 
 export default function Themes() {
@@ -61,6 +61,14 @@ export default function Themes() {
     setTotalPages(res.data.total_page)
   }
 
+  const handleDelete = async (theme_id: any) => {
+    // alert to confirm
+    const isConfirm = confirm('Xóa là mất?');
+    if (!isConfirm) return;
+    await axios.delete(`https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes/${theme_id}`)
+    loadThemes()
+  }
+
   useEffect(() => {
     loadThemes()
   }, [pageSize, currentPage]);
@@ -69,7 +77,6 @@ export default function Themes() {
 
   return (
     <>
-      {/* <Breadcumb/> */}
       <Box
         component="main"
         className="MainContent"
@@ -114,6 +121,7 @@ export default function Themes() {
                       <TableCell >{row.category_name}</TableCell>
                       <TableCell align="right">
                         <IconButton onClick={() => goToDetail(row._id)}><BorderColorIcon /></IconButton>
+                        <IconButton onClick={() => handleDelete(row._id)}><DeleteIcon /></IconButton>
                       </TableCell>
                     </TableRow>
                   ))}
