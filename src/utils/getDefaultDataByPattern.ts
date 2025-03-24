@@ -309,7 +309,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           is_show_description: true,
           blocks: [
             {
-              active_type_service: "image",
+              active_type_service: "icon",
               alt: "Service image 1",
               icon: {
                 code: "KVWebSecurityUserIcon",
@@ -321,7 +321,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
               title: ""
             },
             {
-              active_type_service: "image",
+              active_type_service: "icon",
               alt: "Service image 2",
               icon: {
                 code: "KVWebTruckFastIcon",
@@ -333,7 +333,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
               title: ""
             },
             {
-              active_type_service: "image",
+              active_type_service: "icon",
               alt: "Service image 3",
               icon: {
                 code: "KVWebDollarCircleIcon",
@@ -345,7 +345,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
               title: ""
             },
             {
-              active_type_service: "image",
+              active_type_service: "icon",
               alt: "Service image 4",
               icon: {
                 code: "KVWebMessage2Icon",
