@@ -769,14 +769,12 @@ export const LIST_TYPE_OF_PATTERN = {
   },
   product_list: {
     retail: [
-      { key: "ProductList1", name: "Nhóm hàng hóa 1" },
-      { key: "ProductList2", name: "Nhóm hàng hóa 2" },
-      { key: "ProductList3", name: "Nhóm hàng hóa 3" },
-      { key: "ProductList4", name: "Nhóm hàng hóa 4" },
-      { key: "ProductList5", name: "Nhóm hàng hóa 5" },
-      { key: "ProductList6", name: "Nhóm hàng hóa 6" },
-      { key: "ProductList7", name: "Nhóm hàng hóa 7" },
-      { key: "ProductList8", name: "Nhóm hàng hóa 8" },
+      { key: "ProductList3", name: "Nhóm hàng hóa 1" },
+      { key: "ProductList7", name: "Nhóm hàng hóa 2" },
+      { key: "ProductList8", name: "Nhóm hàng hóa 3" },
+      { key: "ProductList1", name: "Nhóm hàng hóa 4" },
+      { key: "ProductList2", name: "Nhóm hàng hóa 5" },
+      { key: "ProductList4", name: "Nhóm hàng hóa 6" },
     ]
   },
   image_gallery: {
