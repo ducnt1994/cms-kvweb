@@ -11,13 +11,17 @@ import {
   Typography
 } from "@mui/material";
 import {Controller, useFieldArray, useFormContext, useWatch} from "react-hook-form";
-import {useEffect, useRef} from "react";
+import {useEffect, useRef, useState} from "react";
 import {LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
 import * as XLSX from "xlsx";
 
 export default function ProductList({pageName} : {pageName: string}) {
   const {control, setValue} = useFormContext();
   const patternName = 'product_list';
+  const [fileCount, setFileCount] = useState({
+    fileName: "",
+    totalProducts: 0,
+  });
 
   const fileInputRef = useRef(null);
 
@@ -56,12 +60,17 @@ export default function ProductList({pageName} : {pageName: string}) {
         })
         data.push(obj)
       })
+      // get file name
+      const fileName = file.name;
+      setFileCount({
+        fileName: fileName,
+        totalProducts: data.length,
+      })
       setValue(`page.${pageName}.${patternName}.excel_products`, data)
     };
 
     reader.readAsBinaryString(file);
   };
-
 
   useEffect(() => {
     // @ts-ignore
@@ -113,6 +122,15 @@ export default function ProductList({pageName} : {pageName: string}) {
         <Button variant="contained" color="primary" onClick={handleButtonClick}>
           Upload File
         </Button>
+      </Box>
+
+      <Box>
+        <Typography variant="body2" fontSize={16} sx={{
+          mt: 2,
+          fontWeight: "bold"
+        }} color="textSecondary">
+          {fileCount.fileName ? `File: ${fileCount.fileName} - Số lượng sản phẩm: ${fileCount.totalProducts}` : ''}
+        </Typography>
       </Box>
 
     </Box>
