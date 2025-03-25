@@ -477,6 +477,11 @@ export const availableCoupleFont = [
   ["Gowun Batang", "Gowun Batang"],
   ["Noto Serif Japanese", "Noto sans"],
   ["Noto Sans Simplified Chinese", "Inter"],
+  ["Josefin Sans", "Raleway"],
+  ["Oswald", "Inter"],
+  ["Tinos", "Gowun Batang"],
+  ["Bad Script", "IBM Plex Mono"],
+  ["Hurricane", "Inclusive Sans"]
 ]
 
 export const LIST_CATEGORY = {
