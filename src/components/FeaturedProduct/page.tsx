@@ -117,6 +117,13 @@ export default function FeaturedProduct({pageName} : {pageName: string}) {
             <TextField {...field} label="Màu nền" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
           )}
         />
+        <Controller
+          name={`page.${pageName}.${patternName}.featuredProduct[0].poster`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Màu nền" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
+          )}
+        />
 
       {/*  input type file upload*/}
 
