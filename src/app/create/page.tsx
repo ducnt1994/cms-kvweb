@@ -90,8 +90,6 @@ export default function Create() {
       title: fontFamilyExplode[0],
       description: fontFamilyExplode[1]
     }
-    data.page.homepage.header.text_style = JSON.stringify(data.page.homepage.header.text_style)
-    data.page.homepage.footer.text_style = JSON.stringify(data.page.homepage.footer.text_style)
 
     // add header-footer vào rank của các page custom
     const newRank = {...data.rank}
