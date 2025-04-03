@@ -84,39 +84,44 @@ export default function Create() {
   const {control, setValue, getValues, reset, watch} = methods;
   const onSubmit = async () => {
     setLoadingCreate(true);
-    const data = getValues();
-    const fontFamilyExplode = data.font_family.split('-')
-    data.font_family = {
-      title: fontFamilyExplode[0],
-      description: fontFamilyExplode[1]
-    }
+    try {
+      const data = getValues();
+      const fontFamilyExplode = data.font_family.split('-')
+      data.font_family = {
+        title: fontFamilyExplode[0],
+        description: fontFamilyExplode[1]
+      }
 
-    // add header-footer vào rank của các page custom
-    const newRank = {...data.rank}
-    for (const pageItem in data.page) {
-      if(pageItem === 'homepage') continue
-      newRank[pageItem] = ['header', ...newRank[pageItem], 'footer']
-    }
-    data.rank = newRank
+      // add header-footer vào rank của các page custom
+      const newRank = {...data.rank}
+      for (const pageItem in data.page) {
+        if(pageItem === 'homepage') continue
+        newRank[pageItem] = ['header', ...newRank[pageItem], 'footer']
+      }
+      data.rank = newRank
 
-    // add header-footer vào page của các page custom
-    const newPage = {...data.page}
-    for (const pageItem in data.page) {
-      if(pageItem === 'homepage') continue
-      newPage[pageItem].header = data.page.homepage.header
-      newPage[pageItem].footer = data.page.homepage.footer
-    }
-    data.page = newPage
+      // add header-footer vào page của các page custom
+      const newPage = {...data.page}
+      for (const pageItem in data.page) {
+        if(pageItem === 'homepage') continue
+        newPage[pageItem].header = data.page.homepage.header
+        newPage[pageItem].footer = data.page.homepage.footer
+      }
+      data.page = newPage
 
 
-    const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
-    if(res){
+      const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
+      if(res){
+        setLoadingCreate(false);
+        setSnackbar({
+          open: true,
+          type: 'success',
+          message: "Create theme success"
+        })
+      }
+    } catch (e) {
       setLoadingCreate(false);
-      setSnackbar({
-        open: true,
-        type: 'success',
-        message: "Create theme success"
-      })
+      console.error(e)
     }
   };
 
