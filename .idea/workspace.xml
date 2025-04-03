@@ -6,13 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="delete theme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/create/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/FeaturedProduct/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FeaturedProduct/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,7 +92,9 @@
       <workItem from="1743062763765" duration="1126000" />
       <workItem from="1743065427660" duration="1149000" />
       <workItem from="1743072942895" duration="100000" />
-      <workItem from="1743145456544" duration="929000" />
+      <workItem from="1743145456544" duration="947000" />
+      <workItem from="1743301155717" duration="110000" />
+      <workItem from="1743666001381" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -332,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743063389785</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="delete theme">
+      <option name="closed" value="true" />
+      <created>1743149040218</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1743149040218</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

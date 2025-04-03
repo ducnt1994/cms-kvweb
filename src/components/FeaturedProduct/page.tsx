@@ -121,7 +121,7 @@ export default function FeaturedProduct({pageName} : {pageName: string}) {
           name={`page.${pageName}.${patternName}.featuredProduct[0].poster`}
           control={control}
           render={({ field }) => (
-            <TextField {...field} label="Màu nền" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
+            <TextField {...field} label="Link ảnh poster" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
           )}
         />
 
