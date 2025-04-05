@@ -612,6 +612,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           is_active: true,
           excel_products: [],
           category_name: "",
+          poster: "",
           list: []
         }
       }
