@@ -6,8 +6,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           pattern: "",
           pattern_name: "",
           text_style: {
-            font_size: 16,
-            font_family: "Inter",
+            'font-size': 16,
+            'font-family': "Inter",
             color: "#FFFFFF",
           },
           is_active: true,
@@ -309,7 +309,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           is_show_description: true,
           blocks: [
             {
-              active_type_service: "image",
+              active_type_service: "icon",
               alt: "Service image 1",
               icon: {
                 code: "KVWebSecurityUserIcon",
@@ -321,7 +321,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
               title: ""
             },
             {
-              active_type_service: "image",
+              active_type_service: "icon",
               alt: "Service image 2",
               icon: {
                 code: "KVWebTruckFastIcon",
@@ -333,7 +333,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
               title: ""
             },
             {
-              active_type_service: "image",
+              active_type_service: "icon",
               alt: "Service image 3",
               icon: {
                 code: "KVWebDollarCircleIcon",
@@ -345,7 +345,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
               title: ""
             },
             {
-              active_type_service: "image",
+              active_type_service: "icon",
               alt: "Service image 4",
               icon: {
                 code: "KVWebMessage2Icon",
@@ -413,15 +413,19 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           pattern: "",
           pattern_name: "",
           is_active: true,
-          branches: [],
+          branches: [
+            {
+              address: "1A Yết Kiêu, Phường Trần Hưng Đạo, Hà Nội - Quận Hoàn Kiếm"
+            }
+          ],
           contact: {
-            phone: "0980123456",
+            phone: "0980xxxxxx",
             facebook_url: "www.facebook.com/chokiot",
-            zalo_url: "0980123456",
-            address: ""
+            zalo_url: "0980xxxxxx",
+            address: "1A Yết Kiêu, Phường Trần Hưng Đạo, Hà Nội - Quận Hoàn Kiếm"
           },
           is_active_navigation_menu: true,
-          copyright: "",
+          copyright: "Sản phẩm phát triển bởi KiotVietWeb",
           navigation_title: "",
           is_active_categories: true,
           logo_type_active: "text",
@@ -436,8 +440,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             images: []
           },
           text_style: {
-            font_size: 16,
-            font_family: "Inter",
+            'font-size': 16,
+            'font-family': "Inter",
             color: "#FFFFFF"
           }
         }
@@ -471,44 +475,46 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             image: {src: "", alt: "Brands background"},
             color: ""
           },
-          picture: [
-            {
-              alt: "Brand 1",
-              src: "",
-              embbed_link: "",
-              number: 1
-            },
-            {
-              alt: "Brand 2",
-              src: "",
-              embbed_link: "",
-              number: 2
-            },
-            {
-              alt: "Brand 3",
-              src: "",
-              embbed_link: "",
-              number: 3
-            },
-            {
-              alt: "Brand 4",
-              src: "",
-              embbed_link: "",
-              number: 4
-            },
-            {
-              alt: "Brand 5",
-              src: "",
-              embbed_link: "",
-              number: 5
-            },
-            {
-              alt: "Brand 6",
-              src: "",
-              embbed_link: "",
-              number: 6
-            }
-          ]
+          picture: {
+            images: [
+              {
+                alt: "Brand 1",
+                src: "",
+                embbed_link: "",
+                number: 1
+              },
+              {
+                alt: "Brand 2",
+                src: "",
+                embbed_link: "",
+                number: 2
+              },
+              {
+                alt: "Brand 3",
+                src: "",
+                embbed_link: "",
+                number: 3
+              },
+              {
+                alt: "Brand 4",
+                src: "",
+                embbed_link: "",
+                number: 4
+              },
+              {
+                alt: "Brand 5",
+                src: "",
+                embbed_link: "",
+                number: 5
+              },
+              {
+                alt: "Brand 6",
+                src: "",
+                embbed_link: "",
+                number: 6
+              }
+            ]
+          }
         }
       }
     case "catalog":
@@ -587,6 +593,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           },
           title: "",
           subTitle: "",
+          description: "",
           list: [
             {
               src: "",

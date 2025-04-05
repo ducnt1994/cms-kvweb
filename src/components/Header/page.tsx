@@ -73,7 +73,7 @@ export default function Header({pageName} : {pageName: string}) {
 
       <Box display="flex" gap={2}>
         <Controller
-          name={`page.${pageName}.${patternName}.text_style.font_size`}
+          name={`page.${pageName}.${patternName}.text_style.font-size`}
           control={control}
           render={({ field }) => (
             <TextField {...field} label="Cỡ chữ" variant="outlined" size="small" fullWidth />
@@ -81,7 +81,7 @@ export default function Header({pageName} : {pageName: string}) {
         />
         <Typography>16→31</Typography>
         <Controller
-          name={`page.${pageName}.${patternName}.text_style.font_family`}
+          name={`page.${pageName}.${patternName}.text_style.font-family`}
           control={control}
           defaultValue="style1"
           render={({ field }) => (

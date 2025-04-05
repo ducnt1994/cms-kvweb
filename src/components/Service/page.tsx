@@ -1,4 +1,4 @@
-import {Box, Button, MenuItem, Select, TextField, Typography} from "@mui/material";
+import {Box, Button, FormControlLabel, MenuItem, Radio, RadioGroup, Select, TextField, Typography} from "@mui/material";
 import {Controller, useFieldArray, useFormContext, useWatch} from "react-hook-form";
 import {useEffect} from "react";
 import {LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
@@ -78,6 +78,18 @@ export default function Service({pageName} : {pageName: string}) {
               control={control}
               render={({ field }) => (
                 <TextField {...field} label="Link ảnh" variant="outlined" size="small" fullWidth />
+              )}
+            />
+          </Box>
+          <Box display="flex" gap={2}>
+            <Controller
+              name={`page.${pageName}.${patternName}.blocks.${index}.active_type_service`}
+              control={control}
+              render={({ field }) => (
+                <RadioGroup row {...field}>
+                  <FormControlLabel value="image" control={<Radio />} label="Loại Ảnh" />
+                  <FormControlLabel value="icon" control={<Radio />} label="Loại Icon" />
+                </RadioGroup>
               )}
             />
           </Box>

@@ -94,6 +94,13 @@ export default function Menu({pageName} : {pageName: string}) {
           )}
         />
         <Controller
+          name={`page.${pageName}.${patternName}.description`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Tiêu đề phụ" variant="outlined" size="small" fullWidth />
+          )}
+        />
+        <Controller
           name={`page.${pageName}.${patternName}.button_navigation.title`}
           control={control}
           render={({ field }) => (

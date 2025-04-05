@@ -11,7 +11,7 @@ export default function Brands({pageName} : {pageName: string}) {
   const platform = useWatch({name: 'platform'});
   const patternChange = useWatch({name: `page.${pageName}.${patternName}.pattern`});
 
-  const pictureArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.picture` });
+  const pictureArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.picture.images` });
 
   useEffect(() => {
     // @ts-ignore
@@ -38,6 +38,16 @@ export default function Brands({pageName} : {pageName: string}) {
         />
       </Box>
 
+      <Box display="flex" gap={2} mb={2}>
+        <Controller
+          name={`page.${pageName}.${patternName}.background.color`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Màu nền" variant="outlined" size="small" fullWidth />
+          )}
+        />
+      </Box>
+
       <Typography mb={1}>Brand</Typography>
       <Box sx={{
         display: 'grid',
@@ -47,7 +57,7 @@ export default function Brands({pageName} : {pageName: string}) {
         {pictureArray.fields.map((item, index) => (
           <Controller
             key={item.id}
-            name={`page.${pageName}.${patternName}.picture.${index}.src`}
+            name={`page.${pageName}.${patternName}.picture.images.${index}.src`}
             control={control}
             render={({ field }) => (
               <TextField {...field} label={`Link ảnh ${index + 1}`} variant="outlined" size="small" fullWidth />

@@ -972,7 +972,7 @@
         },
         "menu" : {
           "title" : "Thực đơn của quán",
-          "subTitle" : "Chúng tôi tự hào mang đến một thực đơn phong phú, kết hợp giữa các món ăn truyền thống và sáng tạo. Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon nhất, hứa hẹn sẽ mang đến cho bạn trải nghiệm ẩm thực tuyệt vời."
+          "description" : "Chúng tôi tự hào mang đến một thực đơn phong phú, kết hợp giữa các món ăn truyền thống và sáng tạo. Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon nhất, hứa hẹn sẽ mang đến cho bạn trải nghiệm ẩm thực tuyệt vời."
         },
         "video" : {
           "title" : "Đánh Giá Khách Hàng",
@@ -1016,7 +1016,7 @@
         },
         "menu" : {
           "title" : "Menu",
-          "subTitle" : "Chúng tôi tự hào mang đến một thực đơn phong phú với các lựa chọn cà phê, trà, đồ uống đặc biệt và món ăn nhẹ. Dưới đây là mô tả chi tiết về từng món cùng với mức giá để bạn dễ dàng lựa chọn."
+          "description" : "Chúng tôi tự hào mang đến một thực đơn phong phú với các lựa chọn cà phê, trà, đồ uống đặc biệt và món ăn nhẹ. Dưới đây là mô tả chi tiết về từng món cùng với mức giá để bạn dễ dàng lựa chọn."
         },
         "video" : {
           "title" : "Hướng Dẫn Pha Chế",
@@ -1060,7 +1060,7 @@
         },
         "menu" : {
           "title" : "Thực đơn món bánh",
-          "subTitle" : "Chúng tôi tự hào mang đến một thực đơn phong phú với các lựa chọn cà phê, trà, đồ uống đặc biệt và món ăn nhẹ. Dưới đây là mô tả chi tiết về từng món cùng với mức giá để bạn dễ dàng lựa chọn."
+          "description" : "Chúng tôi tự hào mang đến một thực đơn phong phú với các lựa chọn cà phê, trà, đồ uống đặc biệt và món ăn nhẹ. Dưới đây là mô tả chi tiết về từng món cùng với mức giá để bạn dễ dàng lựa chọn."
         },
         "video" : {
           "title" : "Video Đặc Sắc",
@@ -1104,7 +1104,7 @@
         },
         "menu" : {
           "title" : "Thực đơn của quán",
-          "subTitle" : "Chúng tôi tự hào mang đến một thực đơn phong phú, kết hợp giữa các món ăn truyền thống và sáng tạo. Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon nhất, hứa hẹn sẽ mang đến cho bạn trải nghiệm ẩm thực tuyệt vời."
+          "description" : "Chúng tôi tự hào mang đến một thực đơn phong phú, kết hợp giữa các món ăn truyền thống và sáng tạo. Mỗi món ăn đều được chế biến từ nguyên liệu tươi ngon nhất, hứa hẹn sẽ mang đến cho bạn trải nghiệm ẩm thực tuyệt vời."
         },
         "video" : {
           "title" : "Quá Trình Chế Biến",

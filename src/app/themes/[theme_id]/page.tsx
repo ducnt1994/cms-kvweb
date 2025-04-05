@@ -95,8 +95,6 @@ export default function Edit() {
         title: fontFamilyExplode[0],
         description: fontFamilyExplode[1]
       }
-      data.page.homepage.header.text_style = JSON.stringify(data.page.homepage.header.text_style)
-      data.page.homepage.footer.text_style = JSON.stringify(data.page.homepage.footer.text_style)
 
       // add header-footer vào rank của các page custom
       const newRank = {...data.rank}
@@ -277,6 +275,7 @@ export default function Edit() {
           ...defaultDataWithoutText,
           title: dataTextByPattern.title,
           subTitle: dataTextByPattern.title,
+          description: dataTextByPattern.description || "",
         }
       case "group_service":
         return {
@@ -505,6 +504,13 @@ export default function Edit() {
     let newPage = data.page;
     newPage.homepage.header.text_style = JSON.parse(newPage.homepage.header.text_style)
     newPage.homepage.footer.text_style = JSON.parse(newPage.homepage.footer.text_style)
+
+    if(newPage.homepage.product_list){
+      newPage.homepage.product_list.excel_products = []
+    }
+    if(newPage.homepage.featured_product){
+      newPage.homepage.featured_product.products = []
+    }
     setValue('page', newPage)
 
   }
@@ -515,7 +521,6 @@ export default function Edit() {
 
   return (
       <>
-        <Breadcumb/>
         <FormProvider {...methods}>
           <Box>
             <Box sx={{
