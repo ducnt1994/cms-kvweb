@@ -43,6 +43,7 @@ export const LIST_PATTERN_BY_PLATFORM = {
     { key: "product_list", value: "Hàng hoá" },
     { key: "review", value: "Đánh giá" },
     { key: "service", value: "Dịch vụ" },
+    { key: "video", value: "Video" },
     { key: "footer", value: "Chân trang" }
   ],
   fnb: [
@@ -910,16 +911,24 @@ export const LIST_TYPE_OF_PATTERN = {
   },
   video: {
     retail: [
-      { key: "Video1", name: "Bố cục loại 1" }
+      { key: "Video1", name: "Bố cục loại 1" },
+      { key: "Video2", name: "Bố cục loại 2" },
+      { key: "Video3", name: "Bố cục loại 3" },
     ],
     fnb: [
-      { key: "Video1", name: "Bố cục loại 1" }
+      { key: "Video1", name: "Bố cục loại 1" },
+      { key: "Video2", name: "Bố cục loại 2" },
+      { key: "Video3", name: "Bố cục loại 3" },
     ],
     booking: [
-      { key: "Video1", name: "Bố cục loại 1" }
+      { key: "Video1", name: "Bố cục loại 1" },
+      { key: "Video2", name: "Bố cục loại 2" },
+      { key: "Video3", name: "Bố cục loại 3" },
     ],
     hotel: [
-      { key: "Video1", name: "Bố cục loại 1" }
+      { key: "Video1", name: "Bố cục loại 1" },
+      { key: "Video2", name: "Bố cục loại 2" },
+      { key: "Video3", name: "Bố cục loại 3" },
     ]
   },
   group_service: {
