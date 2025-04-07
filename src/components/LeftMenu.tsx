@@ -17,6 +17,7 @@ const menuItems = [
     subItems: [
       { text: 'Tạo theme', icon: <Brush />, path: '/create' },
       { text: 'Danh sách', icon: <Style />, path: '/themes' },
+      { text: 'Ngành hàng', icon: <Style />, path: '/theme-categories' },
     ]
   },
 ];
