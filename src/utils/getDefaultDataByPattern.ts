@@ -461,7 +461,21 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           title: "",
           description: "",
           thumbnail: "",
-          video_link: ""
+          video_link: "",
+          sub_videos: [
+            {
+              title: "",
+              thumbnail: "",
+              video_link: "",
+              description: "",
+            },
+            {
+              title: "",
+              thumbnail: "",
+              video_link: "",
+              description: "",
+            },
+          ]
         }
       }
     case "brands":
@@ -619,6 +633,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           is_active: true,
           excel_products: [],
           category_name: "",
+          poster: "",
           list: []
         }
       }

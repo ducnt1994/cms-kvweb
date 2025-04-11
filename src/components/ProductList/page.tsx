@@ -109,6 +109,13 @@ export default function ProductList({pageName} : {pageName: string}) {
             <TextField {...field} label="Tên danh mục" variant="outlined" size="small" fullWidth />
           )}
         />
+        <Controller
+          name={`page.${pageName}.${patternName}.poster`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Ảnh thumb danh mục" variant="outlined" size="small" fullWidth />
+          )}
+        />
 
       {/*  input type file upload*/}
 
