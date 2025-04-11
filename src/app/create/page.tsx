@@ -88,8 +88,9 @@ export default function Create() {
       const data = getValues();
       const fontFamilyExplode = data.font_family.split('-')
       data.font_family = {
-        title: fontFamilyExplode[0],
-        description: fontFamilyExplode[1]
+        // replace space with _
+        title: fontFamilyExplode[0].replace(/ /g, "_"),
+        description: fontFamilyExplode[1].replace(/ /g, "_"),
       }
 
       // add header-footer vào rank của các page custom

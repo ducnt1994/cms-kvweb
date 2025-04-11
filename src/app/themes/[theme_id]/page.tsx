@@ -92,8 +92,8 @@ export default function Edit() {
       const data = getValues();
       const fontFamilyExplode = data.font_family.split('-')
       data.font_family = {
-        title: fontFamilyExplode[0],
-        description: fontFamilyExplode[1]
+        title: fontFamilyExplode[0].replace(/ /g, '_'),
+        description: fontFamilyExplode[1].replace(/ /g, '_')
       }
 
       // add header-footer vào rank của các page custom
@@ -482,7 +482,7 @@ export default function Edit() {
     setValue('name', data.name)
     setValue('color', data.color)
     setValue('thumbnail', data.thumbnail)
-    setValue('font_family', `${data.font_family.title}-${data.font_family.description}`)
+    setValue('font_family', `${data.font_family.title.replace(/_/g, ' ')}-${data.font_family.description.replace(/_/g, ' ')}`)
     setValue('description', data.description)
     setValue('page_information', data.page_information)
 

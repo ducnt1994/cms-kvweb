@@ -631,7 +631,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           background_color: "",
           link: "",
           text_color: "",
-          is_run_slider: true,
+          is_run_slide: true,
           picture: {
             src: "",
             alt: "Banner top",
