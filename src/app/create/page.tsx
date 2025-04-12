@@ -8,7 +8,7 @@ import {
 import Common from "@/components/Common/page";
 import {useForm, FormProvider, useWatch,} from "react-hook-form";
 import {getDefaultDataByPattern} from "@/utils/getDefaultDataByPattern";
-import {LIST_PATTERN_BY_PLATFORM} from "@/constants/pageBuilder";
+import {LIST_PATTERN_BY_PLATFORM, NGANH_HANG} from "@/constants/pageBuilder";
 import {JSX, lazy, useEffect, useState} from "react";
 import dataText from "@/utils/output.json"
 import axios from "axios";
@@ -110,7 +110,7 @@ export default function Create() {
       }
       data.page = newPage
 
-      const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
+      const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/cms/themes`, data)
       if(res){
         setLoadingCreate(false);
         setSnackbar({

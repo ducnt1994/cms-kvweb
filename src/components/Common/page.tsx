@@ -3,6 +3,8 @@ import {useEffect, useState} from "react";
 import {Controller, useFormContext, useWatch} from "react-hook-form";
 import {availableCoupleFont, LIST_COLOR_BY_PLATFORM, LIST_PLATFORM, NGANH_HANG} from "@/constants/pageBuilder";
 import {useParams} from "next/navigation";
+import {IThemeCategoriesProps} from "@/constants/theme-categories";
+import {getListThemeCategories} from "@/api/theme-category";
 
 
 export default function Common() {
@@ -12,11 +14,20 @@ export default function Common() {
   const platform = useWatch({name: 'platform'});
   const categoryName = useWatch({name: 'category_name'});
   const thumbnail = useWatch({name: 'thumbnail'});
+  const [listThemeCategory, setListThemeCategory] = useState<IThemeCategoriesProps[]>([])
 
   function getChildCategory() {
     // @ts-ignore
     return platform && categoryName ? NGANH_HANG[platform].find(item => item.name === categoryName)?.child_cate : []
   }
+
+  useEffect(() => {
+    const fetchThemeCategory = async () => {
+      const res = await getListThemeCategories()
+      setListThemeCategory(res)
+    }
+    fetchThemeCategory()
+  }, [])
 
   useEffect(() => {
     if(platform && categoryName && !themeId) {
@@ -84,7 +95,7 @@ export default function Common() {
                   >
                     {
                       // @ts-ignore
-                      watch('platform') && NGANH_HANG[watch('platform')].map((item, index) => (
+                      watch('platform') && listThemeCategory.filter(item => item.platform === watch('platform')).map((item, index) => (
                         <MenuItem key={index} value={item.name}>{item.name}</MenuItem>
                       ))
                     }
@@ -109,7 +120,7 @@ export default function Common() {
                   >
                     {
                       // @ts-ignore
-                      watch('platform') && watch('category_name') && getChildCategory()?.map((item, index) => (
+                      watch('platform') && watch('category_name') && listThemeCategory.find(item => item.platform === watch('platform') && item.name === watch('category_name'))?.child_categories.map((item, index) => (
                         <MenuItem key={index} value={item}>{item}</MenuItem>
                       ))
                     }

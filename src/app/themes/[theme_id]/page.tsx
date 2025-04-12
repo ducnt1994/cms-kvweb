@@ -482,7 +482,7 @@ export default function Edit() {
   }
 
   const loadThemeDetails = async () => {
-    const res = await axios.get(`https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes/${themeId}`)
+    const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/cms/themes/${themeId}`)
     const data = res.data
     setValue('platform', data.platform)
     setValue('category_name', data.category_name)
