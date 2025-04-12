@@ -100,7 +100,6 @@ export default function Create() {
         newRank[pageItem] = ['header', ...newRank[pageItem], 'footer']
       }
       data.rank = newRank
-
       // add header-footer vào page của các page custom
       const newPage = {...data.page}
       for (const pageItem in data.page) {
