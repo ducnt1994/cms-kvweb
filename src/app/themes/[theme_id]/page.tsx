@@ -196,12 +196,8 @@ export default function Edit() {
   }
 
   const getDataTextDefault = ({patternName, defaultDataWithoutText}: {patternName: string, defaultDataWithoutText: any}) => {
-    console.log("platform", platform)
-    console.log("field_category_name", field_category_name)
-    console.log("field_child_category", field_child_category)
     // @ts-ignore
     const dataTextByPattern = dataText[platform][field_category_name][field_child_category][patternName]
-    console.log("defaultDataWithoutText", defaultDataWithoutText)
     if(!dataTextByPattern) {
       return defaultDataWithoutText
     }
@@ -212,6 +208,19 @@ export default function Edit() {
           content: dataTextByPattern.content
         }
       case "introduction":
+        let dataDefaultIntroduction = {...defaultDataWithoutText};
+        dataDefaultIntroduction.button_navigation.title = platform === 'retail'
+          ? 'Tìm hiểu thêm'
+          : platform === 'fnb'
+            ? 'Đặt ngay'
+            : platform === 'booking'
+              ? 'Đặt lịch ngay'
+              : 'Đặt phòng ngay'
+        return {
+          ...dataDefaultIntroduction,
+          title: dataTextByPattern.title,
+          description: dataTextByPattern.description
+        }
       case "image_gallery":
       case "banner":
       case "video":

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="link poster featured product">
+    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/create/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" afterDir="false" />
@@ -14,9 +14,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings">
-    <execution />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -42,7 +39,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;stylesheet.code.style.group&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/duc.nt4/Desktop/code/kvweb/cms-kvweb/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/anhnb/Desktop/code/outsource/cms/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -80,26 +77,9 @@
       <workItem from="1742459521977" duration="172000" />
       <workItem from="1742527941549" duration="1270000" />
       <workItem from="1742542575138" duration="580000" />
-      <workItem from="1742800009211" duration="649000" />
-      <workItem from="1742801141063" duration="745000" />
-      <workItem from="1742802139884" duration="2426000" />
-      <workItem from="1742807103440" duration="125000" />
-      <workItem from="1742807440736" duration="598000" />
-      <workItem from="1742808245808" duration="1107000" />
-      <workItem from="1742809530789" duration="1055000" />
-      <workItem from="1742871832700" duration="170000" />
-      <workItem from="1742877344680" duration="921000" />
-      <workItem from="1742889982018" duration="32000" />
-      <workItem from="1742975684344" duration="5667000" />
-      <workItem from="1743062763765" duration="1126000" />
-      <workItem from="1743065427660" duration="1149000" />
-      <workItem from="1743072942895" duration="100000" />
-      <workItem from="1743145456544" duration="947000" />
-      <workItem from="1743301155717" duration="110000" />
-      <workItem from="1743666001381" duration="1769000" />
-      <workItem from="1744085817301" duration="25000" />
-      <workItem from="1744280477869" duration="136000" />
-      <workItem from="1744340236710" duration="306000" />
+      <workItem from="1743262304043" duration="170000" />
+      <workItem from="1743827320482" duration="5014000" />
+      <workItem from="1744005235106" duration="15127000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -229,143 +209,31 @@
       <option name="project" value="LOCAL" />
       <updated>1742558535429</updated>
     </task>
-    <task id="LOCAL-00017" summary="delete theme">
+    <task id="LOCAL-00017" summary="commit">
       <option name="closed" value="true" />
-      <created>1742787525358</created>
+      <created>1743864965715</created>
       <option name="number" value="00017" />
       <option name="presentableId" value="LOCAL-00017" />
       <option name="project" value="LOCAL" />
-      <updated>1742787525358</updated>
+      <updated>1743864965715</updated>
     </task>
-    <task id="LOCAL-00018" summary="delete theme">
+    <task id="LOCAL-00018" summary="commit">
       <option name="closed" value="true" />
-      <created>1742787663683</created>
+      <created>1743931817018</created>
       <option name="number" value="00018" />
       <option name="presentableId" value="LOCAL-00018" />
       <option name="project" value="LOCAL" />
-      <updated>1742787663683</updated>
+      <updated>1743931817018</updated>
     </task>
-    <task id="LOCAL-00019" summary="delete theme">
+    <task id="LOCAL-00019" summary="commit">
       <option name="closed" value="true" />
-      <created>1742800637677</created>
+      <created>1744038979935</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
       <option name="project" value="LOCAL" />
-      <updated>1742800637677</updated>
+      <updated>1744038979935</updated>
     </task>
-    <task id="LOCAL-00020" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742801292006</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1742801292006</updated>
-    </task>
-    <task id="LOCAL-00021" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742801858644</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1742801858644</updated>
-    </task>
-    <task id="LOCAL-00022" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742803766625</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1742803766625</updated>
-    </task>
-    <task id="LOCAL-00023" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742807213685</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1742807213685</updated>
-    </task>
-    <task id="LOCAL-00024" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742807478222</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1742807478222</updated>
-    </task>
-    <task id="LOCAL-00025" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742808469646</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1742808469646</updated>
-    </task>
-    <task id="LOCAL-00026" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742809865720</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1742809865720</updated>
-    </task>
-    <task id="LOCAL-00027" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742871914848</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1742871914848</updated>
-    </task>
-    <task id="LOCAL-00028" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742877654084</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1742877654084</updated>
-    </task>
-    <task id="LOCAL-00029" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1742890004628</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1742890004628</updated>
-    </task>
-    <task id="LOCAL-00030" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1743063389785</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1743063389785</updated>
-    </task>
-    <task id="LOCAL-00031" summary="delete theme">
-      <option name="closed" value="true" />
-      <created>1743149040218</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1743149040218</updated>
-    </task>
-    <task id="LOCAL-00032" summary="link poster featured product">
-      <option name="closed" value="true" />
-      <created>1743666276176</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1743666276177</updated>
-    </task>
-    <task id="LOCAL-00033" summary="link poster featured product">
-      <option name="closed" value="true" />
-      <created>1743667270358</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1743667270358</updated>
-    </task>
-    <option name="localTasksCounter" value="34" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,8 +241,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <MESSAGE value="delete theme" />
-    <MESSAGE value="link poster featured product" />
-    <option name="LAST_COMMIT_MESSAGE" value="link poster featured product" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

@@ -197,6 +197,13 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           image: {
             src: "",
             alt: "Introduction",
+          },
+          button_navigation: {
+            is_active: false,
+            type: "phone",
+            title: "Tìm hiểu ngay",
+            phone: "",
+            link: ""
           }
         }
       }
@@ -432,7 +439,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           logo_text: "",
           logo: {
             alt: "",
-            src: ""
+            src: "",
+            embbed_link: "",
           },
           menu_navigation_list: [],
           picture: {

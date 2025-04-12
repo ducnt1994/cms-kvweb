@@ -110,7 +110,6 @@ export default function Create() {
       }
       data.page = newPage
 
-
       const res = await axios.post('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', data)
       if(res){
         setLoadingCreate(false);
@@ -200,6 +199,19 @@ export default function Create() {
           content: dataTextByPattern.content
         }
       case "introduction":
+        let dataDefaultIntroduction = {...defaultDataWithoutText};
+        dataDefaultIntroduction.button_navigation.title = platform === 'retail'
+          ? 'Tìm hiểu thêm'
+          : platform === 'fnb'
+            ? 'Đặt ngay'
+            : platform === 'booking'
+              ? 'Đặt lịch ngay'
+              : 'Đặt phòng ngay'
+        return {
+          ...dataDefaultIntroduction,
+          title: dataTextByPattern.title,
+          description: dataTextByPattern.description
+        }
       case "image_gallery":
       case "banner":
       case "video":
