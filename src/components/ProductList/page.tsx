@@ -103,13 +103,6 @@ export default function ProductList({pageName} : {pageName: string}) {
         gridTemplateColumns: 'repeat(2, 1fr)'
       }}>
         <Controller
-          name={`page.${pageName}.${patternName}.category_name`}
-          control={control}
-          render={({ field }) => (
-            <TextField {...field} label="Tên danh mục" variant="outlined" size="small" fullWidth />
-          )}
-        />
-        <Controller
           name={`page.${pageName}.${patternName}.poster`}
           control={control}
           render={({ field }) => (

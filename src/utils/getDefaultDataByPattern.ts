@@ -470,6 +470,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           description: "",
           thumbnail: "",
           video_link: "",
+          is_blur: true,
           sub_videos: [
             {
               title: "",
@@ -640,7 +641,6 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           pattern_name: "",
           is_active: true,
           excel_products: [],
-          category_name: "",
           poster: "",
           list: []
         }

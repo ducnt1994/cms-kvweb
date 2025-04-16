@@ -55,13 +55,13 @@ export default function Review({pageName} : {pageName: string}) {
             <TextField {...field} label="Link ảnh nền" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
           )}
         />
-        <Controller
-          name={`page.${pageName}.${patternName}.image`}
-          control={control}
-          render={({ field }) => (
-            <TextField {...field} label="Link ảnh" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
-          )}
-        />
+        {/*<Controller*/}
+        {/*  name={`page.${pageName}.${patternName}.image`}*/}
+        {/*  control={control}*/}
+        {/*  render={({ field }) => (*/}
+        {/*    <TextField {...field} label="Link ảnh" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />*/}
+        {/*  )}*/}
+        {/*/>*/}
       </Box>
 
       <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2 }}>
