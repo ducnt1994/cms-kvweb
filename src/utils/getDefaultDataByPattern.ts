@@ -642,7 +642,6 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           is_active: true,
           excel_products: [],
           poster: "",
-          list: []
         }
       }
     case "banner_top":

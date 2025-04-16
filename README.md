@@ -40,3 +40,4 @@ dịch vụ: trường icon
 banner top
 thương hiệu
 đánh giá
+product_list: bỏ trường category_name, bỏ list
