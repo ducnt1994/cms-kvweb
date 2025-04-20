@@ -187,7 +187,7 @@ export default function Create() {
 
   const getDataTextDefault = ({patternName, defaultDataWithoutText}: {patternName: string, defaultDataWithoutText: any}) => {
     // @ts-ignore
-    const dataTextByPattern = dataText[platform][field_category_name][field_child_category][patternName]
+    const dataTextByPattern = dataText[platform][field_category_name] ? dataText[platform][field_category_name][field_child_category][patternName] : null
     if(!dataTextByPattern) {
       return defaultDataWithoutText
     }
@@ -243,7 +243,7 @@ export default function Create() {
               active_type_service: "image",
               alt: `Service image ${index + 1}`,
               icon: {
-                code: "",
+                code: defaultDataWithoutText.blocks[index] ? defaultDataWithoutText.blocks[index].icon.code : "",
                 size: 20
               },
               number: 1,

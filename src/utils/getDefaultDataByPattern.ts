@@ -473,16 +473,12 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           is_blur: true,
           sub_videos: [
             {
-              title: "",
               thumbnail: "",
-              video_link: "",
-              description: "",
+              link: "",
             },
             {
-              title: "",
               thumbnail: "",
-              video_link: "",
-              description: "",
+              link: "",
             },
           ]
         }
@@ -546,6 +542,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           pattern: "",
           pattern_name: "",
           is_active: true,
+          title: "",
+          description: "",
           background: {
             type: "color",
             image: {src: "", alt: "Catalog background"},

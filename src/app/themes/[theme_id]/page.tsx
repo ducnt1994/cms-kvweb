@@ -197,7 +197,7 @@ export default function Edit() {
 
   const getDataTextDefault = ({patternName, defaultDataWithoutText}: {patternName: string, defaultDataWithoutText: any}) => {
     // @ts-ignore
-    const dataTextByPattern = dataText[platform][field_category_name][field_child_category][patternName]
+    const dataTextByPattern = dataText[platform][field_category_name] ? dataText[platform][field_category_name][field_child_category][patternName] : null
     if(!dataTextByPattern) {
       return defaultDataWithoutText
     }
