@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add category">
+    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="commit introduction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/create/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/create/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Common/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Service/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Service/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Video/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +39,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;stylesheet.code.style.group&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/anhnb/Desktop/code/outsource/cms/node_modules/typescript/lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/duc.nt4/Desktop/code/kvweb/cms-kvweb/node_modules/typescript/lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -103,6 +99,11 @@
       <workItem from="1745141058289" duration="12000" />
       <workItem from="1745141078529" duration="80000" />
       <workItem from="1745143082264" duration="4670000" />
+      <workItem from="1745309050667" duration="947000" />
+      <workItem from="1745479052099" duration="1404000" />
+      <workItem from="1745575555250" duration="334000" />
+      <workItem from="1745831608407" duration="19000" />
+      <workItem from="1745897497887" duration="257000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -280,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744474322363</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="commit introduction">
+      <option name="closed" value="true" />
+      <created>1745306190943</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1745306190943</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -288,8 +297,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <MESSAGE value="commit introduction" />
     <MESSAGE value="add category" />
-    <option name="LAST_COMMIT_MESSAGE" value="add category" />
+    <MESSAGE value="commit introduction" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit introduction" />
   </component>
 </project>

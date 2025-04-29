@@ -1,4 +1,15 @@
-import {Box, Button, Checkbox, FormControlLabel, MenuItem, Radio, Select, TextField, Typography} from "@mui/material";
+import {
+  Box,
+  Button,
+  Checkbox,
+  FormControlLabel,
+  MenuItem,
+  Radio,
+  RadioGroup,
+  Select,
+  TextField,
+  Typography
+} from "@mui/material";
 import {Controller, useFieldArray, useFormContext, useWatch} from "react-hook-form";
 import {useEffect} from "react";
 import {LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
@@ -9,6 +20,7 @@ export default function Video({pageName} : {pageName: string}) {
 
   const platform = useWatch({name: 'platform'});
   const patternChange = useWatch({name: `page.${pageName}.${patternName}.pattern`});
+  const isBlur = watch(`page.${pageName}.${patternName}.is_blur`);
 
   const subVideos = useFieldArray({ control, name: `page.${pageName}.${patternName}.sub_videos` });
 
@@ -74,6 +86,17 @@ export default function Video({pageName} : {pageName: string}) {
           control={control}
           render={({ field }) => (
             <TextField {...field} label="Link video" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
+          )}
+        />
+        <Controller
+          name={`page.${pageName}.${patternName}.is_blur`}
+          control={control}
+          render={({ field }) => (
+            <FormControlLabel
+              control={<Checkbox {...field} checked={isBlur} size="small" />}
+              label="Lớp phủ"
+              sx={{ mb: 2 }}
+            />
           )}
         />
       </Box>
