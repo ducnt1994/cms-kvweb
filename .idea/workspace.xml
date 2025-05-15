@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="commit introduction">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BannerTop/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BannerTop/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImageGallery/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageGallery/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Introduction/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Introduction/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
-    </list>
+    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add background image input" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +104,7 @@
       <workItem from="1746765986116" duration="1215000" />
       <workItem from="1746777364376" duration="605000" />
       <workItem from="1746781764523" duration="2000" />
-      <workItem from="1747294707165" duration="470000" />
+      <workItem from="1747294707165" duration="1164000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -304,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745897800576</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add background image input">
+      <option name="closed" value="true" />
+      <created>1747295234779</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1747295234779</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +316,7 @@
     <MESSAGE value="commit" />
     <MESSAGE value="add category" />
     <MESSAGE value="commit introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit introduction" />
+    <MESSAGE value="add background image input" />
+    <option name="LAST_COMMIT_MESSAGE" value="add background image input" />
   </component>
 </project>

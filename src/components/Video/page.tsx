@@ -78,7 +78,7 @@ export default function Video({pageName} : {pageName: string}) {
           name={`page.${pageName}.${patternName}.thumbnail`}
           control={control}
           render={({ field }) => (
-            <TextField {...field} label="Link ảnh" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
+            <TextField {...field} label="Link ảnh nền video" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
           )}
         />
         <Controller
@@ -86,6 +86,13 @@ export default function Video({pageName} : {pageName: string}) {
           control={control}
           render={({ field }) => (
             <TextField {...field} label="Link video" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
+          )}
+        />
+        <Controller
+          name={`page.${pageName}.${patternName}.background.image.src`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Ảnh nền" variant="outlined" size="small" fullWidth />
           )}
         />
         <Controller
