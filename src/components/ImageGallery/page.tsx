@@ -72,6 +72,27 @@ export default function ImageGallery({pageName} : {pageName: string}) {
             <TextField {...field} label="Mô tả" variant="outlined" size="small" fullWidth multiline rows={2} />
           )}
         />
+        <Controller
+          name={`page.${pageName}.${patternName}.background.image.src`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Ảnh nền" variant="outlined" size="small" fullWidth />
+          )}
+        />
+        <Controller
+          name={`page.${pageName}.${patternName}.background.overlay`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Lớp phủ đen" variant="outlined" type={"number"} size="small" inputProps={{ min: 0, step: 1 }} fullWidth />
+          )}
+        />
+        <Controller
+          name={`page.${pageName}.${patternName}.background.opacity`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Opacity ảnh nền" variant="outlined" type={"number"} inputProps={{ min: 0, step: 1 }} size="small" fullWidth />
+          )}
+        />
       </Box>
 
       <Box display="flex" justifyContent="space-between" alignItems="center" mb={1}>

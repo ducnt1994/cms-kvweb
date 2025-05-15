@@ -76,6 +76,13 @@ export default function Introduction({pageName} : {pageName: string}) {
               <TextField {...field} label="Mô tả" variant="outlined" size="small" fullWidth multiline rows={2} />
             )}
           />
+          <Controller
+            name={`page.${pageName}.${patternName}.background.image.src`}
+            control={control}
+            render={({ field }) => (
+              <TextField {...field} label="Ảnh nền" variant="outlined" size="small" fullWidth />
+            )}
+          />
         </Box>
 
         <Box p={2} mt={2} bgcolor="grey.100">
