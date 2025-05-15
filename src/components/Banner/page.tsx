@@ -93,6 +93,36 @@ export default function Banner({pageName} : {pageName: string}) {
            <TextField {...field} label="Ảnh nền" variant="outlined" size="small" fullWidth />
          )}
        />
+       <Controller
+         name={`page.${pageName}.${patternName}.background.overlay`}
+         control={control}
+         render={({ field }) => (
+           <TextField {...field} label="Lớp phủ đen" variant="outlined" type={"number"} size="small"
+                      slotProps={{
+                        htmlInput: {
+                          min: 0,
+                          max: 100,
+                          step: 1
+                        }
+                      }}
+                      fullWidth />
+         )}
+       />
+       <Controller
+         name={`page.${pageName}.${patternName}.background.opacity`}
+         control={control}
+         render={({ field }) => (
+           <TextField {...field} label="Opacity ảnh nền" variant="outlined" type={"number"}
+                      slotProps={{
+                        htmlInput: {
+                          min: 0,
+                          max: 100,
+                          step: 1
+                        }
+                      }}
+                      size="small" fullWidth />
+         )}
+       />
      </Box>
 
      <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 4 }}>

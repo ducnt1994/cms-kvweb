@@ -85,6 +85,39 @@ export default function Introduction({pageName} : {pageName: string}) {
           />
         </Box>
 
+      <Box display="flex" gap={2}>
+        <Controller
+          name={`page.${pageName}.${patternName}.background.overlay`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Lớp phủ đen" variant="outlined" type={"number"} size="small"
+                       slotProps={{
+                         htmlInput: {
+                           min: 0,
+                           max: 100,
+                           step: 1
+                         }
+                       }}
+                       fullWidth />
+          )}
+        />
+        <Controller
+          name={`page.${pageName}.${patternName}.background.opacity`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Opacity ảnh nền" variant="outlined" type={"number"}
+                       slotProps={{
+                         htmlInput: {
+                           min: 0,
+                           max: 100,
+                           step: 1
+                         }
+                       }}
+                       size="small" fullWidth />
+          )}
+        />
+      </Box>
+
         <Box p={2} mt={2} bgcolor="grey.100">
           <Typography fontSize={14} fontWeight={600} sx={{mb: 2}}>Ảnh phụ 2/2</Typography>
           {pictureArray.fields.map((item, index) => (
