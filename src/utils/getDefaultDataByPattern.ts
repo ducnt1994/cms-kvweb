@@ -32,7 +32,9 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           background: {
             type: "color",
             image: {src: "", alt: "Banner background"},
-            color: ""
+            color: "",
+            overlay: 0,
+            opacity: 100
           },
           bannerSmall: {
             images: [
@@ -181,7 +183,9 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           background: {
             type: "color",
             image: {src: "", alt: "Introduction background"},
-            color: ""
+            color: "",
+            overlay: 0,
+            opacity: 100
           },
           title: "",
           subTitle: "",
