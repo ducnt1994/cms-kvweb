@@ -606,7 +606,8 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Banner3", name: "Banner tổng hợp 3" },
       { key: "Banner4", name: "Banner 1 hình ảnh" },
       { key: "Banner5", name: "Banner tổng hợp 5" },
-      { key: "Banner6", name: "Banner tổng hợp 6" }
+      { key: "Banner6", name: "Banner tổng hợp 6" },
+      { key: "Banner7", name: "Banner tổng hợp 7" }
     ],
     fnb: [
       { key: "Banner1", name: "Banner tổng hợp 1" },
@@ -614,7 +615,8 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Banner3", name: "Banner tổng hợp 3" },
       { key: "Banner4", name: "Banner 1 hình ảnh" },
       { key: "Banner5", name: "Banner tổng hợp 5" },
-      { key: "Banner6", name: "Banner tổng hợp 6" }
+      { key: "Banner6", name: "Banner tổng hợp 6" },
+      { key: "Banner7", name: "Banner tổng hợp 7" }
     ],
     booking: [
       { key: "Banner1", name: "Banner tổng hợp 1" },
@@ -622,7 +624,8 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Banner3", name: "Banner tổng hợp 3" },
       { key: "Banner4", name: "Banner 1 hình ảnh" },
       { key: "Banner5", name: "Banner tổng hợp 5" },
-      { key: "Banner6", name: "Banner tổng hợp 6" }
+      { key: "Banner6", name: "Banner tổng hợp 6" },
+      { key: "Banner7", name: "Banner tổng hợp 7" }
     ],
     hotel: [
       { key: "Banner1", name: "Banner tổng hợp 1" },
@@ -630,7 +633,8 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Banner3", name: "Banner tổng hợp 3" },
       { key: "Banner4", name: "Banner 1 hình ảnh" },
       { key: "Banner5", name: "Banner tổng hợp 5" },
-      { key: "Banner6", name: "Banner tổng hợp 6" }
+      { key: "Banner6", name: "Banner tổng hợp 6" },
+      { key: "Banner7", name: "Banner tổng hợp 7" }
     ]
   },
   banner_extra: {
@@ -872,19 +876,23 @@ export const LIST_TYPE_OF_PATTERN = {
   service: {
     retail: [
       { key: "Services1", name: "Dịch vụ kiểu 1" },
-      { key: "Services2", name: "Dịch vụ kiểu 2" }
+      { key: "Services2", name: "Dịch vụ kiểu 2" },
+      { key: "Services3", name: "Dịch vụ kiểu 3" }
     ],
     fnb: [
       { key: "Services1", name: "Dịch vụ kiểu 1" },
-      { key: "Services2", name: "Dịch vụ kiểu 2" }
+      { key: "Services2", name: "Dịch vụ kiểu 2" },
+      { key: "Services3", name: "Dịch vụ kiểu 3" }
     ],
     booking: [
       { key: "Services1", name: "Dịch vụ kiểu 1" },
-      { key: "Services2", name: "Dịch vụ kiểu 2" }
+      { key: "Services2", name: "Dịch vụ kiểu 2" },
+      { key: "Services3", name: "Dịch vụ kiểu 3" }
     ],
     hotel: [
       { key: "Services1", name: "Dịch vụ kiểu 1" },
-      { key: "Services2", name: "Dịch vụ kiểu 2" }
+      { key: "Services2", name: "Dịch vụ kiểu 2" },
+      { key: "Services3", name: "Dịch vụ kiểu 3" }
     ]
   },
   footer: {
