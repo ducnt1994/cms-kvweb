@@ -84,13 +84,6 @@ export default function BannerTop({pageName} : {pageName: string}) {
             <TextField {...field} label="Màu chữ" variant="outlined" size="small" fullWidth />
           )}
         />
-        <Controller
-          name={`page.${pageName}.${patternName}.background.image.src`}
-          control={control}
-          render={({ field }) => (
-            <TextField {...field} label="Ảnh nền" variant="outlined" size="small" fullWidth />
-          )}
-        />
 
       </Box>
     </Box>
