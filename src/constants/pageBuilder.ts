@@ -70,6 +70,7 @@ export const LIST_PATTERN_BY_PLATFORM = {
     { key: "review", value: "Đánh giá" },
     { key: "service", value: "Dịch vụ" },
     { key: "blog_post", value: "Blog" },
+    { key: "video", value: "Video" },
     { key: "footer", value: "Chân trang" }
   ],
   hotel: [
