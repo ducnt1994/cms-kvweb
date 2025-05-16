@@ -118,7 +118,7 @@ export default function Header({pageName} : {pageName: string}) {
       </Box>
 
       <Box display="flex" justifyContent="space-between" alignItems="center" mb={1}>
-        <Typography mb={1}>Ảnh {getValues(`page.${pageName}.${patternName}.images`).length}/12</Typography>
+        <Typography mb={1}>Ảnh {(getValues(`page.${pageName}.${patternName}.images`) || []).length}/1</Typography>
         <Button color="primary" onClick={appendPicture}>Thêm link ảnh</Button>
       </Box>
 

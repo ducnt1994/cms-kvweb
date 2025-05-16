@@ -71,7 +71,7 @@ export default function Service({pageName} : {pageName: string}) {
       />
 
      <Box display="flex" justifyContent="space-between" alignItems="center" mb={1} mt={2}>
-       <Typography mb={1}>Ảnh {getValues(`page.${pageName}.${patternName}.images`).length}/1</Typography>
+       <Typography mb={1}>Ảnh {(getValues(`page.${pageName}.${patternName}.images`) || []).length}/1</Typography>
        <Button color="primary" onClick={appendPicture}>Thêm link ảnh</Button>
      </Box>
 
