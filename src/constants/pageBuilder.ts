@@ -59,6 +59,8 @@ export const LIST_PATTERN_BY_PLATFORM = {
   ],
   booking: [
     { key: "header", value: "Đầu trang" },
+    { key: "banner_top", value: "Banner top" },
+    { key: "brands", value: "Thương hiệu" },
     { key: "banner", value: "Banner chính" },
     { key: "banner_extra", value: "Banner phụ" },
     { key: "group_service", value: "Nhóm hàng hoá" },
@@ -73,6 +75,8 @@ export const LIST_PATTERN_BY_PLATFORM = {
   hotel: [
     { key: "header", value: "Đầu trang" },
     { key: "banner", value: "Banner chính" },
+    { key: "banner_top", value: "Banner top" },
+    { key: "brands", value: "Thương hiệu" },
     { key: "banner_extra", value: "Banner phụ" },
     { key: "blog_post", value: "Blog" },
     { key: "group_service", value: "Tiện ích" },
