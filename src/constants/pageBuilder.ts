@@ -824,7 +824,9 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Introduction3", name: "Bố cục loại 3" },
       { key: "Introduction4", name: "Bố cục loại 4" },
       { key: "Introduction5", name: "Bố cục loại 5" },
-      { key: "Introduction6", name: "Bố cục loại 6" }
+      { key: "Introduction6", name: "Bố cục loại 6" },
+      { key: "Introduction7", name: "Bố cục loại 7" },
+      { key: "Introduction8", name: "Bố cục loại 8" }
     ],
     fnb: [
       { key: "Introduction1", name: "Bố cục loại 1" },
@@ -832,7 +834,9 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Introduction3", name: "Bố cục loại 3" },
       { key: "Introduction4", name: "Bố cục loại 4" },
       { key: "Introduction5", name: "Bố cục loại 5" },
-      { key: "Introduction6", name: "Bố cục loại 6" }
+      { key: "Introduction6", name: "Bố cục loại 6" },
+      { key: "Introduction7", name: "Bố cục loại 7" },
+      { key: "Introduction8", name: "Bố cục loại 8" }
     ],
     booking: [
       { key: "Introduction1", name: "Bố cục loại 1" },
@@ -840,7 +844,9 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Introduction3", name: "Bố cục loại 3" },
       { key: "Introduction4", name: "Bố cục loại 4" },
       { key: "Introduction5", name: "Bố cục loại 5" },
-      { key: "Introduction6", name: "Bố cục loại 6" }
+      { key: "Introduction6", name: "Bố cục loại 6" },
+      { key: "Introduction7", name: "Bố cục loại 7" },
+      { key: "Introduction8", name: "Bố cục loại 8" }
     ],
     hotel: [
       { key: "Introduction1", name: "Bố cục loại 1" },
@@ -848,7 +854,9 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Introduction3", name: "Bố cục loại 3" },
       { key: "Introduction4", name: "Bố cục loại 4" },
       { key: "Introduction5", name: "Bố cục loại 5" },
-      { key: "Introduction6", name: "Bố cục loại 6" }
+      { key: "Introduction6", name: "Bố cục loại 6" },
+      { key: "Introduction7", name: "Bố cục loại 7" },
+      { key: "Introduction8", name: "Bố cục loại 8" }
     ]
   },
   review: {

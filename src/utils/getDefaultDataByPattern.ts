@@ -17,6 +17,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             alt: "",
             src: ""
           },
+          images: [],
           contact: '',
           is_active_categories: true,
           is_active_navigation_menu: true,
@@ -369,7 +370,10 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
               subTitle: "",
               title: ""
             }
-          ]
+          ],
+          title: "",
+          description: "",
+          images: []
         }
       }
     case "blog_post":

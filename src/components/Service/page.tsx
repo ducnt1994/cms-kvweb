@@ -11,6 +11,15 @@ export default function Service({pageName} : {pageName: string}) {
   const patternChange = useWatch({name: `page.${pageName}.${patternName}.pattern`});
 
   const blockArr = useFieldArray({ control, name: `page.${pageName}.${patternName}.blocks` });
+  const imagesArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.images` });
+
+  const appendPicture = () => {
+    if (imagesArray.fields.length >= 1) {return }
+    imagesArray.append({
+      alt: `ảnh ${imagesArray.fields.length + 1}`,
+      src: ""
+    });
+  };
 
 
   useEffect(() => {
@@ -38,6 +47,21 @@ export default function Service({pageName} : {pageName: string}) {
         />
       </Box>
 
+     <Controller
+       name={`page.${pageName}.${patternName}.title`}
+       control={control}
+       render={({ field }) => (
+         <TextField {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
+       )}
+     />
+     <Controller
+       name={`page.${pageName}.${patternName}.description`}
+       control={control}
+       render={({ field }) => (
+         <TextField {...field} label="Mô tả" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
+       )}
+     />
+
       <Controller
         name={`page.${pageName}.${patternName}.background.color`}
         control={control}
@@ -45,6 +69,25 @@ export default function Service({pageName} : {pageName: string}) {
           <TextField {...field} label="Màu nền" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
         )}
       />
+
+     <Box display="flex" justifyContent="space-between" alignItems="center" mb={1} mt={2}>
+       <Typography mb={1}>Ảnh {getValues(`page.${pageName}.${patternName}.images`).length}/1</Typography>
+       <Button color="primary" onClick={appendPicture}>Thêm link ảnh</Button>
+     </Box>
+
+     <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2, mt: 2, mb: 2 }}>
+       {imagesArray.fields.map((item, index) => (
+         <Box key={index} sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2, background: '#eeeeee', p: 2 }}>
+           <Controller
+             name={`page.${pageName}.${patternName}.images.${index}.src`}
+             control={control}
+             render={({ field }) => (
+               <TextField {...field} label={`Link ảnh ${index + 1}`} variant="outlined" size="small" fullWidth sx={{ mb: 1 }} />
+             )}
+           />
+         </Box>
+       ))}
+     </Box>
 
       {blockArr.fields.map((item, index) => (
         <Box key={index} mb={2}>

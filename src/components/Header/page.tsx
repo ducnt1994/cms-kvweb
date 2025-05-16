@@ -1,20 +1,30 @@
 import {
-  Box,
+  Box, Button,
   FormControl, FormControlLabel,
   MenuItem, Radio, RadioGroup,
   Select, TextField,
   Typography
 } from "@mui/material";
-import {Controller, useFormContext, useWatch} from "react-hook-form";
+import {Controller, useFieldArray, useFormContext, useWatch} from "react-hook-form";
 import {ALL_FONT, LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
 import {useEffect} from "react";
 
 export default function Header({pageName} : {pageName: string}) {
-  const {control, setValue} = useFormContext();
+  const {control, setValue, getValues} = useFormContext();
   const patternName = 'header';
 
   const platform = useWatch({name: 'platform'});
   const patternChange = useWatch({name: `page.${pageName}.${patternName}.pattern`});
+
+  const imagesArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.images` });
+
+  const appendPicture = () => {
+    if (imagesArray.fields.length >= 1) {return }
+    imagesArray.append({
+      alt: `ảnh ${imagesArray.fields.length + 1}`,
+      src: ""
+    });
+  };
 
   useEffect(() => {
     // @ts-ignore
@@ -105,6 +115,25 @@ export default function Header({pageName} : {pageName: string}) {
             <TextField {...field} label="Link ảnh" variant="outlined" size="small" fullWidth />
           )}
         />
+      </Box>
+
+      <Box display="flex" justifyContent="space-between" alignItems="center" mb={1}>
+        <Typography mb={1}>Ảnh {getValues(`page.${pageName}.${patternName}.images`).length}/12</Typography>
+        <Button color="primary" onClick={appendPicture}>Thêm link ảnh</Button>
+      </Box>
+
+      <Box sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2, mt: 2 }}>
+        {imagesArray.fields.map((item, index) => (
+          <Box key={index} sx={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: 2, background: '#eeeeee', p: 2 }}>
+            <Controller
+              name={`page.${pageName}.${patternName}.images.${index}.src`}
+              control={control}
+              render={({ field }) => (
+                <TextField {...field} label={`Link ảnh ${index + 1}`} variant="outlined" size="small" fullWidth sx={{ mb: 1 }} />
+              )}
+            />
+          </Box>
+        ))}
       </Box>
 
     </Box>
