@@ -1,4 +1,4 @@
-import {Box, Button, MenuItem, Select, TextField, Typography} from "@mui/material";
+import {Box, Button, FormControlLabel, MenuItem, Radio, RadioGroup, Select, TextField, Typography} from "@mui/material";
 import {Controller, useFieldArray, useFormContext} from "react-hook-form";
 import {useEffect} from "react";
 import {LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
@@ -110,6 +110,16 @@ export default function ImageGallery({pageName} : {pageName: string}) {
           )}
         />
       </Box>
+      <Controller
+        name={`page.${pageName}.${patternName}.background.type`}
+        control={control}
+        render={({ field }) => (
+          <RadioGroup row {...field}>
+            <FormControlLabel value="color" control={<Radio />} label="Nền màu" />
+            <FormControlLabel value="image" control={<Radio />} label="Nền ảnh" />
+          </RadioGroup>
+        )}
+      />
 
       <Box display="flex" justifyContent="space-between" alignItems="center" mb={1}>
         <Typography mb={1}>Ảnh {getValues(`page.${pageName}.${patternName}.list`).length}/12</Typography>

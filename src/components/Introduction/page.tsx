@@ -1,4 +1,4 @@
-import {Box, Button, MenuItem, Select, TextField, Typography} from "@mui/material";
+import {Box, Button, FormControlLabel, MenuItem, Radio, RadioGroup, Select, TextField, Typography} from "@mui/material";
 import {Controller, useFieldArray, useFormContext} from "react-hook-form";
 import {LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
 import {useEffect} from "react";
@@ -116,7 +116,18 @@ export default function Introduction({pageName} : {pageName: string}) {
                        size="small" fullWidth />
           )}
         />
+
       </Box>
+      <Controller
+        name={`page.${pageName}.${patternName}.background.type`}
+        control={control}
+        render={({ field }) => (
+          <RadioGroup row {...field}>
+            <FormControlLabel value="color" control={<Radio />} label="Nền màu" />
+            <FormControlLabel value="image" control={<Radio />} label="Nền ảnh" />
+          </RadioGroup>
+        )}
+      />
 
         <Box p={2} mt={2} bgcolor="grey.100">
           <Typography fontSize={14} fontWeight={600} sx={{mb: 2}}>Ảnh phụ 2/2</Typography>

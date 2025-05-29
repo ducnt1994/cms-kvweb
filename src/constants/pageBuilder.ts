@@ -48,6 +48,7 @@ export const LIST_PATTERN_BY_PLATFORM = {
   ],
   fnb: [
     { key: "header", value: "Đầu trang" },
+    { key: "banner_top", value: "Banner top" },
     { key: "banner", value: "Banner chính" },
     { key: "menu", value: "Thực đơn" },
     { key: "banner_extra", value: "Banner phụ" },
