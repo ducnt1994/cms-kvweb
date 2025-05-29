@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add background image input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductList/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductList/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constants/pageBuilder.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/pageBuilder.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +111,8 @@
       <workItem from="1746781764523" duration="2000" />
       <workItem from="1747294707165" duration="3940000" />
       <workItem from="1747379046717" duration="2139000" />
-      <workItem from="1747381789486" duration="160000" />
+      <workItem from="1747381789486" duration="1658000" />
+      <workItem from="1748489389791" duration="2813000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -367,7 +370,23 @@
       <option name="project" value="LOCAL" />
       <updated>1747380222199</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="add background image input">
+      <option name="closed" value="true" />
+      <created>1747381968651</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1747381968651</updated>
+    </task>
+    <task id="LOCAL-00034" summary="add background image input">
+      <option name="closed" value="true" />
+      <created>1747385705512</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1747385705512</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

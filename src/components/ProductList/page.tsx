@@ -16,7 +16,7 @@ import {LIST_TYPE_OF_PATTERN} from "@/constants/pageBuilder";
 import * as XLSX from "xlsx";
 
 export default function ProductList({pageName} : {pageName: string}) {
-  const {control, setValue} = useFormContext();
+  const {control, setValue, getValues} = useFormContext();
   const patternName = 'product_list';
   const [fileCount, setFileCount] = useState({
     fileName: "",
@@ -72,6 +72,17 @@ export default function ProductList({pageName} : {pageName: string}) {
     reader.readAsBinaryString(file);
   };
 
+  const pictureArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.posters` });
+
+  const appendPicture = () => {
+    pictureArray.append("");
+  };
+
+  const removePicture = (index: number) => {
+    pictureArray.remove(index);
+  };
+
+
   useEffect(() => {
     // @ts-ignore
     setValue(`page.${pageName}.${patternName}.pattern_name`, LIST_TYPE_OF_PATTERN.product_list[platform].find((item : any) => item.key === patternChange)?.name)
@@ -123,6 +134,31 @@ export default function ProductList({pageName} : {pageName: string}) {
           Upload File
         </Button>
       </Box>
+
+      {
+        getValues(`page.${pageName}.${patternName}.posters`) && <>
+          <Box display="flex" justifyContent="space-between" alignItems="center" mb={1}>
+            <Typography mb={1}>Ảnh {getValues(`page.${pageName}.${patternName}.posters`).length}/12</Typography>
+            <Button color="primary" onClick={appendPicture}>Thêm link ảnh với dạng có nhiều poster</Button>
+          </Box>
+
+          <Box p={2} bgcolor="grey.100">
+            {pictureArray.fields.map((item, index) => (
+              <Box key={index} display="flex" gap={2} mb={1}>
+                <Controller
+                  name={`page.${pageName}.${patternName}.posters.${index}`}
+                  control={control}
+                  render={({ field }) => (
+                    <TextField {...field} label={`Link ảnh`} variant="outlined" size="small" fullWidth />
+                  )}
+                />
+                <Button color="error" onClick={() => removePicture(index)}>Xóa</Button>
+              </Box>
+            ))}
+          </Box>
+        </>
+      }
+
 
       <Box>
         <Typography variant="body2" fontSize={16} sx={{

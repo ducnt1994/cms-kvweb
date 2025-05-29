@@ -612,7 +612,8 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Banner4", name: "Banner 1 hình ảnh" },
       { key: "Banner5", name: "Banner tổng hợp 5" },
       { key: "Banner6", name: "Banner tổng hợp 6" },
-      { key: "Banner7", name: "Banner tổng hợp 7" }
+      { key: "Banner7", name: "Banner tổng hợp 7" },
+      { key: "Banner8", name: "Banner tổng hợp 8" }
     ],
     fnb: [
       { key: "Banner1", name: "Banner tổng hợp 1" },
@@ -621,7 +622,8 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Banner4", name: "Banner 1 hình ảnh" },
       { key: "Banner5", name: "Banner tổng hợp 5" },
       { key: "Banner6", name: "Banner tổng hợp 6" },
-      { key: "Banner7", name: "Banner tổng hợp 7" }
+      { key: "Banner7", name: "Banner tổng hợp 7" },
+      { key: "Banner8", name: "Banner tổng hợp 8" }
     ],
     booking: [
       { key: "Banner1", name: "Banner tổng hợp 1" },
@@ -630,7 +632,8 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Banner4", name: "Banner 1 hình ảnh" },
       { key: "Banner5", name: "Banner tổng hợp 5" },
       { key: "Banner6", name: "Banner tổng hợp 6" },
-      { key: "Banner7", name: "Banner tổng hợp 7" }
+      { key: "Banner7", name: "Banner tổng hợp 7" },
+      { key: "Banner8", name: "Banner tổng hợp 8" }
     ],
     hotel: [
       { key: "Banner1", name: "Banner tổng hợp 1" },
@@ -639,7 +642,8 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Banner4", name: "Banner 1 hình ảnh" },
       { key: "Banner5", name: "Banner tổng hợp 5" },
       { key: "Banner6", name: "Banner tổng hợp 6" },
-      { key: "Banner7", name: "Banner tổng hợp 7" }
+      { key: "Banner7", name: "Banner tổng hợp 7" },
+      { key: "Banner8", name: "Banner tổng hợp 8" }
     ]
   },
   banner_extra: {
@@ -912,22 +916,26 @@ export const LIST_TYPE_OF_PATTERN = {
     retail: [
       { key: "Footer1", name: "Chân trang kiểu 1" },
       { key: "Footer2", name: "Chân trang kiểu 2" },
-      { key: "Footer3", name: "Chân trang kiểu 3" }
+      { key: "Footer3", name: "Chân trang kiểu 3" },
+      { key: "Footer4", name: "Chân trang kiểu 4" }
     ],
     fnb: [
       { key: "Footer1", name: "Chân trang kiểu 1" },
       { key: "Footer2", name: "Chân trang kiểu 2" },
-      { key: "Footer3", name: "Chân trang kiểu 3" }
+      { key: "Footer3", name: "Chân trang kiểu 3" },
+      { key: "Footer4", name: "Chân trang kiểu 4" }
     ],
     booking: [
       { key: "Footer1", name: "Chân trang kiểu 1" },
       { key: "Footer2", name: "Chân trang kiểu 2" },
-      { key: "Footer3", name: "Chân trang kiểu 3" }
+      { key: "Footer3", name: "Chân trang kiểu 3" },
+      { key: "Footer4", name: "Chân trang kiểu 4" }
     ],
     hotel: [
       { key: "Footer1", name: "Chân trang kiểu 1" },
       { key: "Footer2", name: "Chân trang kiểu 2" },
-      { key: "Footer3", name: "Chân trang kiểu 3" }
+      { key: "Footer3", name: "Chân trang kiểu 3" },
+      { key: "Footer4", name: "Chân trang kiểu 4" }
     ]
   },
   video: {
