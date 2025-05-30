@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add background image input">
-      <change afterPath="$PROJECT_DIR$/src/app/banner-template/create/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/banner-template/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/types/response/bannerTemplate.response.dto.ts" afterDir="false" />
+    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add banner template">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/themes/[theme_id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +113,7 @@
       <workItem from="1748489389791" duration="2824000" />
       <workItem from="1748502030505" duration="494000" />
       <workItem from="1748505330045" duration="10487000" />
+      <workItem from="1748593627191" duration="259000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -407,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748506675852</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="add banner template">
+      <option name="closed" value="true" />
+      <created>1748593653732</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1748593653732</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +422,7 @@
     <MESSAGE value="add category" />
     <MESSAGE value="commit introduction" />
     <MESSAGE value="add background image input" />
-    <option name="LAST_COMMIT_MESSAGE" value="add background image input" />
+    <MESSAGE value="add banner template" />
+    <option name="LAST_COMMIT_MESSAGE" value="add banner template" />
   </component>
 </project>

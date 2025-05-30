@@ -469,7 +469,11 @@ export default function Edit() {
 
     //get all key in object page_information
     const allPageInformation = Object.keys(getValues('page_information'))
-    const newCustomPage = `about_${allPageInformation.length}_page`
+    let numberOfPageInformation = 0;
+    if(allPageInformation.length > 0) {
+      numberOfPageInformation = parseInt(allPageInformation[allPageInformation.length - 1].split('_')[1])
+    }
+    const newCustomPage = `about_${numberOfPageInformation + 1}_page`
     setValue(`page_information`, {
       ...getValues('page_information'),
       ...{[newCustomPage] : newPage}
