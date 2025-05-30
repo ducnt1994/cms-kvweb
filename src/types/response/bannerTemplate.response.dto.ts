@@ -26,4 +26,5 @@ export interface BannerTemplateDto {
   description: TextDto;
   button: ButtonDto;
   ratio: string;
+  category_id?: string;
 }

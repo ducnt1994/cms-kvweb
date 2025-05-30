@@ -3,16 +3,23 @@ import {useParams, useRouter, useSearchParams} from 'next/navigation'
 import {useEffect, useState} from "react";
 import {
   Typography,
-  Box, TextField, FormControlLabel, Checkbox, RadioGroup, Radio, Button,
+  Box, TextField, FormControlLabel, Checkbox, RadioGroup, Radio, Button, Select, MenuItem,
 } from '@mui/material';
 import {Controller, FormProvider, useForm} from "react-hook-form";
 import {BannerTemplateDto} from "@/types/response/bannerTemplate.response.dto";
 import * as yup from "yup";
 import {yupResolver} from "@hookform/resolvers/yup";
 import axios from "axios";
+import {LIST_PLATFORM, PLATFORM_RETAIL} from "@/constants/pageBuilder";
 
+interface ICategory {
+  name: string
+  _id: string;
+}
 
 export default function CreateBannerTemplate() {
+  const [platform, setPlatform] = useState<string>(PLATFORM_RETAIL);
+  const [listCategories, setListCategories] = useState<ICategory[]>([]);
 
   // create yup schema for validation
   const schema = yup.object().shape({
@@ -92,7 +99,8 @@ export default function CreateBannerTemplate() {
       isActive: false,
       backgroundColor: ""
     },
-    ratio: ''
+    ratio: '',
+    category_id: '',
   }
 
   const methods = useForm<BannerTemplateDto>({
@@ -104,11 +112,35 @@ export default function CreateBannerTemplate() {
   });
   const {control, setValue, getValues, reset, watch, formState: { errors }, handleSubmit} = methods;
 
+  const watchCategory = watch('category');
+
   const onSubmit = async () => {
     const data = getValues();
-    const res = await axios.put('http://localhost:3007/api/v2/page-builder/banner-gallery/templates/create', data);
+    const res = await axios.put(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/create`, data);
     console.log("res", res);
   }
+
+  const loadChips = async () => {
+    const res = await axios.post(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/categories`, {
+      platform
+    });
+    setListCategories(res.data);
+  }
+
+  useEffect(() => {
+    loadChips()
+  }, [platform])
+
+  useEffect(() => {
+    if (watchCategory) {
+      const category = listCategories.find(item => item.name === watchCategory);
+      if (category) {
+        setValue('category_id', category._id);
+      } else {
+        setValue('category_id', '');
+      }
+    }
+  }, [watchCategory])
 
   useEffect(() => {
     if(Object.keys(errors).length > 0) {
@@ -147,18 +179,52 @@ export default function CreateBannerTemplate() {
               gridTemplateColumns: 'repeat(3, 1fr)',
               gap: 2
             }}>
+              <Select
+                value={platform}
+                size={'small'}
+                displayEmpty
+                sx={{
+                  height: '40px'
+                }}
+                onChange={(e) => {
+                  setPlatform(e.target.value as string);
+                }}
+              >
+                {
+                  LIST_PLATFORM.map((item, index) => (
+                    <MenuItem key={index} value={item}>{item.toUpperCase()}</MenuItem>
+                  ))
+                }
+              </Select>
+
+              <Controller
+                name={`category`}
+                control={control}
+                render={({field}) => (
+                  // select
+                  <Select
+                    sx={{
+                      height: '40px'
+                    }}
+                    {...field}
+                    size={'small'}
+                    displayEmpty
+                  >
+                    <MenuItem value={''}>--Chọn danh mục--</MenuItem>
+                    {
+                      listCategories.map((item, index) => (
+                        <MenuItem key={index} value={item.name}>{item.name}</MenuItem>
+                      ))
+                    }
+                  </Select>
+                )}
+              />
+
               <Controller
                 name={`name`}
                 control={control}
                 render={({ field }) => (
                   <TextField {...field} label="Tên ảnh" placeholder={'VD: hotel_1'} variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
-                )}
-              />
-              <Controller
-                name={`category`}
-                control={control}
-                render={({ field }) => (
-                  <TextField {...field} label="Tên danh mục" placeholder={'VD: hotel'} variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
                 )}
               />
               <Controller
@@ -183,20 +249,26 @@ export default function CreateBannerTemplate() {
                 )}
               />
 
-              <Box sx={{display: 'flex', gap: 2, alignItems: 'center'}}>
-                <Typography variant="subtitle1" sx={{ mb: 1 }}>Vị trí</Typography>
-                <Controller
-                  name={`textAlign`}
-                  control={control}
-                  render={({ field }) => (
-                    <RadioGroup row {...field}>
-                      <FormControlLabel value="left" control={<Radio size="small" />} label="Trái" />
-                      <FormControlLabel value="center" control={<Radio size="small" />} label="Giữa" />
-                      <FormControlLabel value="right" control={<Radio size="small" />} label="Phải" />
-                    </RadioGroup>
-                  )}
-                />
-              </Box>
+              <Controller
+                name={`textAlign`}
+                control={control}
+                render={({field}) => (
+                  // select
+                  <Select
+                    sx={{
+                      height: '40px'
+                    }}
+                    {...field}
+                    size={'small'}
+                    displayEmpty
+                  >
+                    <MenuItem value={''}>--Chọn vị trí--</MenuItem>
+                    <MenuItem value={'left'}>Trái</MenuItem>
+                    <MenuItem value={'center'}>Giữa</MenuItem>
+                    <MenuItem value={'right'}>Phải</MenuItem>
+                  </Select>
+                )}
+              />
 
               <Controller
                 name={`width`}
