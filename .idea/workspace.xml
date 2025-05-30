@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add background image input">
+      <change afterPath="$PROJECT_DIR$/src/app/banner-template/create/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/banner-template/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/response/bannerTemplate.response.dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Banner/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImageGallery/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageGallery/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Introduction/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Introduction/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LeftMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LeftMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +37,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/anhnb/Desktop/code/outsource/cms/src/app/theme-categories/[theme-category-id]&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/duc.nt4/Desktop/code/kvweb/cms-kvweb/src/app/banner-template/create&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -47,11 +50,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/app/banner-template/create" />
+      <recent name="$PROJECT_DIR$/src/app/banner-template" />
       <recent name="$PROJECT_DIR$/src/app/theme-categories/[theme-category-id]" />
       <recent name="$PROJECT_DIR$/src/app/theme-categories/create" />
       <recent name="$PROJECT_DIR$/src/app/themes/[theme_id]" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src/app/themes" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -114,7 +117,7 @@
       <workItem from="1747381789486" duration="1658000" />
       <workItem from="1748489389791" duration="2824000" />
       <workItem from="1748502030505" duration="494000" />
-      <workItem from="1748505330045" duration="954000" />
+      <workItem from="1748505330045" duration="10487000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <option name="closed" value="true" />
@@ -396,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748493862430</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="add background image input">
+      <option name="closed" value="true" />
+      <created>1748506675852</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1748506675852</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

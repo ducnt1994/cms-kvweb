@@ -18,6 +18,7 @@ const menuItems = [
       { text: 'Tạo theme', icon: <Brush />, path: '/create' },
       { text: 'Danh sách', icon: <Style />, path: '/themes' },
       { text: 'Ngành hàng', icon: <AcUnit />, path: '/theme-categories' },
+      { text: 'Banner mẫu', icon: <AcUnit />, path: '/banner-template' },
     ]
   },
 ];
