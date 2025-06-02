@@ -9,6 +9,13 @@ export default function Introduction({pageName} : {pageName: string}) {
 
   const pictureArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.small_images` });
 
+  const appendSmallImage = () => {
+    pictureArray.append({ src: '', title: '', alt: pictureArray.fields.length + 1 });
+  }
+  const removeSmallImage = (index: number) => {
+    pictureArray.remove(index);
+  }
+
   useEffect(() => {
     // @ts-ignore
     setValue(`page.${pageName}.${patternName}.pattern_name`, LIST_TYPE_OF_PATTERN.introduction[watch('platform')].find((item : any) => item.key === watch(`page.${pageName}.${patternName}.pattern`))?.name)
@@ -85,7 +92,7 @@ export default function Introduction({pageName} : {pageName: string}) {
           />
         </Box>
 
-      <Box display="flex" gap={2}>
+      <Box display="flex" gap={2} mt={2}>
         <Controller
           name={`page.${pageName}.${patternName}.background.overlay`}
           control={control}
@@ -129,17 +136,27 @@ export default function Introduction({pageName} : {pageName: string}) {
         )}
       />
 
+      <Button variant={'text'} onClick={appendSmallImage}>Thêm ảnh phụ</Button>
+
         <Box p={2} mt={2} bgcolor="grey.100">
-          <Typography fontSize={14} fontWeight={600} sx={{mb: 2}}>Ảnh phụ 2/2</Typography>
+          <Typography fontSize={14} fontWeight={600} sx={{mb: 2}}>Số lượng ảnh phụ: {pictureArray.fields.length}</Typography>
           {pictureArray.fields.map((item, index) => (
             <Box key={index} display="flex" gap={2} mb={1}>
               <Controller
                 name={`page.${pageName}.${patternName}.small_images.${index}.src`}
                 control={control}
                 render={({ field }) => (
-                  <TextField {...field} label={`Link ảnh`} variant="outlined" size="small" fullWidth />
+                  <TextField {...field} label={`Link ảnh ${index + 1}`} variant="outlined" size="small" fullWidth />
                 )}
               />
+              <Controller
+                name={`page.${pageName}.${patternName}.small_images.${index}.title`}
+                control={control}
+                render={({ field }) => (
+                  <TextField {...field} label={`Mô tả ${index + 1}`} variant="outlined" size="small" fullWidth />
+                )}
+              />
+              <Button color="error" onClick={() => removeSmallImage(index)}>Xóa</Button>
             </Box>
           ))}
         </Box>

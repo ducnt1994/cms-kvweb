@@ -194,11 +194,13 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           small_images: [
             {
               src: "",
-              alt: "Small image 1"
+              alt: "Small image 1",
+              title: ""
             },
             {
               src: "",
-              alt: "Small image 2"
+              alt: "Small image 2",
+              title: ""
             },
           ],
           image: {
