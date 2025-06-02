@@ -23,6 +23,7 @@ export default function DetailBanner() {
   const searchParams = useParams()
   const bannerId = searchParams.banner_id as string;
   const router = useRouter()
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   // create yup schema for validation
   const schema = yup.object().shape({
@@ -118,9 +119,16 @@ export default function DetailBanner() {
   const watchCategory = watch('category');
 
   const onSubmit = async () => {
-    const data = getValues();
-    const res = await axios.put(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/cms/update/${bannerId}`, data);
-    router.push('/banner-template');
+    setIsLoading(true);
+    try {
+      const data = getValues();
+      const res = await axios.put(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/cms/update/${bannerId}`, data);
+      router.push('/banner-template');
+    } catch (e) {
+      alert('Có lỗi xảy ra, vui lòng thử lại sau');
+    } finally {
+      setIsLoading(false)
+    }
   }
 
   const loadChips = async () => {
@@ -188,7 +196,7 @@ export default function DetailBanner() {
             <Typography variant="h4" component="h1">
               Tạo mới banner
             </Typography>
-            <Button type={'submit'} variant={'contained'}>Cập nhật</Button>
+            <Button loading={isLoading} type={'submit'} variant={'contained'}>Cập nhật</Button>
           </Box>
             <Box sx={{
               display: 'grid',

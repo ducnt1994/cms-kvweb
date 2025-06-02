@@ -9,7 +9,7 @@ import {
   Box,
   IconButton,
   Stack,
-  CircularProgress, TableContainer, Paper, TableHead, TableRow, TableCell, TableBody
+  CircularProgress, TableContainer, Paper, TableHead, TableRow, TableCell, TableBody, Button
 } from '@mui/material';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
@@ -89,9 +89,21 @@ export default function BannerTemplate() {
           gap: 1,
         }}
       >
-        <Typography variant="h4" component="h1">
-          Danh sách banner tạo trên CMS
-        </Typography>
+        <Box sx={{
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'space-between',
+          p: 2,
+          borderBottom: '1px solid',
+          borderColor: 'divider',
+        }}>
+          <Typography variant="h4" component="h1">
+            Danh sách banner tạo trên CMS
+          </Typography>
+          <Button variant={'contained'} onClick={() => {
+            router.push('/banner-template/create')
+          }}>Thêm banner</Button>
+        </Box>
         {
           isLoading ? (
             <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'}}>

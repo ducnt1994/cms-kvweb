@@ -9,7 +9,7 @@ import {
   Box,
   IconButton,
   Stack,
-  CircularProgress, TableContainer, Paper, TableHead, TableRow, TableCell, TableBody
+  CircularProgress, TableContainer, Paper, TableHead, TableRow, TableCell, TableBody, Button
 } from '@mui/material';
 import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
@@ -89,9 +89,23 @@ export default function Themes() {
           gap: 1,
         }}
       >
-        <Typography variant="h4" component="h1">
-          Danh sách theme
-        </Typography>
+        {
+          <Box sx={{
+            display: 'flex',
+            justifyContent: 'space-between',
+            alignItems: 'center',
+            padding: 2,
+            borderBottom: '1px solid',
+            borderColor: 'divider',
+          }}>
+            <Typography variant="h4" component="h1">
+              Danh sách theme
+            </Typography>
+            <Button onClick={() => {
+              router.push('/create')
+            }} variant={'contained'}>Tạo theme</Button>
+          </Box>
+        }
         {
           isLoading ? (
             <Box sx={{display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100%'}}>

@@ -20,6 +20,8 @@ interface ICategory {
 export default function CreateBannerTemplate() {
   const [platform, setPlatform] = useState<string>(PLATFORM_RETAIL);
   const [listCategories, setListCategories] = useState<ICategory[]>([]);
+  const router = useRouter()
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   // create yup schema for validation
   const schema = yup.object().shape({
@@ -115,9 +117,18 @@ export default function CreateBannerTemplate() {
   const watchCategory = watch('category');
 
   const onSubmit = async () => {
-    const data = getValues();
-    const res = await axios.put(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/create`, data);
-    console.log("res", res);
+    setIsLoading(true);
+    try {
+      const data = getValues();
+      const res = await axios.put(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/create`, data);
+      if(res){
+        router.push('/banner-template');
+      }
+    } catch (e) {
+      alert('Có lỗi xảy ra khi tạo banner, vui lòng thử lại sau');
+    } finally {
+      setIsLoading(false);
+    }
   }
 
   const loadChips = async () => {
@@ -172,7 +183,7 @@ export default function CreateBannerTemplate() {
             <Typography variant="h4" component="h1">
               Tạo mới banner
             </Typography>
-            <Button type={'submit'} variant={'contained'}>Tạo mới</Button>
+            <Button loading={isLoading} type={'submit'} variant={'contained'}>Tạo mới</Button>
           </Box>
             <Box sx={{
               display: 'grid',

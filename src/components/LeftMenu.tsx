@@ -1,6 +1,6 @@
 'use client'
 import { Drawer, List, ListItemButton, ListItemIcon, ListItemText, Box, Typography, Collapse, IconButton } from '@mui/material';
-import { Home, Create, Palette, ExpandLess, ExpandMore, Add, Brush, Style, ChevronLeft, ChevronRight, AcUnit } from '@mui/icons-material';
+import { Home, Create, Palette, ExpandLess, ExpandMore, Add, Brush, Style, ChevronLeft, ChevronRight, AcUnit, AccountBalance } from '@mui/icons-material';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
@@ -15,10 +15,9 @@ const menuItems = [
     text: 'Themes',
     icon: <Palette />,
     subItems: [
-      { text: 'Tạo theme', icon: <Brush />, path: '/create' },
-      { text: 'Danh sách', icon: <Style />, path: '/themes' },
+      { text: 'Danh sách theme', icon: <Style />, path: '/themes' },
       { text: 'Ngành hàng', icon: <AcUnit />, path: '/theme-categories' },
-      { text: 'Banner mẫu', icon: <AcUnit />, path: '/banner-template' },
+      { text: 'Banner mẫu', icon: <AccountBalance />, path: '/banner-template' },
     ]
   },
 ];
