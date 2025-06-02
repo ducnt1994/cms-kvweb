@@ -91,6 +91,15 @@ export default function Introduction({pageName} : {pageName: string}) {
             )}
           />
         </Box>
+      <Box display="flex" gap={2}>
+          <Controller
+            name={`page.${pageName}.${patternName}.image.title`}
+            control={control}
+            render={({ field }) => (
+              <TextField {...field} label="Tiêu đề ảnh chính" variant="outlined" size="small" fullWidth />
+            )}
+          />
+        </Box>
 
       <Box display="flex" gap={2} mt={2}>
         <Controller

@@ -206,6 +206,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           image: {
             src: "",
             alt: "Introduction",
+            title: ""
           },
           button_navigation: {
             is_active: false,
