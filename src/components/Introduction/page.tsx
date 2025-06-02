@@ -162,6 +162,13 @@ export default function Introduction({pageName} : {pageName: string}) {
                 name={`page.${pageName}.${patternName}.small_images.${index}.title`}
                 control={control}
                 render={({ field }) => (
+                  <TextField {...field} label={`Tiêu đề ${index + 1}`} variant="outlined" size="small" fullWidth />
+                )}
+              />
+              <Controller
+                name={`page.${pageName}.${patternName}.small_images.${index}.subTitle`}
+                control={control}
+                render={({ field }) => (
                   <TextField {...field} label={`Mô tả ${index + 1}`} variant="outlined" size="small" fullWidth />
                 )}
               />

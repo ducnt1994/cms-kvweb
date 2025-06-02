@@ -195,12 +195,14 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             {
               src: "",
               alt: "Small image 1",
-              title: ""
+              title: "",
+              subTitle: "",
             },
             {
               src: "",
               alt: "Small image 2",
-              title: ""
+              title: "",
+              subTitle: "",
             },
           ],
           image: {
