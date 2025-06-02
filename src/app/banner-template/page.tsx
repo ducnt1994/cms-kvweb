@@ -44,12 +44,12 @@ export default function BannerTemplate() {
 
 
   const goToDetail = (logId: any) => {
-    router.push(`/themes/${logId}`);
+    router.push(`/banner-template/${logId}`);
   }
 
-  const loadThemes = async () => {
+  const loadBanner = async () => {
     setIsLoading(true);
-    const res = await axios.get('https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes', {
+    const res = await axios.get(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/cms`, {
       params: {
         page: currentPage,
         limit: pageSize,
@@ -65,12 +65,12 @@ export default function BannerTemplate() {
     // alert to confirm
     const isConfirm = confirm('Xóa là mất?');
     if (!isConfirm) return;
-    await axios.delete(`https://gateway.dev-kiotvietweb.fun/api/v2/page-builder/cms/themes/${theme_id}`)
-    loadThemes()
+    await axios.delete(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/cms/delete/${theme_id}`)
+    loadBanner()
   }
 
   useEffect(() => {
-    loadThemes()
+    loadBanner()
   }, [pageSize, currentPage]);
 
 
@@ -90,7 +90,7 @@ export default function BannerTemplate() {
         }}
       >
         <Typography variant="h4" component="h1">
-          Danh sách theme
+          Danh sách banner tạo trên CMS
         </Typography>
         {
           isLoading ? (
@@ -104,7 +104,7 @@ export default function BannerTemplate() {
                   <TableRow>
                     <TableCell>Tên</TableCell>
                     <TableCell >Platform</TableCell>
-                    <TableCell >Ngành hàng</TableCell>
+                    <TableCell >Ảnh</TableCell>
                     <TableCell align="right">Hành động</TableCell>
                   </TableRow>
                 </TableHead>
@@ -117,8 +117,10 @@ export default function BannerTemplate() {
                       <TableCell component="th" scope="row">
                         {row.name}
                       </TableCell>
-                      <TableCell >{row.platform}</TableCell>
-                      <TableCell >{row.category_name}</TableCell>
+                      <TableCell >{JSON.stringify(row.platforms)}</TableCell>
+                      <TableCell >
+                        <img alt={`Ảnh`} src={row.backgroundImage} width={80} height={40}/>
+                      </TableCell>
                       <TableCell align="right">
                         <IconButton onClick={() => goToDetail(row._id)}><BorderColorIcon /></IconButton>
                         <IconButton onClick={() => handleDelete(row._id)}><DeleteIcon /></IconButton>
