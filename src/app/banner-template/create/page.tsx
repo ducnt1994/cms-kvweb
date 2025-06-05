@@ -25,43 +25,7 @@ export default function CreateBannerTemplate() {
 
   // create yup schema for validation
   const schema = yup.object().shape({
-    name: yup.string().required(),
-    category: yup.string().required(),
-    backgroundImage: yup.string().required(),
-    thumb: yup.string().required(),
-    textAlign: yup.string().required(),
-    width: yup.number().required(),
-    height: yup.number().required(),
-    title: yup.object().shape({
-      text: yup.string().required(),
-      color: yup.string().required(),
-      fontSize: yup.number().required(),
-      fontWeight: yup.number().required(),
-      fontFamily: yup.string().required(),
-      lineHeight: yup.number().required(),
-      maxWidth: yup.number().required(),
-    }).required(),
-    description: yup.object().shape({
-      text: yup.string().required(),
-      color: yup.string().required(),
-      fontSize: yup.number().required(),
-      fontWeight: yup.number().required(),
-      fontFamily: yup.string().required(),
-      lineHeight: yup.number().required(),
-      maxWidth: yup.number().required(),
-    }).required(),
-    button: yup.object().shape({
-      text: yup.string().required(),
-      color: yup.string().required(),
-      fontSize: yup.number().required(),
-      fontWeight: yup.number().required(),
-      fontFamily: yup.string().required(),
-      lineHeight: yup.number().required(),
-      maxWidth: yup.number().required(),
-      isActive: yup.boolean().required(),
-      backgroundColor: yup.string().required(),
-    }).required(),
-    ratio: yup.string().required(),
+
   });
 
   const defaultData = {

@@ -27,4 +27,5 @@ export interface BannerTemplateDto {
   button: ButtonDto;
   ratio: string;
   category_id?: string;
+  platforms?: string[];
 }

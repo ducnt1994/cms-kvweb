@@ -18,7 +18,7 @@ interface ICategory {
 }
 
 export default function DetailBanner() {
-  const [platform, setPlatform] = useState<string>(PLATFORM_RETAIL);
+  const [platform, setPlatform] = useState<string>("");
   const [listCategories, setListCategories] = useState<ICategory[]>([]);
   const searchParams = useParams()
   const bannerId = searchParams.banner_id as string;
@@ -27,43 +27,7 @@ export default function DetailBanner() {
 
   // create yup schema for validation
   const schema = yup.object().shape({
-    name: yup.string().required(),
-    category: yup.string().required(),
-    backgroundImage: yup.string().required(),
-    thumb: yup.string().required(),
-    textAlign: yup.string().required(),
-    width: yup.number().required(),
-    height: yup.number().required(),
-    title: yup.object().shape({
-      text: yup.string().required(),
-      color: yup.string().required(),
-      fontSize: yup.number().required(),
-      fontWeight: yup.number().required(),
-      fontFamily: yup.string().required(),
-      lineHeight: yup.number().required(),
-      maxWidth: yup.number().required(),
-    }).required(),
-    description: yup.object().shape({
-      text: yup.string().required(),
-      color: yup.string().required(),
-      fontSize: yup.number().required(),
-      fontWeight: yup.number().required(),
-      fontFamily: yup.string().required(),
-      lineHeight: yup.number().required(),
-      maxWidth: yup.number().required(),
-    }).required(),
-    button: yup.object().shape({
-      text: yup.string().required(),
-      color: yup.string().required(),
-      fontSize: yup.number().required(),
-      fontWeight: yup.number().required(),
-      fontFamily: yup.string().required(),
-      lineHeight: yup.number().required(),
-      maxWidth: yup.number().required(),
-      isActive: yup.boolean().required(),
-      backgroundColor: yup.string().required(),
-    }).required(),
-    ratio: yup.string().required(),
+
   });
 
   const defaultData = {
@@ -105,6 +69,7 @@ export default function DetailBanner() {
     },
     ratio: '',
     category_id: '',
+    platforms: []
   }
 
   const methods = useForm<BannerTemplateDto>({
@@ -119,9 +84,9 @@ export default function DetailBanner() {
   const watchCategory = watch('category');
 
   const onSubmit = async () => {
+    const data = getValues();
     setIsLoading(true);
     try {
-      const data = getValues();
       const res = await axios.put(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/cms/update/${bannerId}`, data);
       router.push('/banner-template');
     } catch (e) {
@@ -140,6 +105,7 @@ export default function DetailBanner() {
 
   useEffect(() => {
     loadChips()
+    setValue('platforms', [platform]);
   }, [platform])
 
   useEffect(() => {
@@ -165,6 +131,7 @@ export default function DetailBanner() {
         .then(res => {
           const data = res.data;
           reset(data);
+          setPlatform(data.platforms ? data.platforms[0] : PLATFORM_RETAIL);
         })
         .catch(err => {
           console.error("Error fetching banner template:", err);
