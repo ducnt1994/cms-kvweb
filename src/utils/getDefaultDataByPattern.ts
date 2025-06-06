@@ -480,7 +480,7 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             image: {src: "", alt: "Video background"},
             color: ""
           },
-          is_full_screen: false,
+          is_full_screen: true,
           title: "",
           description: "",
           thumbnail: "",
