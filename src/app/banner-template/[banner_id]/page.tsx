@@ -84,7 +84,7 @@ export default function DetailBanner() {
   const watchCategory = watch('category');
 
   const onSubmit = async () => {
-    const data = getValues();
+    const data = reGenerateData(getValues());
     setIsLoading(true);
     try {
       const res = await axios.put(`${process.env.NEXT_PUBLIC_API_URL}/api/v2/page-builder/banner-gallery/templates/cms/update/${bannerId}`, data);
@@ -94,6 +94,22 @@ export default function DetailBanner() {
     } finally {
       setIsLoading(false)
     }
+  }
+
+  const reGenerateData = (data:  any) => {
+    const listFieldsToChange = ['title', 'description', 'button'];
+    const listKeyToChange = ['fontSize', 'fontWeight', 'lineHeight', 'maxWidth'];
+    const clonedData = {...data};
+    listFieldsToChange.forEach(field => {
+      if (clonedData[field]) {
+        listKeyToChange.forEach(key => {
+          if (clonedData[field][key]) {
+            clonedData[field][key] = parseInt(clonedData[field][key]); // default font size, font weight, line height, max width
+          }
+        });
+      }
+    });
+    return clonedData
   }
 
   const loadChips = async () => {
