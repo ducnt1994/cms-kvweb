@@ -55,6 +55,7 @@ export const LIST_PATTERN_BY_PLATFORM = {
     { key: "service", value: "Dịch vụ" },
     { key: "video", value: "Video" },
     { key: "image_gallery", value: "Thư viện ảnh" },
+    { key: "review", value: "Đánh giá" },
     { key: "introduction", value: "Giới thiệu" },
     { key: "footer", value: "Chân trang" }
   ],
