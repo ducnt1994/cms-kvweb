@@ -133,6 +133,13 @@ export default function Introduction({pageName} : {pageName: string}) {
           )}
         />
 
+        <Controller
+          name={`page.${pageName}.${patternName}.text_color`}
+          control={control}
+          render={({ field }) => (
+            <TextField {...field} label="Màu chữ" variant="outlined" size="small" fullWidth placeholder={'black hoặc white'}/>
+          )}
+        />
       </Box>
       <Controller
         name={`page.${pageName}.${patternName}.background.type`}

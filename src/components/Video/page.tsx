@@ -21,6 +21,7 @@ export default function Video({pageName} : {pageName: string}) {
   const platform = useWatch({name: 'platform'});
   const patternChange = useWatch({name: `page.${pageName}.${patternName}.pattern`});
   const isBlur = watch(`page.${pageName}.${patternName}.is_blur`);
+  const isFullScreen = watch(`page.${pageName}.${patternName}.is_full_screen`);
 
   const subVideos = useFieldArray({ control, name: `page.${pageName}.${patternName}.sub_videos` });
 
@@ -102,6 +103,17 @@ export default function Video({pageName} : {pageName: string}) {
             <FormControlLabel
               control={<Checkbox {...field} checked={isBlur} size="small" />}
               label="Lớp phủ"
+              sx={{ mb: 2 }}
+            />
+          )}
+        />
+        <Controller
+          name={`page.${pageName}.${patternName}.is_full_screen`}
+          control={control}
+          render={({ field }) => (
+            <FormControlLabel
+              control={<Checkbox {...field} checked={isFullScreen} size="small" />}
+              label="Full screen"
               sx={{ mb: 2 }}
             />
           )}

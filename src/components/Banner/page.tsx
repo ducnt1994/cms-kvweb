@@ -134,8 +134,13 @@ export default function Banner({pageName} : {pageName: string}) {
                       size="small" fullWidth />
          )}
        />
-
-
+       <Controller
+         name={`page.${pageName}.${patternName}.text_color`}
+         control={control}
+         render={({ field }) => (
+           <TextField {...field} label="Màu chữ" variant="outlined" size="small" fullWidth placeholder={'black hoặc white'}/>
+         )}
+       />
 
      </Box>
      <Controller

@@ -116,6 +116,13 @@ export default function Footer({pageName} : {pageName: string}) {
                     <TextField {...field} label="Link ảnh logo" variant="outlined" size="small" fullWidth />
                 )}
             />
+          <Controller
+            name={`page.${pageName}.${patternName}.text_color`}
+            control={control}
+            render={({ field }) => (
+              <TextField {...field} label="Màu chữ" variant="outlined" size="small" fullWidth placeholder={'black hoặc white'}/>
+            )}
+          />
         </Box>
 
       <Box mt={2}>

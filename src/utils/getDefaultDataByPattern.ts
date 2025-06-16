@@ -72,7 +72,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             title: "Tìm hiểu ngay",
             phone: "",
             link: ""
-          }
+          },
+          text_color: "black",
         }
       };
     case "banner_extra":
@@ -172,7 +173,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           },
           title: "",
           description: "",
-          list: []
+          list: [],
+          text_color: "black",
         }
       }
     case "introduction":
@@ -216,7 +218,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             title: "Tìm hiểu ngay",
             phone: "",
             link: ""
-          }
+          },
+          text_color: "black",
         }
       }
     case "outstanding_service":
@@ -466,7 +469,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
             'font-size': 16,
             'font-family': "Inter",
             color: "#FFFFFF"
-          }
+          },
+          text_color: "black",
         }
       }
     case "video":

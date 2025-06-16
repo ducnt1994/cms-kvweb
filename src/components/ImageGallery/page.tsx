@@ -111,6 +111,13 @@ export default function ImageGallery({pageName} : {pageName: string}) {
         />
       </Box>
       <Controller
+        name={`page.${pageName}.${patternName}.text_color`}
+        control={control}
+        render={({ field }) => (
+          <TextField {...field} label="Màu chữ" variant="outlined" size="small" fullWidth placeholder={'black hoặc white'}/>
+        )}
+      />
+      <Controller
         name={`page.${pageName}.${patternName}.background.type`}
         control={control}
         render={({ field }) => (
