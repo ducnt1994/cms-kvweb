@@ -59,7 +59,7 @@ export default function ImageGallery({pageName} : {pageName: string}) {
           name={`page.${pageName}.${patternName}.title`}
           control={control}
           render={({ field }) => (
-            <TextField {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
+            <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
           )}
         />
       </Box>
@@ -69,7 +69,7 @@ export default function ImageGallery({pageName} : {pageName: string}) {
           name={`page.${pageName}.${patternName}.description`}
           control={control}
           render={({ field }) => (
-            <TextField {...field} label="Mô tả" variant="outlined" size="small" fullWidth multiline rows={2} />
+            <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Mô tả" variant="outlined" size="small" fullWidth multiline rows={2} />
           )}
         />
         <Controller

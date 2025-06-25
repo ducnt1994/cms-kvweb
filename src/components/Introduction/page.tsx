@@ -63,14 +63,14 @@ export default function Introduction({pageName} : {pageName: string}) {
             name={`page.${pageName}.${patternName}.title`}
             control={control}
             render={({ field }) => (
-              <TextField {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
+              <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
             )}
           />
           <Controller
             name={`page.${pageName}.${patternName}.subTitle`}
             control={control}
             render={({ field }) => (
-              <TextField {...field} label="Tiêu đề phụ" variant="outlined" size="small" fullWidth />
+              <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Tiêu đề phụ" variant="outlined" size="small" fullWidth />
             )}
           />
         </Box>
@@ -80,7 +80,7 @@ export default function Introduction({pageName} : {pageName: string}) {
             name={`page.${pageName}.${patternName}.description`}
             control={control}
             render={({ field }) => (
-              <TextField {...field} label="Mô tả" variant="outlined" size="small" fullWidth multiline rows={2} />
+              <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Mô tả" variant="outlined" size="small" fullWidth multiline rows={2} />
             )}
           />
           <Controller
@@ -169,14 +169,14 @@ export default function Introduction({pageName} : {pageName: string}) {
                 name={`page.${pageName}.${patternName}.small_images.${index}.title`}
                 control={control}
                 render={({ field }) => (
-                  <TextField {...field} label={`Tiêu đề ${index + 1}`} variant="outlined" size="small" fullWidth />
+                  <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label={`Tiêu đề ${index + 1}`} variant="outlined" size="small" fullWidth />
                 )}
               />
               <Controller
                 name={`page.${pageName}.${patternName}.small_images.${index}.subTitle`}
                 control={control}
                 render={({ field }) => (
-                  <TextField {...field} label={`Mô tả ${index + 1}`} variant="outlined" size="small" fullWidth />
+                  <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label={`Mô tả ${index + 1}`} variant="outlined" size="small" fullWidth />
                 )}
               />
               <Button color="error" onClick={() => removeSmallImage(index)}>Xóa</Button>

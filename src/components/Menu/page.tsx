@@ -83,21 +83,21 @@ export default function Menu({pageName} : {pageName: string}) {
           name={`page.${pageName}.${patternName}.title`}
           control={control}
           render={({ field }) => (
-            <TextField {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
+            <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
           )}
         />
         <Controller
           name={`page.${pageName}.${patternName}.subTitle`}
           control={control}
           render={({ field }) => (
-            <TextField {...field} label="Tiêu đề phụ" variant="outlined" size="small" fullWidth />
+            <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Tiêu đề phụ" variant="outlined" size="small" fullWidth />
           )}
         />
         <Controller
           name={`page.${pageName}.${patternName}.description`}
           control={control}
           render={({ field }) => (
-            <TextField {...field} label="Tiêu đề phụ" variant="outlined" size="small" fullWidth />
+            <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Tiêu đề phụ" variant="outlined" size="small" fullWidth />
           )}
         />
         <Controller

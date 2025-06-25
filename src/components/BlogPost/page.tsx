@@ -54,7 +54,7 @@ export default function BlogPost({pageName} : {pageName: string}) {
               name={`page.${pageName}.${patternName}.blog_posts.blogPosts.${index}.title`}
               control={control}
               render={({ field }) => (
-                <TextField {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
+                <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
               )}
             />
             <Controller
