@@ -45,7 +45,7 @@ export default function Review({pageName} : {pageName: string}) {
           name={`page.${pageName}.${patternName}.title`}
           control={control}
           render={({ field }) => (
-            <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
+            <TextField helperText={`Số kí tự: ${field.value?.length}`} {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth sx={{ mb: 2 }} />
           )}
         />
         <Controller

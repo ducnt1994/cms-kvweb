@@ -77,7 +77,7 @@ export default function Banner({pageName} : {pageName: string}) {
          name={`page.${pageName}.${patternName}.description`}
          control={control}
          render={({ field }) => (
-           <TextField helperText={`Số kí tự: ${field.value.length}`} {...field} label="Mô tả" variant="outlined" size="small" fullWidth />
+           <TextField helperText={`Số kí tự: ${field.value?.length}`} {...field} label="Mô tả" variant="outlined" size="small" fullWidth />
          )}
        />
      </Box>
@@ -88,7 +88,7 @@ export default function Banner({pageName} : {pageName: string}) {
          control={control}
          render={({ field }) => (
            <TextField
-              helperText={`Số kí tự: ${field.value.length}`}
+              helperText={`Số kí tự: ${field.value?.length}`}
              {...field} label="Tiêu đề" variant="outlined" size="small" fullWidth />
          )}
        />
