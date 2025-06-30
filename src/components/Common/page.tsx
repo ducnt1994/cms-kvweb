@@ -33,7 +33,7 @@ export default function Common() {
     if(platform && categoryName && !themeId) {
       const time = new Date().getTime()
       // @ts-ignore
-      setValue('code', listThemeCategory.find(item => item.platform === watch('platform') && item.name === watch('category_name'))?.code + `_${time}`)
+      setValue('code', listThemeCategory.find(item => item.platform === watch('platform') && item.code === watch('category_name'))?.code + `_${time}`)
     }
   },[categoryName, platform])
 
@@ -96,7 +96,7 @@ export default function Common() {
                     {
                       // @ts-ignore
                       watch('platform') && listThemeCategory.filter(item => item.platform === watch('platform')).map((item, index) => (
-                        <MenuItem key={index} value={item.name}>{item.name}</MenuItem>
+                        <MenuItem key={index} value={item.code}>{item.name}</MenuItem>
                       ))
                     }
                   </Select>
@@ -120,7 +120,7 @@ export default function Common() {
                   >
                     {
                       // @ts-ignore
-                      watch('platform') && watch('category_name') && listThemeCategory.find(item => item.platform === watch('platform') && item.name === watch('category_name'))?.child_categories.map((item, index) => (
+                      watch('platform') && watch('category_name') && listThemeCategory.find(item => item.platform === watch('platform') && item.code === watch('category_name'))?.child_categories.map((item, index) => (
                         <MenuItem key={index} value={item}>{item}</MenuItem>
                       ))
                     }
