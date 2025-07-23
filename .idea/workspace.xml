@@ -7,16 +7,6 @@
     <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add small image title introduction">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Banner/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Banner/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BannerExtra/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BannerExtra/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BlogPost/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BlogPost/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/GroupService/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/GroupService/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ImageGallery/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImageGallery/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Introduction/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Introduction/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Menu/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OutstandingService/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OutstandingService/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Review/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Review/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Service/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Service/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Video/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Video/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +32,7 @@
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/duc.nt4/Desktop/code/kvweb/cms-kvweb/src/app/banner-template/[banner_id]&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -141,15 +132,13 @@
       <workItem from="1750047975144" duration="1345000" />
       <workItem from="1750061851558" duration="763000" />
       <workItem from="1750217580472" duration="119000" />
-      <workItem from="1750833817596" duration="1069000" />
-    </task>
-    <task id="LOCAL-00002" summary="commit">
-      <option name="closed" value="true" />
-      <created>1742183192789</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1742183192789</updated>
+      <workItem from="1750833817596" duration="1180000" />
+      <workItem from="1751275747932" duration="1024000" />
+      <workItem from="1752118045399" duration="183000" />
+      <workItem from="1752202573314" duration="58000" />
+      <workItem from="1752568776961" duration="604000" />
+      <workItem from="1752737663254" duration="2725000" />
+      <workItem from="1753255273755" duration="106000" />
     </task>
     <task id="LOCAL-00003" summary="commit">
       <option name="closed" value="true" />
@@ -535,7 +524,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750062508421</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="add small image title introduction">
+      <option name="closed" value="true" />
+      <created>1750834991230</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1750834991230</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,6 +1,6 @@
 import {
   Box,
-  Button,
+  Button, Checkbox,
   FormControl,
   FormControlLabel,
   MenuItem,
@@ -153,6 +153,16 @@ export default function Banner({pageName} : {pageName: string}) {
            <FormControlLabel value="color" control={<Radio />} label="Nền màu" />
            <FormControlLabel value="image" control={<Radio />} label="Nền ảnh" />
          </RadioGroup>
+       )}
+     />
+     <Controller
+       name={`page.${pageName}.${patternName}.button_navigation.is_active`}
+       control={control}
+       render={({ field }) => (
+         <FormControlLabel
+           control={<Checkbox {...field} checked={field.value} />}
+           label="Hiện nút điều hướng"
+         />
        )}
      />
 
