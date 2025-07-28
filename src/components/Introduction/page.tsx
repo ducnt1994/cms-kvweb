@@ -10,7 +10,7 @@ export default function Introduction({pageName} : {pageName: string}) {
   const pictureArray = useFieldArray({ control, name: `page.${pageName}.${patternName}.small_images` });
 
   const appendSmallImage = () => {
-    pictureArray.append({ src: '', title: '', alt: pictureArray.fields.length + 1 });
+    pictureArray.append({ src: '', title: '', alt: `Small image ${pictureArray.fields.length + 1}` });
   }
   const removeSmallImage = (index: number) => {
     pictureArray.remove(index);
