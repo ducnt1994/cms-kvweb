@@ -1,5 +1,5 @@
 import {
-  Box, Button,
+  Box, Button, Checkbox,
   FormControl, FormControlLabel,
   MenuItem, Radio, RadioGroup,
   Select, TextField,
@@ -116,6 +116,17 @@ export default function Header({pageName} : {pageName: string}) {
           )}
         />
       </Box>
+
+      <Controller
+        name={`page.${pageName}.${patternName}.is_active_image`}
+        control={control}
+        render={({ field }) => (
+          <FormControlLabel
+            control={<Checkbox {...field} checked={field.value || false} />}
+            label="Hiển thị ảnh ở menu"
+          />
+        )}
+      />
 
       <Box display="flex" justifyContent="space-between" alignItems="center" mb={1}>
         <Typography mb={1}>Ảnh {(getValues(`page.${pageName}.${patternName}.images`) || []).length}/1</Typography>

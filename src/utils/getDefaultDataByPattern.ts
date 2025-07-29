@@ -21,7 +21,8 @@ export function getDefaultDataByPattern(pattern: string, platform: string) {
           contact: '',
           is_active_categories: true,
           is_active_navigation_menu: true,
-          menu_navigation_list: []
+          menu_navigation_list: [],
+          is_active_images: true
         }
       };
     case "banner":
