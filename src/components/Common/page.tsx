@@ -1,4 +1,14 @@
-import {Box, Button, FormControl, MenuItem, Paper, Select, TextField, Typography} from "@mui/material";
+import {
+  Box,
+  Button, Checkbox,
+  FormControl,
+  FormControlLabel,
+  MenuItem,
+  Paper,
+  Select,
+  TextField,
+  Typography
+} from "@mui/material";
 import {useEffect, useState} from "react";
 import {Controller, useFormContext, useWatch} from "react-hook-form";
 import {availableCoupleFont, LIST_COLOR_BY_PLATFORM, LIST_PLATFORM, NGANH_HANG} from "@/constants/pageBuilder";
@@ -56,6 +66,19 @@ export default function Common() {
           gap: 2,
           gridTemplateColumns: 'repeat(2, 1fr)'
         }}>
+          <Box>
+            <Typography sx={{ mb: 1 }}>Loại theme</Typography>
+            <Controller
+              name={'is_zalo_mini_app'}
+              control={control}
+              render={({ field }) => (
+                <FormControlLabel
+                  control={<Checkbox {...field} checked={field.value || false} />}
+                  label="Theme zalo"
+                />
+              )}
+            />
+          </Box>
           <Box>
             <Typography sx={{ mb: 1 }}>Nền tảng</Typography>
             <FormControl fullWidth variant="outlined">

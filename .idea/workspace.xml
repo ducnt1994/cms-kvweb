@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add small image title introduction">
+    <list default="true" id="1d00f2fd-a8e7-42d5-8f91-55f82dcd12b4" name="Changes" comment="add is_active_image to header 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/getDefaultDataByPattern.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Common/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Common/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -141,15 +140,9 @@
       <workItem from="1752737663254" duration="2725000" />
       <workItem from="1753255273755" duration="293000" />
       <workItem from="1753691037005" duration="723000" />
-      <workItem from="1753759556764" duration="362000" />
-    </task>
-    <task id="LOCAL-00005" summary="commit">
-      <option name="closed" value="true" />
-      <created>1742205243598</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1742205243598</updated>
+      <workItem from="1753759556764" duration="1077000" />
+      <workItem from="1753780037254" duration="6000" />
+      <workItem from="1753957682242" duration="158000" />
     </task>
     <task id="LOCAL-00006" summary="commit">
       <option name="closed" value="true" />
@@ -535,7 +528,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753691161401</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add is_active_image to header 9">
+      <option name="closed" value="true" />
+      <created>1753759987926</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1753759987926</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -548,6 +549,7 @@
     <MESSAGE value="add background image input" />
     <MESSAGE value="add banner template" />
     <MESSAGE value="add small image title introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="add small image title introduction" />
+    <MESSAGE value="add is_active_image to header 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="add is_active_image to header 9" />
   </component>
 </project>
