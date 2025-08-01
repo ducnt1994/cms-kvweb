@@ -37,7 +37,8 @@ interface IFormInput {
   rank: any,
   page_information : {
     [key: string]: string
-  }
+  },
+  is_zalo_mini_app?: boolean
 }
 
 export default function Edit() {
@@ -498,6 +499,7 @@ export default function Edit() {
     setValue('font_family', `${data.font_family.title.replace(/_/g, ' ')}-${data.font_family.description.replace(/_/g, ' ')}`)
     setValue('description', data.description)
     setValue('page_information', data.page_information)
+    setValue('is_zalo_mini_app', data.is_zalo_mini_app || false)
 
     // rank
     let newRank = {}
