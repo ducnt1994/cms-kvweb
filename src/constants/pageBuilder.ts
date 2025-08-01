@@ -551,7 +551,12 @@ export const LIST_TYPE_OF_PATTERN = {
       {
         key: "Header9",
         name: "Đầu trang kiểu 5"
-      }
+      },
+      {
+        key: "Header10",
+        name: "Đầu trang zalo"
+      },
+
     ],
     fnb: [
       {
@@ -566,6 +571,10 @@ export const LIST_TYPE_OF_PATTERN = {
         key: "Header9",
         name: "Đầu trang kiểu 3"
       },
+      {
+        key: "Header10",
+        name: "Đầu trang zalo"
+      },
     ],
     booking: [
       {
@@ -576,6 +585,10 @@ export const LIST_TYPE_OF_PATTERN = {
         key: "Header6",
         name: "Đầu trang kiểu 2"
       },
+      {
+        key: "Header10",
+        name: "Đầu trang zalo"
+      },
     ],
     hotel: [
       {
@@ -585,6 +598,10 @@ export const LIST_TYPE_OF_PATTERN = {
       {
         key: "Header6",
         name: "Đầu trang kiểu 2"
+      },
+      {
+        key: "Header10",
+        name: "Đầu trang zalo"
       },
     ]
   },
@@ -919,25 +936,29 @@ export const LIST_TYPE_OF_PATTERN = {
       { key: "Footer1", name: "Chân trang kiểu 1" },
       { key: "Footer2", name: "Chân trang kiểu 2" },
       { key: "Footer3", name: "Chân trang kiểu 3" },
-      { key: "Footer4", name: "Chân trang kiểu 4" }
+      { key: "Footer4", name: "Chân trang kiểu 4" },
+      { key: "Footer5", name: "Chân trang zalo" },
     ],
     fnb: [
       { key: "Footer1", name: "Chân trang kiểu 1" },
       { key: "Footer2", name: "Chân trang kiểu 2" },
       { key: "Footer3", name: "Chân trang kiểu 3" },
-      { key: "Footer4", name: "Chân trang kiểu 4" }
+      { key: "Footer4", name: "Chân trang kiểu 4" },
+      { key: "Footer5", name: "Chân trang zalo" },
     ],
     booking: [
       { key: "Footer1", name: "Chân trang kiểu 1" },
       { key: "Footer2", name: "Chân trang kiểu 2" },
       { key: "Footer3", name: "Chân trang kiểu 3" },
-      { key: "Footer4", name: "Chân trang kiểu 4" }
+      { key: "Footer4", name: "Chân trang kiểu 4" },
+      { key: "Footer5", name: "Chân trang zalo" },
     ],
     hotel: [
       { key: "Footer1", name: "Chân trang kiểu 1" },
       { key: "Footer2", name: "Chân trang kiểu 2" },
       { key: "Footer3", name: "Chân trang kiểu 3" },
-      { key: "Footer4", name: "Chân trang kiểu 4" }
+      { key: "Footer4", name: "Chân trang kiểu 4" },
+      { key: "Footer5", name: "Chân trang zalo" },
     ]
   },
   video: {

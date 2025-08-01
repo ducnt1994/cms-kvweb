@@ -36,7 +36,8 @@ interface IFormInput {
   rank: any,
   page_information : {
     [key: string]: string
-  }
+  },
+  is_zalo_mini_app?: boolean
 }
 
 export default function Create() {
